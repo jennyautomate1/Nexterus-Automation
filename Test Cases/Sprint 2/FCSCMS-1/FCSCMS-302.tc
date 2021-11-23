@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to save created Group Privillage</description>
+   <name>FCSCMS-302</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>389807ca-3ed3-41c9-84a7-f02886cd4204</testCaseGuid>
+</TestCaseEntity>

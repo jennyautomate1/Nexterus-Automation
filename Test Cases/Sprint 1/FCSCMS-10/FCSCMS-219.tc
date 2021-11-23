@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Password should be masked</description>
+   <name>FCSCMS-219</name>
+   <tag>219</tag>
+   <comment></comment>
+   <testCaseGuid>fdf554eb-3d99-42a0-9c8a-314bda6a1dfd</testCaseGuid>
+</TestCaseEntity>

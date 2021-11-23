@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User should click the Privilege Group Management option on the left side panel of the screen.</description>
+   <name>FCSCMS-291</name>
+   <tag>291</tag>
+   <comment></comment>
+   <testCaseGuid>7691dfab-6a2b-462e-9e09-08691ed8b2cb</testCaseGuid>
+</TestCaseEntity>

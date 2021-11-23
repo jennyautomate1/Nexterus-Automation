@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The user should return to Privilege Group Search page when clicking the no button.</description>
+   <name>FCSCMS-303</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5abf603e-1c4d-47b8-91b9-7c23d8af779a</testCaseGuid>
+</TestCaseEntity>

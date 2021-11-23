@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System must able to remember the user's username</description>
+   <name>FCSCMS-274</name>
+   <tag>274</tag>
+   <comment></comment>
+   <testCaseGuid>a63da791-d0c0-45b4-9c4f-8ebe2c96bc26</testCaseGuid>
+</TestCaseEntity>

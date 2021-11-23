@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to pick up date from Expiration date Calendar option</description>
+   <name>FCSCMS-300</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b21e1bfa-e082-4341-95bd-c61c8922dd03</testCaseGuid>
+</TestCaseEntity>

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Admin/Sprint 5/Element Veification SP5/input_Contact Email_Input_AS_ContactEmail'), 'richard@gmail.com')
+WebUI.setText(findTestObject('Admin/Sprint 5/Element Veification SP5/input_Contact Phone_Input_AS_ContactPhone'), '+1 123-456-7890')
 
 WebUI.delay(1)
 
@@ -27,8 +27,4 @@ WebUI.click(findTestObject('Admin/Sprint 5/Advance Search/button_Search(Advance)
 WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Element Veification SP5/Smoke 1 Verification'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Admin/Sprint 5/Advance Search/button_Clear(Advance)'))
 

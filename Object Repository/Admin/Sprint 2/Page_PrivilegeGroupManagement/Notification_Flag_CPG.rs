@@ -3,15 +3,15 @@
    <description></description>
    <name>Notification_Flag_CPG</name>
    <tag></tag>
-   <elementGuidId>2f914758-3459-4690-b8ac-44389fdbf647</elementGuidId>
+   <elementGuidId>8ac1f6f5-9ff2-4dac-a732-c0341d57a930</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.feedback-message.feedback-message-error</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='feedbackMessageContainer']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.feedback-message.feedback-message-error</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Privilege Group Management</name>
    <tag></tag>
-   <elementGuidId>68110346-3376-40ca-b88a-8fb284675878</elementGuidId>
+   <elementGuidId>5c187920-ea30-4729-898f-3a33c9977a54</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>span.ThemeGrid_MarginGutter</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='b2-PageLinks']/div/div/span/div/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ThemeGrid_MarginGutter</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

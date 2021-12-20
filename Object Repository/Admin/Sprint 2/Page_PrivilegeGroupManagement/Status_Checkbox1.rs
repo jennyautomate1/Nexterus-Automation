@@ -3,15 +3,15 @@
    <description></description>
    <name>Status_Checkbox1</name>
    <tag></tag>
-   <elementGuidId>f24acd03-8587-48aa-a349-7801bd63d2b2</elementGuidId>
+   <elementGuidId>0d016796-c3c6-49d7-9099-4277421b6290</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#Checkbox1</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Checkbox1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Checkbox1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

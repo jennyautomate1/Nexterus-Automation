@@ -3,15 +3,15 @@
    <description></description>
    <name>Profile_Dropdown</name>
    <tag></tag>
-   <elementGuidId>35a71790-ca99-4a96-8295-5165efbab190</elementGuidId>
+   <elementGuidId>b3a8a019-4cd2-4d3a-bb80-3cb9ebb2bafb</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.submenu-icon.fa.submenu-arrow.fa-2x</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='b1-b3-b2-SubMenuHeader']/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.submenu-icon.fa.submenu-arrow.fa-2x</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

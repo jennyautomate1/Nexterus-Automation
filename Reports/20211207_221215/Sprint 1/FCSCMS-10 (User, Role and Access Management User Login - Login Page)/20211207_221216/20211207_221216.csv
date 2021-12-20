@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"FCSCMS-10 (User, Role and Access Management User Login - Login Page)",,,,2021-12-07 22:12:28,2021-12-07 22:12:30,2.340s,ERROR
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-10/FCSCMS-217,,User should be able to fill username field,217,2021-12-07 22:12:28,2021-12-07 22:12:29,0.432s,PASSED
+return null,,,,2021-12-07 22:12:29,2021-12-07 22:12:29,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-10/FCSCMS-218,,User should be able to fill password field,218,2021-12-07 22:12:29,2021-12-07 22:12:29,0.507s,PASSED
+return null,,,,2021-12-07 22:12:29,2021-12-07 22:12:29,0.009s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-10/FCSCMS-219,,Password should be masked,219,2021-12-07 22:12:29,2021-12-07 22:12:30,0.435s,PASSED
+return null,,,,2021-12-07 22:12:30,2021-12-07 22:12:30,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-10/FCSCMS-220,,User is able to hide or show the pasword,220,2021-12-07 22:12:30,2021-12-07 22:12:30,0.282s,PASSED
+return null,,,,2021-12-07 22:12:30,2021-12-07 22:12:30,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221,,User is able to click Remember My Username button,221,2021-12-07 22:12:30,2021-12-07 22:12:30,0.172s,ERROR
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222,,Invalid login or incomplete requirements should have error notification or red flag,222,2021-12-07 22:12:30,2021-12-07 22:12:30,0.007s,ERROR
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223,,User is able to click Forgot password button,223,2021-12-07 22:12:30,2021-12-07 22:12:30,0.023s,ERROR
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224,,User is able to click Need assistance button,224,2021-12-07 22:12:30,2021-12-07 22:12:30,0.003s,ERROR

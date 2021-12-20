@@ -48,8 +48,11 @@ Thumbs.db
 *.mov
 *.wmv
 
+<<<<<<< HEAD
 /bin/
 /Libs/
 /.settings/
 /.classpath
 .svn/
+=======
+>>>>>>> branch 'master' of https://vjayprojects@bitbucket.org/vjayprojects/nexterous-automation.git

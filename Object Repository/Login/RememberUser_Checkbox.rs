@@ -3,15 +3,15 @@
    <description></description>
    <name>RememberUser_Checkbox</name>
    <tag></tag>
-   <elementGuidId>63938d9a-4abf-41a5-b0c4-cb46fec907a3</elementGuidId>
+   <elementGuidId>1beed3d7-90ba-4b4c-98c3-d5ef0acf9de5</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#Checkbox1</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Checkbox1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Checkbox1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

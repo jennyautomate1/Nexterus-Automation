@@ -3,15 +3,14 @@
    <description></description>
    <name>button_Add New Privilege Group</name>
    <tag></tag>
-   <elementGuidId>30ba68ae-7be3-4d51-84d4-87b60ee0b0d4</elementGuidId>
+   <elementGuidId>5458ee9a-9cc7-4978-9f55-3d22f4992f1f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -3,15 +3,15 @@
    <description></description>
    <name>Eye_Icon</name>
    <tag></tag>
-   <elementGuidId>d8289438-3432-46dc-9809-b6d88a1bbe77</elementGuidId>
+   <elementGuidId>9093dcba-4d4e-4d32-bf30-aa4263c667c1</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>i.icon.fa.fa-eye-slash.fa-2x</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//form[@id='LoginForm']/div/div[2]/div[2]/a/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-eye-slash.fa-2x</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

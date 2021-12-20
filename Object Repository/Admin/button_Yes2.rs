@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Yes2</name>
    <tag></tag>
-   <elementGuidId>2c5dd552-3653-4886-a62c-f8b056530770</elementGuidId>
+   <elementGuidId>c6e9a0c0-f542-43a0-bc57-0b8fd16045e6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-Primary</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/div[2]/div/div/div/div/div[3]/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-Primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

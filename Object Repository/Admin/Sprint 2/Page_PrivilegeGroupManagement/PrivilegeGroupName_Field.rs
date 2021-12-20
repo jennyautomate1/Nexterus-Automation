@@ -3,15 +3,15 @@
    <description></description>
    <name>PrivilegeGroupName_Field</name>
    <tag></tag>
-   <elementGuidId>c3bb2824-1cc9-4f42-9933-1f11b4db046e</elementGuidId>
+   <elementGuidId>31dc252d-f1e6-4647-8cbf-01c5a7276c9f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#Input_GroupName</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Input_GroupName']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Input_GroupName</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

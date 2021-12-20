@@ -3,15 +3,15 @@
    <description></description>
    <name>Password_Checkbox</name>
    <tag></tag>
-   <elementGuidId>b57f1aeb-b0af-480f-9073-14bdfbaf57de</elementGuidId>
+   <elementGuidId>7c52cbd9-8fa0-493e-8b9c-4fb0b07f42d4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#Checkbox1</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Checkbox1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Checkbox1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-10 (User, Role and Access Management User Login - Login Page)" time="4.017" tests="8" failures="0" errors="4">
+   <testsuite name="FCSCMS-10 (User, Role and Access Management User Login - Login Page)" tests="8" failures="0" errors="4" time="4.017" timestamp="2021-12-07 22:18:30" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 1/FCSCMS-10 (User, Role and Access Management User Login - Login Page)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211207_221817\\Sprint 1\\FCSCMS-10 (User, Role and Access Management User Login - Login Page)\\20211207_221818"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211207_221817\\Sprint 1\\FCSCMS-10 (User, Role and Access Management User Login - Login Page)\\20211207_221818\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-217" time="0.731" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-217" status="PASSED">
+         <system-out><![CDATA[2021-12-07 22:18:31 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-217: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-217
+
+2021-12-07 22:18:31 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-218" time="0.728" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-218" status="PASSED">
+         <system-out><![CDATA[2021-12-07 22:18:31 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-218: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-218
+
+2021-12-07 22:18:32 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-219" time="0.527" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-219" status="PASSED">
+         <system-out><![CDATA[2021-12-07 22:18:32 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-219: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-219
+
+2021-12-07 22:18:33 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-220" time="0.327" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-220" status="PASSED">
+         <system-out><![CDATA[2021-12-07 22:18:33 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-220: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-220
+
+2021-12-07 22:18:33 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221" time="0.162" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221" status="ERROR">
+         <error type="ERROR" message="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2021-12-07 22:18:33 - [TEST_CASE][ERROR] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2021-12-07 22:18:33 - [TEST_CASE][ERROR] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222" time="0.003" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222" status="ERROR">
+         <error type="ERROR" message="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2021-12-07 22:18:33 - [TEST_CASE][ERROR] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2021-12-07 22:18:33 - [TEST_CASE][ERROR] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223" time="0.014" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223" status="ERROR">
+         <error type="ERROR" message="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2021-12-07 22:18:33 - [TEST_CASE][ERROR] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2021-12-07 22:18:33 - [TEST_CASE][ERROR] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224" time="0.004" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224" status="ERROR">
+         <error type="ERROR" message="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2021-12-07 22:18:33 - [TEST_CASE][ERROR] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2021-12-07 22:18:33 - [TEST_CASE][ERROR] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-07 22:18:30 - [TEST_SUITE][ERROR] - FCSCMS-10 (User, Role and Access Management User Login - Login Page): Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[2021-12-07 22:18:30 - [TEST_SUITE][ERROR] - FCSCMS-10 (User, Role and Access Management User Login - Login Page): Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221 has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>

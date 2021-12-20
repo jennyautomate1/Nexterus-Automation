@@ -3,15 +3,15 @@
    <description></description>
    <name>img__close</name>
    <tag></tag>
-   <elementGuidId>d20f7f99-4a85-48ab-bbab-238c6defafc6</elementGuidId>
+   <elementGuidId>12026c06-575a-4489-9a3a-d75f79ef70c0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>img.close</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[3]/div/div/div/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.close</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

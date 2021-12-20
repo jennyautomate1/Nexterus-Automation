@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Need assistance</name>
    <tag></tag>
-   <elementGuidId>d8894e5a-ff84-465b-91cd-9262baa7401c</elementGuidId>
+   <elementGuidId>563f63f1-42ab-4441-98da-7feac5b802ca</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b2-Column1 > span.text-neutral-0</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='b2-Column1']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-Column1 > span.text-neutral-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

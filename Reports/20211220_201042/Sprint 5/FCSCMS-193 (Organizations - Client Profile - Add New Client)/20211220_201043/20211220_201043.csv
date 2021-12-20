@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-193 (Organizations - Client Profile - Add New Client),Chrome 96.0.4664.110,,,2021-12-20 20:10:54,2021-12-20 20:11:40,45.309s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137,Chrome 96.0.4664.110,Admin user should be able to log in using valid credentials,,2021-12-20 20:10:55,2021-12-20 20:11:09,14.062s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-20 20:10:55,2021-12-20 20:10:59,3.573s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 96.0.4664.110,,,2021-12-20 20:10:59,2021-12-20 20:11:01,2.374s,PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-20 20:11:01,2021-12-20 20:11:01,0.180s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-20 20:11:01,2021-12-20 20:11:04,3.040s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-20 20:11:04,2021-12-20 20:11:05,1.306s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 20:11:05,2021-12-20 20:11:06,1.011s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-20 20:11:06,2021-12-20 20:11:07,0.746s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 20:11:07,2021-12-20 20:11:08,1.018s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 96.0.4664.110,,,2021-12-20 20:11:08,2021-12-20 20:11:09,0.392s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138,Chrome 96.0.4664.110,User should be able to click the Clients option from the left navigation panel,,2021-12-20 20:11:09,2021-12-20 20:11:16,7.783s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 20:11:09,2021-12-20 20:11:11,2.009s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 96.0.4664.110,,,2021-12-20 20:11:11,2021-12-20 20:11:13,2.021s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 20:11:13,2021-12-20 20:11:15,2.009s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""))",Chrome 96.0.4664.110,,,2021-12-20 20:11:15,2021-12-20 20:11:15,0.401s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 20:11:15,2021-12-20 20:11:16,1.003s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139,Chrome 96.0.4664.110,The user can click on the 'Add New Client' button,,2021-12-20 20:11:16,2021-12-20 20:11:27,10.119s,PASSED
+"click(findTestObject(""Admin/Sprint 5/AddNewClient/button_Add New Client""))",Chrome 96.0.4664.110,,,2021-12-20 20:11:17,2021-12-20 20:11:17,0.487s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 20:11:17,2021-12-20 20:11:19,2.015s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName""), ""AT Test Client"")",Chrome 96.0.4664.110,,,2021-12-20 20:11:19,2021-12-20 20:11:21,1.364s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 20:11:21,2021-12-20 20:11:23,2.014s,PASSED
+"click(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/button_Save""))",Chrome 96.0.4664.110,,,2021-12-20 20:11:23,2021-12-20 20:11:23,0.451s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 20:11:23,2021-12-20 20:11:24,1.013s,PASSED
+"click(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/button_Yes""))",Chrome 96.0.4664.110,,,2021-12-20 20:11:24,2021-12-20 20:11:25,0.442s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 20:11:25,2021-12-20 20:11:27,2.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140,Chrome 96.0.4664.110,User can view the name of the client at the title of the page,,2021-12-20 20:11:27,2021-12-20 20:11:29,2.630s,PASSED
+"verifyElementText(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/New Client Verification""), ""AT Test Client"")",Chrome 96.0.4664.110,,,2021-12-20 20:11:27,2021-12-20 20:11:27,0.348s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 20:11:27,2021-12-20 20:11:29,2.009s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141,Chrome 96.0.4664.110,The user can input or edit details on the 'Basic Information' tab,,2021-12-20 20:11:29,2021-12-20 20:11:40,10.329s,PASSED
+"selectOptionByLabel(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive""), ""Active"", false)",Chrome 96.0.4664.110,,,2021-12-20 20:11:29,2021-12-20 20:11:30,0.725s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 20:11:30,2021-12-20 20:11:32,2.004s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/input_Business Details_b10-Input_BusinessDetails""), ""Test BDAT"")",Chrome 96.0.4664.110,,,2021-12-20 20:11:32,2021-12-20 20:11:33,0.757s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 20:11:33,2021-12-20 20:11:35,2.004s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/input_IRS Number_b10-Input_IRSNumber""), ""112233"")",Chrome 96.0.4664.110,,,2021-12-20 20:11:35,2021-12-20 20:11:36,0.735s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 20:11:36,2021-12-20 20:11:38,2.015s,PASSED
+"click(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/SalesRep_Dropdown""))",Chrome 96.0.4664.110,,,2021-12-20 20:11:38,2021-12-20 20:11:38,0.394s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 20:11:38,2021-12-20 20:11:39,1.006s,PASSED
+"click(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/div_3_SalesRep""))",Chrome 96.0.4664.110,,,2021-12-20 20:11:39,2021-12-20 20:11:40,0.413s,PASSED

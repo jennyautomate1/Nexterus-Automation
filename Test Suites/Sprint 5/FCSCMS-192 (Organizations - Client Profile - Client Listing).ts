@@ -35,4 +35,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1052</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>154e8e52-7d8c-482c-8087-e8b2a654eb10</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1053</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c42c6fa6-aed8-47c2-b6e0-99d1b02a34c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1054</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-193 (Organizations - Client Profile - Add New Client),Chrome 96.0.4664.110,,,2021-12-20 19:11:22,2021-12-20 19:11:46,24.450s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137,Chrome 96.0.4664.110,Admin user should be able to log in using valid credentials,,2021-12-20 19:11:22,2021-12-20 19:11:37,14.521s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-20 19:11:23,2021-12-20 19:11:26,3.704s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 96.0.4664.110,,,2021-12-20 19:11:26,2021-12-20 19:11:29,2.460s,PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-20 19:11:29,2021-12-20 19:11:29,0.199s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-20 19:11:29,2021-12-20 19:11:32,3.041s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-20 19:11:32,2021-12-20 19:11:34,1.483s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 19:11:34,2021-12-20 19:11:35,1.018s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-20 19:11:35,2021-12-20 19:11:35,0.710s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 19:11:35,2021-12-20 19:11:36,1.008s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 96.0.4664.110,,,2021-12-20 19:11:36,2021-12-20 19:11:37,0.421s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138,Chrome 96.0.4664.110,User should be able to click the Clients option from the left navigation panel,,2021-12-20 19:11:37,2021-12-20 19:11:46,9.488s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 19:11:37,2021-12-20 19:11:39,2.018s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 96.0.4664.110,,,2021-12-20 19:11:39,2021-12-20 19:11:43,3.657s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 19:11:43,2021-12-20 19:11:45,2.014s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""))",Chrome 96.0.4664.110,,,2021-12-20 19:11:45,2021-12-20 19:11:45,0.487s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 19:11:45,2021-12-20 19:11:46,1.018s,PASSED

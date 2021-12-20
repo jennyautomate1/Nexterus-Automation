@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-192 (Organizations - Client Profile - Client Listing),Chrome 96.0.4664.110,,,2021-12-20 18:44:00,2021-12-20 18:45:11,1m - 11.675s,FAILED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1049,Chrome 96.0.4664.110,Admin user should be able to log in using valid credentials,,2021-12-20 18:44:00,2021-12-20 18:44:15,14.782s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-20 18:44:00,2021-12-20 18:44:04,3.444s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 96.0.4664.110,,,2021-12-20 18:44:04,2021-12-20 18:44:07,3.426s,PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-20 18:44:07,2021-12-20 18:44:08,0.199s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-20 18:44:08,2021-12-20 18:44:11,3.046s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-20 18:44:11,2021-12-20 18:44:12,1.143s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 18:44:12,2021-12-20 18:44:13,1.026s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-20 18:44:13,2021-12-20 18:44:13,0.719s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 18:44:13,2021-12-20 18:44:15,1.005s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:15,2021-12-20 18:44:15,0.395s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1050,Chrome 96.0.4664.110,User should be able to click the Clients option from the left navigation panel,,2021-12-20 18:44:15,2021-12-20 18:44:25,10.377s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 18:44:15,2021-12-20 18:44:17,2.020s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:17,2021-12-20 18:44:21,3.516s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 18:44:21,2021-12-20 18:44:23,2.009s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:23,2021-12-20 18:44:24,1.553s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 18:44:24,2021-12-20 18:44:25,1.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1051,Chrome 96.0.4664.110,User should be able to view client grid,,2021-12-20 18:44:25,2021-12-20 18:44:30,5.069s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/button_Add New Client""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:26,2021-12-20 18:44:26,0.386s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/button_Advanced Search""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:26,2021-12-20 18:44:26,0.356s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/ClientsDashboard""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:26,2021-12-20 18:44:27,0.350s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/div_Download""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:27,2021-12-20 18:44:27,0.341s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/input_Logout_b4-Input_TextVar""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:27,2021-12-20 18:44:27,0.348s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Action""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:27,2021-12-20 18:44:28,0.388s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Address""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:28,2021-12-20 18:44:28,0.348s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_City""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:28,2021-12-20 18:44:29,0.390s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Client Name""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:29,2021-12-20 18:44:29,0.418s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Country""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:29,2021-12-20 18:44:29,0.399s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_State""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:29,2021-12-20 18:44:30,0.344s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Status""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:30,2021-12-20 18:44:30,0.352s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Zip Code""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:30,2021-12-20 18:44:30,0.337s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1052,Chrome 96.0.4664.110,User should be able to view / edit client information,,2021-12-20 18:44:30,2021-12-20 18:44:40,9.329s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Edit_Icon_Clients""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:31,2021-12-20 18:44:31,0.403s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 18:44:31,2021-12-20 18:44:33,2.014s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Edit Client Element Verification/div_AdminUser""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:33,2021-12-20 18:44:34,1.042s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Edit Client Element Verification/div_Anon User""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:34,2021-12-20 18:44:34,0.351s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Edit Client Element Verification/div_Basic Information""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:34,2021-12-20 18:44:35,0.483s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Edit Client Element Verification/input_Business Details_b10-Input_BusinessDetails""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:35,2021-12-20 18:44:35,0.351s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Edit Client Element Verification/input_Client Name_b10-Input_ClientName""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:35,2021-12-20 18:44:36,0.370s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Edit Client Element Verification/input_IRS Number_b10-Input_IRSNumber""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:36,2021-12-20 18:44:36,0.328s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Edit Client Element Verification/input_Termination Date_b10-Input_TerminationDate""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:36,2021-12-20 18:44:36,0.367s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Edit Client Element Verification/select_SelectActiveInactive""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:36,2021-12-20 18:44:37,0.374s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-20 18:44:37,2021-12-20 18:44:40,3.013s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1053,Chrome 96.0.4664.110,User should be able to use the pagination widget.,,2021-12-20 18:44:40,2021-12-20 18:45:11,31.721s,FAILED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Pagination/Pagination_Widget""))",Chrome 96.0.4664.110,,,2021-12-20 18:44:40,2021-12-20 18:45:11,31.521s,FAILED

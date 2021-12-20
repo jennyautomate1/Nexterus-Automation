@@ -16,25 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/Edit_Icon_Clients'))
+WebUI.openBrowser('')
 
-WebUI.delay(2)
+WebUI.navigateToUrl('https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login')
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/div_AdminUser'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/div_Anon User'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/div_Basic Information'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_Business Details_b10-Input_BusinessDetails'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_Client Name_b10-Input_ClientName'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_IRS Number_b10-Input_IRSNumber'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_Termination Date_b10-Input_TerminationDate'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/select_SelectActiveInactive'))
+WebUI.maximizeWindow()
 
 WebUI.delay(3)
+
+WebUI.setText(findTestObject('Login/Username_Field'), 'admin')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Login/Password_Field'), 'admin')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Login/BTN_Login'))
 

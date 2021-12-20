@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-193 (Organizations - Client Profile - Add New Client),Chrome 96.0.4664.110,,,2021-12-20 19:37:18,2021-12-20 19:38:05,47.151s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137,Chrome 96.0.4664.110,Admin user should be able to log in using valid credentials,,2021-12-20 19:37:18,2021-12-20 19:37:34,15.806s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-20 19:37:19,2021-12-20 19:37:22,3.447s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 96.0.4664.110,,,2021-12-20 19:37:22,2021-12-20 19:37:26,3.818s,PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-20 19:37:26,2021-12-20 19:37:26,0.192s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-20 19:37:26,2021-12-20 19:37:29,3.032s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-20 19:37:29,2021-12-20 19:37:31,1.804s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 19:37:31,2021-12-20 19:37:32,1.008s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-20 19:37:32,2021-12-20 19:37:33,0.703s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 19:37:33,2021-12-20 19:37:34,1.009s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 96.0.4664.110,,,2021-12-20 19:37:34,2021-12-20 19:37:34,0.384s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138,Chrome 96.0.4664.110,User should be able to click the Clients option from the left navigation panel,,2021-12-20 19:37:34,2021-12-20 19:37:48,14.479s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 19:37:34,2021-12-20 19:37:36,2.015s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 96.0.4664.110,,,2021-12-20 19:37:36,2021-12-20 19:37:43,7.127s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 19:37:43,2021-12-20 19:37:45,2.018s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""))",Chrome 96.0.4664.110,,,2021-12-20 19:37:45,2021-12-20 19:37:47,2.040s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 19:37:47,2021-12-20 19:37:48,1.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139,Chrome 96.0.4664.110,The user can click on the 'Add New Client' button,,2021-12-20 19:37:48,2021-12-20 19:37:58,10.004s,PASSED
+"click(findTestObject(""Admin/Sprint 5/AddNewClient/button_Add New Client""))",Chrome 96.0.4664.110,,,2021-12-20 19:37:49,2021-12-20 19:37:49,0.400s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 19:37:49,2021-12-20 19:37:51,2.014s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName""), ""AT Test Client"")",Chrome 96.0.4664.110,,,2021-12-20 19:37:51,2021-12-20 19:37:53,1.479s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 19:37:53,2021-12-20 19:37:55,2.009s,PASSED
+"click(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/button_Save""))",Chrome 96.0.4664.110,,,2021-12-20 19:37:55,2021-12-20 19:37:55,0.438s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-20 19:37:55,2021-12-20 19:37:56,1.012s,PASSED
+"click(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/button_Yes""))",Chrome 96.0.4664.110,,,2021-12-20 19:37:56,2021-12-20 19:37:56,0.408s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 19:37:56,2021-12-20 19:37:58,2.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140,Chrome 96.0.4664.110,User can view the name of the client at the title of the page,,2021-12-20 19:37:58,2021-12-20 19:38:01,2.537s,PASSED
+"verifyElementText(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/New Client Verification""), ""AT Test Client"")",Chrome 96.0.4664.110,,,2021-12-20 19:37:59,2021-12-20 19:37:59,0.333s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-20 19:37:59,2021-12-20 19:38:01,2.005s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141,Chrome 96.0.4664.110,The user can input or edit details on the 'Basic Information' tab,,2021-12-20 19:38:01,2021-12-20 19:38:05,3.987s,PASSED
+"selectOptionByLabel(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive""), ""Active"", false)",Chrome 96.0.4664.110,,,2021-12-20 19:38:01,2021-12-20 19:38:02,0.741s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-20 19:38:02,2021-12-20 19:38:05,3.004s,PASSED

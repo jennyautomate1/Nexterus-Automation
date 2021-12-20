@@ -16,25 +16,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/Edit_Icon_Clients'))
+WebUI.click(findTestObject('Admin/Sprint 5/Clients/Export/ExportImage'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/div_AdminUser'))
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Export/ExportFileNameField'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/div_Anon User'))
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Export/button_Cancel'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/div_Basic Information'))
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Export/ExportFileNameField'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_Business Details_b10-Input_BusinessDetails'))
+WebUI.setText(findTestObject('Admin/Sprint 5/Clients/Export/ExportFileNameField'), 'AT Export Test')
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_Client Name_b10-Input_ClientName'))
+WebUI.click(findTestObject('Admin/Sprint 5/Clients/Export/button_Download'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_IRS Number_b10-Input_IRSNumber'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_Termination Date_b10-Input_TerminationDate'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/select_SelectActiveInactive'))
-
-WebUI.delay(3)
+WebUI.delay(5)
 

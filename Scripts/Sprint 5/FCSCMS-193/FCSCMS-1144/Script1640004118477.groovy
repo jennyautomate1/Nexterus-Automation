@@ -16,25 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/Edit_Icon_Clients'))
+WebUI.click(findTestObject('Admin/Sprint 5/AddNewClient/span_Back'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/div_AdminUser'))
+WebUI.click(findTestObject('Admin/Sprint 5/AddNewClient/button_Add New Client'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/div_Anon User'))
+WebUI.setText(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName'), 
+    'Test Client Negative Path')
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/div_Basic Information'))
+WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_Business Details_b10-Input_BusinessDetails'))
+WebUI.click(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_Client Name_b10-Input_ClientName'))
+WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_IRS Number_b10-Input_IRSNumber'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/input_Termination Date_b10-Input_TerminationDate'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Edit Client Element Verification/select_SelectActiveInactive'))
-
-WebUI.delay(3)
+WebUI.click(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/button_No'))
 

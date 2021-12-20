@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-193 (Organizations - Client Profile - Add New Client)" time="56.053" tests="5" failures="0" errors="0">
+   <testsuite name="FCSCMS-193 (Organizations - Client Profile - Add New Client)" tests="5" failures="0" errors="0" time="56.053" timestamp="2021-12-20 20:16:41" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 5/FCSCMS-193 (Organizations - Client Profile - Add New Client)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211220_201627\\Sprint 5\\FCSCMS-193 (Organizations - Client Profile - Add New Client)\\20211220_201627"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211220_201627\\Sprint 5\\FCSCMS-193 (Organizations - Client Profile - Add New Client)\\20211220_201627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 96.0.4664.110"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="sessionId" value="e2982914f02bd124275f4040b594b703"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137" time="15.099" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137" status="PASSED">
+         <system-out><![CDATA[2021-12-20 20:16:41 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137: Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137
+
+2021-12-20 20:16:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-20 20:16:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-20 20:16:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-20 20:16:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-20 20:16:46 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2021-12-20 20:16:49 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2021-12-20 20:16:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-20 20:16:49 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-20 20:16:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-20 20:16:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-20 20:16:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2021-12-20 20:16:53 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2021-12-20 20:16:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-20 20:16:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-20 20:16:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2021-12-20 20:16:55 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2021-12-20 20:16:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-20 20:16:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-20 20:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2021-12-20 20:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138" time="8.552" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138" status="PASSED">
+         <system-out><![CDATA[2021-12-20 20:16:56 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138: Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138
+
+2021-12-20 20:16:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:16:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-20 20:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/a_Clients")): Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2021-12-20 20:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2021-12-20 20:17:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:17:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-20 20:17:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/Clients/SearchBar_Clients")): Object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients' is visible
+
+2021-12-20 20:17:04 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients' is visible
+
+2021-12-20 20:17:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-20 20:17:05 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139" time="11.191" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139" status="PASSED">
+         <system-out><![CDATA[2021-12-20 20:17:05 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139: Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139
+
+2021-12-20 20:17:05 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/button_Add New Client")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-20 20:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-20 20:17:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:17:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-20 20:17:08 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName"), "AT Test Client"): Text 'AT Test Client' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName'
+
+2021-12-20 20:17:10 - [MESSAGE][PASSED] - Text 'AT Test Client' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName'
+
+2021-12-20 20:17:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:17:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-20 20:17:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/button_Save")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/button_Save' is clicked on
+
+2021-12-20 20:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/button_Save' is clicked on
+
+2021-12-20 20:17:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-20 20:17:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-20 20:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/button_Yes")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/button_Yes' is clicked on
+
+2021-12-20 20:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/button_Yes' is clicked on
+
+2021-12-20 20:17:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:17:16 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140" time="2.613" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140" status="PASSED">
+         <system-out><![CDATA[2021-12-20 20:17:16 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140: Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140
+
+2021-12-20 20:17:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/New Client Verification"), "AT Test Client"): Actual text and expected text of test object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/New Client Verification' are matched.
+
+2021-12-20 20:17:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/New Client Verification' are matched.
+
+2021-12-20 20:17:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:17:19 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141" time="16.896" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141" status="PASSED">
+         <system-out><![CDATA[2021-12-20 20:17:19 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141: Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141
+
+2021-12-20 20:17:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive"), "Active", false): All options with label 'Active' are selected in object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive' 
+
+2021-12-20 20:17:20 - [MESSAGE][PASSED] - All options with label 'Active' are selected in object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive' 
+
+2021-12-20 20:17:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:17:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-20 20:17:22 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/input_Business Details_b10-Input_BusinessDetails"), "Test BDAT"): Text 'Test BDAT' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Business Details_b10-Input_BusinessDetails'
+
+2021-12-20 20:17:23 - [MESSAGE][PASSED] - Text 'Test BDAT' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Business Details_b10-Input_BusinessDetails'
+
+2021-12-20 20:17:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:17:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-20 20:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/input_IRS Number_b10-Input_IRSNumber"), "112233"): Text '112233' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_IRS Number_b10-Input_IRSNumber'
+
+2021-12-20 20:17:25 - [MESSAGE][PASSED] - Text '112233' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_IRS Number_b10-Input_IRSNumber'
+
+2021-12-20 20:17:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:17:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-20 20:17:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/SalesRep_Dropdown")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/SalesRep_Dropdown' is clicked on
+
+2021-12-20 20:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/SalesRep_Dropdown' is clicked on
+
+2021-12-20 20:17:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-20 20:17:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-20 20:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/div_3_SalesRep")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/div_3_SalesRep' is clicked on
+
+2021-12-20 20:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/div_3_SalesRep' is clicked on
+
+2021-12-20 20:17:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-20 20:17:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-20 20:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/AccountManager_Dropdown")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/AccountManager_Dropdown' is clicked on
+
+2021-12-20 20:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/AccountManager_Dropdown' is clicked on
+
+2021-12-20 20:17:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-20 20:17:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-20 20:17:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/div_3_AccountManager")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/div_3_AccountManager' is clicked on
+
+2021-12-20 20:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/div_3_AccountManager' is clicked on
+
+2021-12-20 20:17:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-20 20:17:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-20 20:17:34 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/input_Termination Date_b10-Input_TerminationDate"), "08/15/2022"): Text '08/15/2022' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Termination Date_b10-Input_TerminationDate'
+
+2021-12-20 20:17:35 - [MESSAGE][PASSED] - Text '08/15/2022' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Termination Date_b10-Input_TerminationDate'
+
+2021-12-20 20:17:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-20 20:17:36 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-20 20:16:41 - [TEST_SUITE][PASSED] - FCSCMS-193 (Organizations - Client Profile - Add New Client): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

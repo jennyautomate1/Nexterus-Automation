@@ -16,19 +16,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 5/Element Veification SP5/input_Contact Phone_Input_AS_ContactPhone'), '1234567890')
+WebUI.click(findTestObject('Admin/Sprint 5/AddNewClient/button_Add New Client'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Admin/Sprint 5/Advance Search/button_Search(Advance)'))
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/AccountManager_Dropdown'))
 
-WebUI.delay(2)
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/button_Cancel'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Element Veification SP5/Smoke 1 Verification'))
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/button_Save'))
 
-WebUI.delay(1)
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/input_Business Details_b10-Input_BusinessDetails'))
 
-WebUI.click(findTestObject('Admin/Sprint 5/Advance Search/button_Clear(Advance)'))
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/input_IRS Number_b10-Input_IRSNumber'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/input_Termination Date_b10-Input_TerminationDate'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/SalesRep_Dropdown'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive'))
 

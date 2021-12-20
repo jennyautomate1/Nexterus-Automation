@@ -16,15 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 5/Element Veification SP5/input_Contact Phone_Input_AS_ContactPhone'), '1234567890')
+WebUI.setText(findTestObject('Admin/Sprint 5/Element Veification SP5/input_Account Manager_Input_AS_ClientName'), 'Anon User')
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Admin/Sprint 5/Advance Search/button_Search(Advance)'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Element Veification SP5/Smoke 1 Verification'))
 

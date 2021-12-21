@@ -6,12 +6,12 @@
    <elementGuidId>5f7c73a9-5a91-4628-bdea-3c46a75d104c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.text-align-center > span.font-bold.font-size-base</value>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div/div/div/div/div[2]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::span[2]</value>
+         <key>CSS</key>
+         <value>div.text-align-center > span.font-bold.font-size-base</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

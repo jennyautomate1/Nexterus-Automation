@@ -22,3 +22,5 @@ WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/AppLogo'))
 
+WebUI.delay(5)
+

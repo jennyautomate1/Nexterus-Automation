@@ -20,7 +20,5 @@ WebUI.click(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/but
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/AddNewClient/Element Verification/CancelNotifModal'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(2)
 

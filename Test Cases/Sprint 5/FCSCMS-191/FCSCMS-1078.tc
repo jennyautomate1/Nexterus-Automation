@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User should be able to search clients using Contact Email</description>
-   <name>FCSCMS-1078</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>777fdc23-83c3-4c28-bcb9-f2d01a07919e</testCaseGuid>
-</TestCaseEntity>

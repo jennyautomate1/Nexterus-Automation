@@ -16,11 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton'))
+WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Cancel)'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)'))
-
-WebUI.delay(1)
+WebUI.delay(3)
 

@@ -24,3 +24,5 @@ WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/butt
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Cancel)'))
+

@@ -53,4 +53,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1156-S5 (The user can click the Cancel button for the Site tab)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>33c13e50-0d2c-41ae-8364-9e746395a296</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1157-S5 (The user can click the Yes button from Cancel Confirmation modal)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2dbe9617-772b-4b3e-a808-d2bc900899c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1158-S5 (Click the No button from Cancel Confirmation modal)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3c9f5d56-701c-476f-b9f0-39733c8e0398</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

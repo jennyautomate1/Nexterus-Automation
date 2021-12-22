@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteSite Sample,Chrome 96.0.4664.110,,,2021-12-23 05:00:37,2021-12-23 05:01:36,59.868s,FAILED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1150-S5 (View or edit details of an existing sites on the sites tab),Chrome 96.0.4664.110,The user can vew or edit details of an existing sites on the 'sites' tab,,2021-12-23 05:00:37,2021-12-23 05:01:18,41.242s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-23 05:00:38,2021-12-23 05:00:43,4.433s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 96.0.4664.110,,,2021-12-23 05:00:43,2021-12-23 05:00:45,2.108s,PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-23 05:00:45,2021-12-23 05:00:45,0.272s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-23 05:00:45,2021-12-23 05:00:48,3.043s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-23 05:00:48,2021-12-23 05:00:49,1.016s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:00:49,2021-12-23 05:00:50,1.005s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 96.0.4664.110,,,2021-12-23 05:00:50,2021-12-23 05:00:51,0.946s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:00:51,2021-12-23 05:00:52,1.012s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 96.0.4664.110,,,2021-12-23 05:00:52,2021-12-23 05:00:52,0.438s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-23 05:00:52,2021-12-23 05:00:54,2.007s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 96.0.4664.110,,,2021-12-23 05:00:54,2021-12-23 05:00:58,3.620s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:00:58,2021-12-23 05:00:59,1.003s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""), ""Smoke Test 3"")",Chrome 96.0.4664.110,,,2021-12-23 05:00:59,2021-12-23 05:01:01,1.992s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:01:01,2021-12-23 05:01:02,1.004s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/SearchButton(Clients)""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:02,2021-12-23 05:01:02,0.441s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-23 05:01:02,2021-12-23 05:01:04,2.008s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditClient""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:04,2021-12-23 05:01:05,0.388s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-23 05:01:05,2021-12-23 05:01:07,2.018s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/div_Sites""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:07,2021-12-23 05:01:08,1.298s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:01:08,2021-12-23 05:01:09,1.006s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:09,2021-12-23 05:01:10,0.614s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-23 05:01:10,2021-12-23 05:01:12,2.009s,PASSED
+"clearText(findTestObject(""Admin/Sprint 5/Clients/Sites/SiteCode""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:12,2021-12-23 05:01:12,0.396s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/Sites/SiteCode""), ""TestSite"")",Chrome 96.0.4664.110,,,2021-12-23 05:01:12,2021-12-23 05:01:13,0.704s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:01:13,2021-12-23 05:01:14,1.007s,PASSED
+"clearText(findTestObject(""Admin/Sprint 5/Clients/Sites/SiteName""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:14,2021-12-23 05:01:14,0.399s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/Sites/SiteName""), ""SiteforAutomation"")",Chrome 96.0.4664.110,,,2021-12-23 05:01:14,2021-12-23 05:01:15,0.897s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:01:15,2021-12-23 05:01:16,1.016s,PASSED
+"clearText(findTestObject(""Admin/Sprint 5/Clients/Sites/Description""), STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-23 05:01:16,2021-12-23 05:01:17,0.397s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/Sites/Description""), ""Test site for automation"")",Chrome 96.0.4664.110,,,2021-12-23 05:01:17,2021-12-23 05:01:17,0.786s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:01:17,2021-12-23 05:01:18,1.011s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1151-S5 (Associate an already exixting contact to the site),Chrome 96.0.4664.110,The user can Associate an already exixting contact to the site,,2021-12-23 05:01:18,2021-12-23 05:01:22,3.568s,PASSED
+"selectOptionByLabel(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/SelectContactDropdown""), ""ForEmail"", false)",Chrome 96.0.4664.110,,,2021-12-23 05:01:19,2021-12-23 05:01:20,0.850s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:01:20,2021-12-23 05:01:21,1.002s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Add(Sites)""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:21,2021-12-23 05:01:21,0.428s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:01:21,2021-12-23 05:01:22,1.008s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1152-S5 (Add a new contact to be assosciated with the site),Chrome 96.0.4664.110,The user can add a new contact to be assosciated with the site,,2021-12-23 05:01:22,2021-12-23 05:01:24,2.230s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-23 05:01:22,2021-12-23 05:01:24,2.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1153-S5 (The user can click the Save button for the Sites tab),Chrome 96.0.4664.110,The user can click the Save button for the 'Sites' tab,,2021-12-23 05:01:24,2021-12-23 05:01:27,2.975s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:25,2021-12-23 05:01:25,0.499s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-23 05:01:25,2021-12-23 05:01:26,1.014s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:26,2021-12-23 05:01:26,0.382s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:26,2021-12-23 05:01:27,0.823s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1154-S5 (Click the Yes to confirm saving of all of the Newly added or edited site information),Chrome 96.0.4664.110,The user can click the 'Yes' to confirm saving of all of the Newly added or edited site information on the 'Site' tab,,2021-12-23 05:01:27,2021-12-23 05:01:36,9.226s,FAILED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:28,2021-12-23 05:01:28,0.456s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-23 05:01:28,2021-12-23 05:01:30,2.009s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:30,2021-12-23 05:01:30,0.441s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-23 05:01:30,2021-12-23 05:01:32,2.004s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/Delete(ForEmail)""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:32,2021-12-23 05:01:33,0.434s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-23 05:01:33,2021-12-23 05:01:35,2.010s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)""))",Chrome 96.0.4664.110,,,2021-12-23 05:01:35,2021-12-23 05:01:36,1.544s,FAILED

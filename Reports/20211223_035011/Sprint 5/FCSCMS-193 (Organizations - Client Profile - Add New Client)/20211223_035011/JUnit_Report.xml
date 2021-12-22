@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-193 (Organizations - Client Profile - Add New Client)" time="183.585" tests="13" failures="1" errors="0">
+   <testsuite name="FCSCMS-193 (Organizations - Client Profile - Add New Client)" tests="13" failures="1" errors="0" time="183.585" timestamp="2021-12-23 03:50:25" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 5/FCSCMS-193 (Organizations - Client Profile - Add New Client)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_035011\\Sprint 5\\FCSCMS-193 (Organizations - Client Profile - Add New Client)\\20211223_035011"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_035011\\Sprint 5\\FCSCMS-193 (Organizations - Client Profile - Add New Client)\\20211223_035011\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_035011\\Sprint 5\\FCSCMS-193 (Organizations - Client Profile - Add New Client)\\20211223_035011\\1640202806595.png"/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 96.0.4664.110"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="sessionId" value="dde7a10d7230a2422a7fb688c539770a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137-S5 (Admin user should be able to log in using valid credentials)" time="14.35" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137-S5 (Admin user should be able to log in using valid credentials)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:50:25 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137-S5 (Admin user should be able to log in using valid credentials): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1137-S5 (Admin user should be able to log in using valid credentials)
+
+2021-12-23 03:50:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-23 03:50:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-23 03:50:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-23 03:50:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-23 03:50:30 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2021-12-23 03:50:32 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2021-12-23 03:50:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-23 03:50:32 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-23 03:50:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-23 03:50:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-23 03:50:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2021-12-23 03:50:36 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2021-12-23 03:50:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:50:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:50:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2021-12-23 03:50:38 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2021-12-23 03:50:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:50:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:50:39 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2021-12-23 03:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138-S5 (Click the Clients option from the left navigation panel)" time="8.644" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138-S5 (Click the Clients option from the left navigation panel)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:50:39 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138-S5 (Click the Clients option from the left navigation panel): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1138-S5 (Click the Clients option from the left navigation panel)
+
+2021-12-23 03:50:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:50:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:50:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/a_Clients")): Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2021-12-23 03:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2021-12-23 03:50:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:50:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:50:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/Clients/SearchBar_Clients")): Object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients' is visible
+
+2021-12-23 03:50:47 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients' is visible
+
+2021-12-23 03:50:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:50:48 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139-S5 (Click on the Add New Client button)" time="10.757" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139-S5 (Click on the Add New Client button)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:50:48 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139-S5 (Click on the Add New Client button): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1139-S5 (Click on the Add New Client button)
+
+2021-12-23 03:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/button_Add New Client")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-23 03:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-23 03:50:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:50:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName"), "AT Test Client"): Text 'AT Test Client' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName'
+
+2021-12-23 03:50:53 - [MESSAGE][PASSED] - Text 'AT Test Client' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName'
+
+2021-12-23 03:50:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:50:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:50:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:50:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:50:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)' is clicked on
+
+2021-12-23 03:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)' is clicked on
+
+2021-12-23 03:50:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:50:59 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140-S5 (User can view the name of the client at the title of the page)" time="2.706" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140-S5 (User can view the name of the client at the title of the page)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:50:59 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140-S5 (User can view the name of the client at the title of the page): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1140-S5 (User can view the name of the client at the title of the page)
+
+2021-12-23 03:50:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/New Client Verification"), "AT Test Client"): Actual text and expected text of test object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/New Client Verification' are matched.
+
+2021-12-23 03:50:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/New Client Verification' are matched.
+
+2021-12-23 03:50:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:01 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141-S5 (Edit details on the Basic Information tab)" time="22.638" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141-S5 (Edit details on the Basic Information tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:51:01 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141-S5 (Edit details on the Basic Information tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1141-S5 (Edit details on the Basic Information tab)
+
+2021-12-23 03:51:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive"), "Active", false): All options with label 'Active' are selected in object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive' 
+
+2021-12-23 03:51:03 - [MESSAGE][PASSED] - All options with label 'Active' are selected in object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive' 
+
+2021-12-23 03:51:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:05 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/input_Business Details_b10-Input_BusinessDetails"), "Test BDAT"): Text 'Test BDAT' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Business Details_b10-Input_BusinessDetails'
+
+2021-12-23 03:51:05 - [MESSAGE][PASSED] - Text 'Test BDAT' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Business Details_b10-Input_BusinessDetails'
+
+2021-12-23 03:51:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:07 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/input_IRS Number_b10-Input_IRSNumber"), "112233"): Text '112233' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_IRS Number_b10-Input_IRSNumber'
+
+2021-12-23 03:51:08 - [MESSAGE][PASSED] - Text '112233' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_IRS Number_b10-Input_IRSNumber'
+
+2021-12-23 03:51:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/SalesRep_Dropdown")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/SalesRep_Dropdown' is clicked on
+
+2021-12-23 03:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/SalesRep_Dropdown' is clicked on
+
+2021-12-23 03:51:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:51:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/div_3_SalesRep")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/div_3_SalesRep' is clicked on
+
+2021-12-23 03:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/div_3_SalesRep' is clicked on
+
+2021-12-23 03:51:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:51:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/AccountManager_Dropdown")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/AccountManager_Dropdown' is clicked on
+
+2021-12-23 03:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/AccountManager_Dropdown' is clicked on
+
+2021-12-23 03:51:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:51:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/div_3_AccountManager")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/div_3_AccountManager' is clicked on
+
+2021-12-23 03:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/div_3_AccountManager' is clicked on
+
+2021-12-23 03:51:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/input_Termination Date_b10-Input_TerminationDate"), "08/15/2022"): Text '08/15/2022' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Termination Date_b10-Input_TerminationDate'
+
+2021-12-23 03:51:17 - [MESSAGE][PASSED] - Text '08/15/2022' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Termination Date_b10-Input_TerminationDate'
+
+2021-12-23 03:51:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:51:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:51:18 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/Client")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/Client' is clicked on
+
+2021-12-23 03:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/Client' is clicked on
+
+2021-12-23 03:51:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/Carrier")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/Carrier' is clicked on
+
+2021-12-23 03:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/Carrier' is clicked on
+
+2021-12-23 03:51:21 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/Aliases Name"), "AT Alias"): Text 'AT Alias' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/Aliases Name'
+
+2021-12-23 03:51:22 - [MESSAGE][PASSED] - Text 'AT Alias' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/Aliases Name'
+
+2021-12-23 03:51:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:24 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1142-S5 (Click the Save button for the Basic Information tab)" time="4.517" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1142-S5 (Click the Save button for the Basic Information tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:51:24 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1142-S5 (Click the Save button for the Basic Information tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1142-S5 (Click the Save button for the Basic Information tab)
+
+2021-12-23 03:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:51:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_No(Save)")): Object 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_No(Save)' is visible
+
+2021-12-23 03:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_No(Save)' is visible
+
+2021-12-23 03:51:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)")): Object 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)' is visible
+
+2021-12-23 03:51:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)' is visible
+
+2021-12-23 03:51:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-23 03:51:29 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1143-S5 (Click the Yes to confirm saving of all the Details)" time="2.739" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1143-S5 (Click the Yes to confirm saving of all the Details)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:51:29 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1143-S5 (Click the Yes to confirm saving of all the Details): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1143-S5 (Click the Yes to confirm saving of all the Details)
+
+2021-12-23 03:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)' is clicked on
+
+2021-12-23 03:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)' is clicked on
+
+2021-12-23 03:51:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:31 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1144-S5 (Click the No button to terminate the saving of the details entered)" time="10.083" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1144-S5 (Click the No button to terminate the saving of the details entered)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:51:31 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1144-S5 (Click the No button to terminate the saving of the details entered): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1144-S5 (Click the No button to terminate the saving of the details entered)
+
+2021-12-23 03:51:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/span_Back")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/span_Back' is clicked on
+
+2021-12-23 03:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/span_Back' is clicked on
+
+2021-12-23 03:51:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:34 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/button_Add New Client")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-23 03:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-23 03:51:34 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName"), "Test Client Negative Path"): Text 'Test Client Negative Path' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName'
+
+2021-12-23 03:51:37 - [MESSAGE][PASSED] - Text 'Test Client Negative Path' is set on object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName'
+
+2021-12-23 03:51:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:51:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_No(Save)")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_No(Save)' is clicked on
+
+2021-12-23 03:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_No(Save)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1145-S5 (Click the Cancel button for the Basic Information tab)" time="4.626" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1145-S5 (Click the Cancel button for the Basic Information tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:51:41 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1145-S5 (Click the Cancel button for the Basic Information tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1145-S5 (Click the Cancel button for the Basic Information tab)
+
+2021-12-23 03:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Cancel")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Cancel' is clicked on
+
+2021-12-23 03:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Cancel' is clicked on
+
+2021-12-23 03:51:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1146-S5 (Click the Yes button from Cancel Confirmation modal" time="8.094" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1146-S5 (Click the Yes button from Cancel Confirmation modal" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:51:46 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1146-S5 (Click the Yes button from Cancel Confirmation modal: Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1146-S5 (Click the Yes button from Cancel Confirmation modal
+
+2021-12-23 03:51:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Cancel)")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Cancel)' is clicked on
+
+2021-12-23 03:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Cancel)' is clicked on
+
+2021-12-23 03:51:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:51:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:51:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/AddNewClient/Element Verification/AppLogo")): Object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/AppLogo' is visible
+
+2021-12-23 03:51:49 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/AddNewClient/Element Verification/AppLogo' is visible
+
+2021-12-23 03:51:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-23 03:51:54 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1147-S5 (Click the NO button from Cancel Confirmation modal)" time="15.739" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1147-S5 (Click the NO button from Cancel Confirmation modal)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:51:54 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1147-S5 (Click the NO button from Cancel Confirmation modal): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1147-S5 (Click the NO button from Cancel Confirmation modal)
+
+2021-12-23 03:51:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/button_Add New Client")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-23 03:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-23 03:51:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:51:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:51:56 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/EditClientXpathNew/input_Client Name_b10-Input_ClientName"), "Test Client Automation A"): Text 'Test Client Automation A' is set on object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/input_Client Name_b10-Input_ClientName'
+
+2021-12-23 03:51:57 - [MESSAGE][PASSED] - Text 'Test Client Automation A' is set on object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/input_Client Name_b10-Input_ClientName'
+
+2021-12-23 03:51:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:51:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:51:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/Clients/EditClientXpathNew/StatusDropdownNew"), "Active", false): All options with label 'Active' are selected in object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/StatusDropdownNew' 
+
+2021-12-23 03:51:59 - [MESSAGE][PASSED] - All options with label 'Active' are selected in object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/StatusDropdownNew' 
+
+2021-12-23 03:51:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/EditClientXpathNew/input_Business Details_b10-Input_BusinessDetails"), "AT BD A"): Text 'AT BD A' is set on object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/input_Business Details_b10-Input_BusinessDetails'
+
+2021-12-23 03:52:00 - [MESSAGE][PASSED] - Text 'AT BD A' is set on object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/input_Business Details_b10-Input_BusinessDetails'
+
+2021-12-23 03:52:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:01 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/EditClientXpathNew/input_IRS Number_b10-Input_IRSNumber"), "1222333"): Text '1222333' is set on object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/input_IRS Number_b10-Input_IRSNumber'
+
+2021-12-23 03:52:02 - [MESSAGE][PASSED] - Text '1222333' is set on object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/input_IRS Number_b10-Input_IRSNumber'
+
+2021-12-23 03:52:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:52:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:52:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:52:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_No(Save)")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_No(Save)' is clicked on
+
+2021-12-23 03:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_No(Save)' is clicked on
+
+2021-12-23 03:52:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:52:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:52:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/AddNewClient/ClientDashboardNew")): Object 'Object Repository/Admin/Sprint 5/AddNewClient/ClientDashboardNew' is visible
+
+2021-12-23 03:52:08 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/AddNewClient/ClientDashboardNew' is visible
+
+2021-12-23 03:52:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/span_Back")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/span_Back' is clicked on
+
+2021-12-23 03:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/span_Back' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1148-S5 (The user can click the Sites tab)" time="12.459" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1148-S5 (The user can click the Sites tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 03:52:10 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1148-S5 (The user can click the Sites tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1148-S5 (The user can click the Sites tab)
+
+2021-12-23 03:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/button_Add New Client")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-23 03:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/button_Add New Client' is clicked on
+
+2021-12-23 03:52:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:12 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/EditClientXpathNew/input_Client Name_b10-Input_ClientName"), "Test Client Automation A"): Text 'Test Client Automation A' is set on object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/input_Client Name_b10-Input_ClientName'
+
+2021-12-23 03:52:14 - [MESSAGE][PASSED] - Text 'Test Client Automation A' is set on object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/input_Client Name_b10-Input_ClientName'
+
+2021-12-23 03:52:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/Clients/EditClientXpathNew/StatusDropdownNew"), "Active", false): All options with label 'Active' are selected in object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/StatusDropdownNew' 
+
+2021-12-23 03:52:16 - [MESSAGE][PASSED] - All options with label 'Active' are selected in object 'Object Repository/Admin/Sprint 5/Clients/EditClientXpathNew/StatusDropdownNew' 
+
+2021-12-23 03:52:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Save' is clicked on
+
+2021-12-23 03:52:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:18 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)")): Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)' is clicked on
+
+2021-12-23 03:52:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/AddNewClient/ButtonsNewXpath/button_Yes(Save)' is clicked on
+
+2021-12-23 03:52:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/div_Sites")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/div_Sites' is clicked on
+
+2021-12-23 03:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/div_Sites' is clicked on
+
+2021-12-23 03:52:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:52:22 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site)" time="64.105" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1149-S5 (The user can add a new site).run(FCSCMS-1149-S5 (The user can add a new site):96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202611650.run(TempTestSuite1640202611650.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)' located by '/html/body/div[4]/div/div/div/div/div[3]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-12-23 03:52:22 - [TEST_CASE][FAILED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1149-S5 (The user can add a new site).run(FCSCMS-1149-S5 (The user can add a new site):96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202611650.run(TempTestSuite1640202611650.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)' located by '/html/body/div[4]/div/div/div/div/div[3]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-12-23 03:52:23 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/button_Add New Site")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/button_Add New Site' is clicked on
+
+2021-12-23 03:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/button_Add New Site' is clicked on
+
+2021-12-23 03:52:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:24 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteCode"), "Test SiteCode AT"): Text 'Test SiteCode AT' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 03:52:26 - [MESSAGE][PASSED] - Text 'Test SiteCode AT' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 03:52:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:27 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteName"), "SiteAutomationTest"): Text 'SiteAutomationTest' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName'
+
+2021-12-23 03:52:27 - [MESSAGE][PASSED] - Text 'SiteAutomationTest' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName'
+
+2021-12-23 03:52:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:28 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/Description"), "Test Automation for Site Category"): Text 'Test Automation for Site Category' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description'
+
+2021-12-23 03:52:29 - [MESSAGE][PASSED] - Text 'Test Automation for Site Category' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description'
+
+2021-12-23 03:52:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:30 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/AccountManager")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AccountManager' is clicked on
+
+2021-12-23 03:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AccountManager' is clicked on
+
+2021-12-23 03:52:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/div_AutomationTest")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/div_AutomationTest' is clicked on
+
+2021-12-23 03:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/div_AutomationTest' is clicked on
+
+2021-12-23 03:52:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:33 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/Clients/Sites/select_SelectUSDEURCAD"), "USD", false): All options with label 'USD' are selected in object 'Object Repository/Admin/Sprint 5/Clients/Sites/select_SelectUSDEURCAD' 
+
+2021-12-23 03:52:34 - [MESSAGE][PASSED] - All options with label 'USD' are selected in object 'Object Repository/Admin/Sprint 5/Clients/Sites/select_SelectUSDEURCAD' 
+
+2021-12-23 03:52:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/button_Add Address(Site)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/button_Add Address(Site)' is clicked on
+
+2021-12-23 03:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/button_Add Address(Site)' is clicked on
+
+2021-12-23 03:52:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:36 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/Address_Type"), "Billing"): Text 'Billing' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/Address_Type'
+
+2021-12-23 03:52:37 - [MESSAGE][PASSED] - Text 'Billing' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/Address_Type'
+
+2021-12-23 03:52:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:38 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/AddressName"), "Test Address AT"): Text 'Test Address AT' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/AddressName'
+
+2021-12-23 03:52:39 - [MESSAGE][PASSED] - Text 'Test Address AT' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/AddressName'
+
+2021-12-23 03:52:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:40 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/AddressLine1"), "AD Line 1"): Text 'AD Line 1' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/AddressLine1'
+
+2021-12-23 03:52:40 - [MESSAGE][PASSED] - Text 'AD Line 1' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/AddressLine1'
+
+2021-12-23 03:52:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:41 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/AddressLine2"), "AD Line 2"): Text 'AD Line 2' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/AddressLine2'
+
+2021-12-23 03:52:42 - [MESSAGE][PASSED] - Text 'AD Line 2' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/AddressLine2'
+
+2021-12-23 03:52:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/CityDropdown")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/CityDropdown' is clicked on
+
+2021-12-23 03:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/CityDropdown' is clicked on
+
+2021-12-23 03:52:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/CountryDropdown")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/CountryDropdown' is clicked on
+
+2021-12-23 03:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/CountryDropdown' is clicked on
+
+2021-12-23 03:52:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/div_United States(Country)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/div_United States(Country)' is clicked on
+
+2021-12-23 03:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/div_United States(Country)' is clicked on
+
+2021-12-23 03:52:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/ZipCodeDropdown")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/ZipCodeDropdown' is clicked on
+
+2021-12-23 03:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/ZipCodeDropdown' is clicked on
+
+2021-12-23 03:52:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/div_35007(ZipCode)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/div_35007(ZipCode)' is clicked on
+
+2021-12-23 03:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/div_35007(ZipCode)' is clicked on
+
+2021-12-23 03:52:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/TimeZone"), "Central Standard Time", false): All options with label 'Central Standard Time' are selected in object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/TimeZone' 
+
+2021-12-23 03:52:51 - [MESSAGE][PASSED] - All options with label 'Central Standard Time' are selected in object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/TimeZone' 
+
+2021-12-23 03:52:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 03:52:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 03:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Save")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Save' is clicked on
+
+2021-12-23 03:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Save' is clicked on
+
+2021-12-23 03:52:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 03:52:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 03:52:55 - [TEST_STEP][FAILED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)")): Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1149-S5 (The user can add a new site).run(FCSCMS-1149-S5 (The user can add a new site):96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202611650.run(TempTestSuite1640202611650.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)' located by '/html/body/div[4]/div/div/div/div/div[3]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1640164332616.run(Script1640164332616.groovy:96)
+	... 13 more
+)
+
+2021-12-23 03:53:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[4]/div/div/div/div/div[3]/button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-12-23 03:53:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1149-S5 (The user can add a new site).run(FCSCMS-1149-S5 (The user can add a new site):96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202611650.run(TempTestSuite1640202611650.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)' located by '/html/body/div[4]/div/div/div/div/div[3]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1640164332616.run(Script1640164332616.groovy:96)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_035011\\Sprint 5\\FCSCMS-193 (Organizations - Client Profile - Add New Client)\\20211223_035011\\1640202806595.png]]]]></system-out>
+         <system-err><![CDATA[2021-12-23 03:52:22 - [TEST_CASE][FAILED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1149-S5 (The user can add a new site).run(FCSCMS-1149-S5 (The user can add a new site):96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202611650.run(TempTestSuite1640202611650.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)' located by '/html/body/div[4]/div/div/div/div/div[3]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-23 03:50:25 - [TEST_SUITE][FAILED] - FCSCMS-193 (Organizations - Client Profile - Add New Client): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1149-S5 (The user can add a new site).run(FCSCMS-1149-S5 (The user can add a new site):96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202611650.run(TempTestSuite1640202611650.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)' located by '/html/body/div[4]/div/div/div/div/div[3]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-12-23 03:50:25 - [TEST_SUITE][FAILED] - FCSCMS-193 (Organizations - Client Profile - Add New Client): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1149-S5 (The user can add a new site).run(FCSCMS-1149-S5 (The user can add a new site):96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202611650.run(TempTestSuite1640202611650.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Sprint 5/Clients/Sites/AddNewAddress/button_Yes(AddNewAddress)' located by '/html/body/div[4]/div/div/div/div/div[3]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

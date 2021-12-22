@@ -71,4 +71,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1146-S5 (Click the Yes button from Cancel Confirmation modal</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>45d82ed6-489f-48a2-aa7b-041feeb91daf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1147-S5 (Click the NO button from Cancel Confirmation modal)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3a22773d-8c69-4e62-89b3-2e8099d900cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1148-S5 (The user can click the Sites tab)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>acc9241c-6750-4ef3-a6e3-7a93d5d3c1d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1149-S5 (The user can add a new site)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

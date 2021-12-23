@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteSite Sample" time="109.536" tests="11" failures="1" errors="0">
+   <testsuite name="TestSuiteSite Sample" tests="11" failures="1" errors="0" time="109.536" timestamp="2021-12-23 18:03:39" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 5/TestSuiteSite Sample">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_180326\\Sprint 5\\TestSuiteSite Sample\\20211223_180326"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_180326\\Sprint 5\\TestSuiteSite Sample\\20211223_180326\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_180326\\Sprint 5\\TestSuiteSite Sample\\20211223_180326\\1640253927607.png"/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 96.0.4664.110"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="sessionId" value="e2c432e5b2b35d0743c79473f37de817"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1150-S5 (View or edit details of an existing sites on the sites tab)" time="38.547" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1150-S5 (View or edit details of an existing sites on the sites tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:03:40 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1150-S5 (View or edit details of an existing sites on the sites tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1150-S5 (View or edit details of an existing sites on the sites tab)
+
+2021-12-23 18:03:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-23 18:03:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-23 18:03:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-23 18:03:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-23 18:03:45 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2021-12-23 18:03:47 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2021-12-23 18:03:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-23 18:03:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-23 18:03:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-23 18:03:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-23 18:03:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2021-12-23 18:03:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2021-12-23 18:03:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:03:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2021-12-23 18:03:53 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2021-12-23 18:03:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:03:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:03:54 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2021-12-23 18:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2021-12-23 18:03:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:03:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/a_Clients")): Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2021-12-23 18:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2021-12-23 18:03:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:00 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/SearchBar_Clients"), "Smoke Test 3"): Text 'Smoke Test 3' is set on object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients'
+
+2021-12-23 18:04:01 - [MESSAGE][PASSED] - Text 'Smoke Test 3' is set on object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients'
+
+2021-12-23 18:04:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/SearchButton(Clients)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/SearchButton(Clients)' is clicked on
+
+2021-12-23 18:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/SearchButton(Clients)' is clicked on
+
+2021-12-23 18:04:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:04:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditClient")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditClient' is clicked on
+
+2021-12-23 18:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditClient' is clicked on
+
+2021-12-23 18:04:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:04:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:04:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/div_Sites")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/div_Sites' is clicked on
+
+2021-12-23 18:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/div_Sites' is clicked on
+
+2021-12-23 18:04:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:04:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:04:12 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteCode")): Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode' is cleared
+
+2021-12-23 18:04:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode' is cleared
+
+2021-12-23 18:04:12 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteCode"), "TestSite"): Text 'TestSite' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 18:04:13 - [MESSAGE][PASSED] - Text 'TestSite' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 18:04:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:14 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteName")): Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName' is cleared
+
+2021-12-23 18:04:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName' is cleared
+
+2021-12-23 18:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteName"), "SiteforAutomation"): Text 'SiteforAutomation' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName'
+
+2021-12-23 18:04:15 - [MESSAGE][PASSED] - Text 'SiteforAutomation' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName'
+
+2021-12-23 18:04:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:16 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 5/Clients/Sites/Description"), STOP_ON_FAILURE): Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description' is cleared
+
+2021-12-23 18:04:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description' is cleared
+
+2021-12-23 18:04:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/Description"), "Test site for automation"): Text 'Test site for automation' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description'
+
+2021-12-23 18:04:17 - [MESSAGE][PASSED] - Text 'Test site for automation' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description'
+
+2021-12-23 18:04:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:18 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1151-S5 (Associate an already exixting contact to the site)" time="3.521" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1151-S5 (Associate an already exixting contact to the site)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:04:18 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1151-S5 (Associate an already exixting contact to the site): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1151-S5 (Associate an already exixting contact to the site)
+
+2021-12-23 18:04:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/SelectContactDropdown"), "ForEmail", false): All options with label 'ForEmail' are selected in object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/SelectContactDropdown' 
+
+2021-12-23 18:04:19 - [MESSAGE][PASSED] - All options with label 'ForEmail' are selected in object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/SelectContactDropdown' 
+
+2021-12-23 18:04:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Add(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Add(Sites)' is clicked on
+
+2021-12-23 18:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Add(Sites)' is clicked on
+
+2021-12-23 18:04:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:22 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1152-S5 (Add a new contact to be assosciated with the site)" time="2.3" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1152-S5 (Add a new contact to be assosciated with the site)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:04:22 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1152-S5 (Add a new contact to be assosciated with the site): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1152-S5 (Add a new contact to be assosciated with the site)
+
+2021-12-23 18:04:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:04:24 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1153-S5 (The user can click the Save button for the Sites tab)" time="2.411" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1153-S5 (The user can click the Save button for the Sites tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:04:24 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1153-S5 (The user can click the Save button for the Sites tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1153-S5 (The user can click the Save button for the Sites tab)
+
+2021-12-23 18:04:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:04:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)")): Object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is visible
+
+2021-12-23 18:04:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is visible
+
+2021-12-23 18:04:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)")): Object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)' is visible
+
+2021-12-23 18:04:27 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1154-S5 (Click the Yes to confirm saving of all of the Newly added or edited site information)" time="11.96" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1154-S5 (Click the Yes to confirm saving of all of the Newly added or edited site information)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:04:27 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1154-S5 (Click the Yes to confirm saving of all of the Newly added or edited site information): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1154-S5 (Click the Yes to confirm saving of all of the Newly added or edited site information)
+
+2021-12-23 18:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:04:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:04:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:04:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/Delete(ForEmail)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/Delete(ForEmail)' is clicked on
+
+2021-12-23 18:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/Delete(ForEmail)' is clicked on
+
+2021-12-23 18:04:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:33 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:04:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:04:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:04:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:04:39 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1155-S5 (Click the No button to terminate the saving of the Newly added or edited Sites information)" time="7.153" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1155-S5 (Click the No button to terminate the saving of the Newly added or edited Sites information)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:04:39 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1155-S5 (Click the No button to terminate the saving of the Newly added or edited Sites information): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1155-S5 (Click the No button to terminate the saving of the Newly added or edited Sites information)
+
+2021-12-23 18:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:40 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteCode")): Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode' is cleared
+
+2021-12-23 18:04:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode' is cleared
+
+2021-12-23 18:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteCode"), "Negative Path"): Text 'Negative Path' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 18:04:42 - [MESSAGE][PASSED] - Text 'Negative Path' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 18:04:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:04:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)' is clicked on
+
+2021-12-23 18:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)' is clicked on
+
+2021-12-23 18:04:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:46 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1156-S5 (The user can click the Cancel button for the Site tab)" time="4.155" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1156-S5 (The user can click the Cancel button for the Site tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:04:46 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1156-S5 (The user can click the Cancel button for the Site tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1156-S5 (The user can click the Cancel button for the Site tab)
+
+2021-12-23 18:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:04:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)' is clicked on
+
+2021-12-23 18:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)' is clicked on
+
+2021-12-23 18:04:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:50 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1157-S5 (The user can click the Yes button from Cancel Confirmation modal)" time="3.674" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1157-S5 (The user can click the Yes button from Cancel Confirmation modal)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:04:50 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1157-S5 (The user can click the Yes button from Cancel Confirmation modal): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1157-S5 (The user can click the Yes button from Cancel Confirmation modal)
+
+2021-12-23 18:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Cancel)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Cancel)' is clicked on
+
+2021-12-23 18:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Cancel)' is clicked on
+
+2021-12-23 18:04:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-23 18:04:54 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1158-S5 (Click the No button from Cancel Confirmation modal)" time="4.641" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1158-S5 (Click the No button from Cancel Confirmation modal)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:04:54 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1158-S5 (Click the No button from Cancel Confirmation modal): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1158-S5 (Click the No button from Cancel Confirmation modal)
+
+2021-12-23 18:04:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:04:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:04:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:04:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)' is clicked on
+
+2021-12-23 18:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)' is clicked on
+
+2021-12-23 18:04:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:04:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:04:58 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Cancel)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Cancel)' is clicked on
+
+2021-12-23 18:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Cancel)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab)" time="5.551" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:04:58 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab)
+
+2021-12-23 18:04:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:05:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:05:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Contacts/div_Contacts")): Object: 'Object Repository/Admin/Sprint 5/Clients/Contacts/div_Contacts' is clicked on
+
+2021-12-23 18:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Contacts/div_Contacts' is clicked on
+
+2021-12-23 18:05:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/Clients/Contacts/ContactsDashboard")): Object 'Object Repository/Admin/Sprint 5/Clients/Contacts/ContactsDashboard' is visible
+
+2021-12-23 18:05:04 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/Clients/Contacts/ContactsDashboard' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact)" time="23.535" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1160-S5 (The user can add a new contact).run(FCSCMS-1160-S5 (The user can add a new contact):76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640253806556.run(TempTestSuite1640253806556.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2c432e5b2b35d0743c79473f37de817
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-12-23 18:05:04 - [TEST_CASE][FAILED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1160-S5 (The user can add a new contact).run(FCSCMS-1160-S5 (The user can add a new contact):76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640253806556.run(TempTestSuite1640253806556.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2c432e5b2b35d0743c79473f37de817
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-12-23 18:05:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/button_Add New Contact")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Add New Contact' is clicked on
+
+2021-12-23 18:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Add New Contact' is clicked on
+
+2021-12-23 18:05:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:05:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:05:06 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Contact Type"), "Invoicing"): Text 'Invoicing' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Type'
+
+2021-12-23 18:05:07 - [MESSAGE][PASSED] - Text 'Invoicing' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Type'
+
+2021-12-23 18:05:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Contact Type"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Type'
+
+2021-12-23 18:05:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Type'
+
+2021-12-23 18:05:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:09 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Contacts Name"), "AutomationTest2"): Text 'AutomationTest2' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contacts Name'
+
+2021-12-23 18:05:09 - [MESSAGE][PASSED] - Text 'AutomationTest2' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contacts Name'
+
+2021-12-23 18:05:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:10 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Address Name"), "AutomationAddress"): Text 'AutomationAddress' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Name'
+
+2021-12-23 18:05:11 - [MESSAGE][PASSED] - Text 'AutomationAddress' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Name'
+
+2021-12-23 18:05:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Address Line"), "ATLine1"): Text 'ATLine1' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Line'
+
+2021-12-23 18:05:13 - [MESSAGE][PASSED] - Text 'ATLine1' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Line'
+
+2021-12-23 18:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Address Line 2"), "ATLine2"): Text 'ATLine2' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Line 2'
+
+2021-12-23 18:05:14 - [MESSAGE][PASSED] - Text 'ATLine2' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Line 2'
+
+2021-12-23 18:05:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/CountryDropdown")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/CountryDropdown' is clicked on
+
+2021-12-23 18:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/CountryDropdown' is clicked on
+
+2021-12-23 18:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/div_United States(AddNewContact)")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/div_United States(AddNewContact)' is clicked on
+
+2021-12-23 18:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/div_United States(AddNewContact)' is clicked on
+
+2021-12-23 18:05:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/ZipCodeDropdown")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/ZipCodeDropdown' is clicked on
+
+2021-12-23 18:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/ZipCodeDropdown' is clicked on
+
+2021-12-23 18:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/div_35007(AddNewContact)")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/div_35007(AddNewContact)' is clicked on
+
+2021-12-23 18:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/div_35007(AddNewContact)' is clicked on
+
+2021-12-23 18:05:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/Clients/AddNewContact/TimeZone"), "Central Standard Time", false): All options with label 'Central Standard Time' are selected in object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/TimeZone' 
+
+2021-12-23 18:05:19 - [MESSAGE][PASSED] - All options with label 'Central Standard Time' are selected in object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/TimeZone' 
+
+2021-12-23 18:05:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:20 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Contact Email"), "ATNexterous@gmail.com"): Text 'ATNexterous@gmail.com' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Email'
+
+2021-12-23 18:05:21 - [MESSAGE][PASSED] - Text 'ATNexterous@gmail.com' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Email'
+
+2021-12-23 18:05:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:22 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Mobile_number"), "1112223333"): Text '1112223333' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Mobile_number'
+
+2021-12-23 18:05:23 - [MESSAGE][PASSED] - Text '1112223333' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Mobile_number'
+
+2021-12-23 18:05:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/SitesCheckbox")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/SitesCheckbox' is clicked on
+
+2021-12-23 18:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/SitesCheckbox' is clicked on
+
+2021-12-23 18:05:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/button_Save(AddNewContact)")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Save(AddNewContact)' is clicked on
+
+2021-12-23 18:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Save(AddNewContact)' is clicked on
+
+2021-12-23 18:05:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:05:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:05:27 - [TEST_STEP][FAILED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)")): Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1160-S5 (The user can add a new contact).run(FCSCMS-1160-S5 (The user can add a new contact):76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640253806556.run(TempTestSuite1640253806556.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2c432e5b2b35d0743c79473f37de817
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1640244898140.run(Script1640244898140.groovy:76)
+	... 13 more
+)
+
+2021-12-23 18:05:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1160-S5 (The user can add a new contact).run(FCSCMS-1160-S5 (The user can add a new contact):76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640253806556.run(TempTestSuite1640253806556.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2c432e5b2b35d0743c79473f37de817
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1640244898140.run(Script1640244898140.groovy:76)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_180326\\Sprint 5\\TestSuiteSite Sample\\20211223_180326\\1640253927607.png]]]]></system-out>
+         <system-err><![CDATA[2021-12-23 18:05:04 - [TEST_CASE][FAILED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1160-S5 (The user can add a new contact).run(FCSCMS-1160-S5 (The user can add a new contact):76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640253806556.run(TempTestSuite1640253806556.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2c432e5b2b35d0743c79473f37de817
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-23 18:03:39 - [TEST_SUITE][FAILED] - TestSuiteSite Sample: Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1160-S5 (The user can add a new contact).run(FCSCMS-1160-S5 (The user can add a new contact):76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640253806556.run(TempTestSuite1640253806556.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2c432e5b2b35d0743c79473f37de817
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-12-23 18:03:39 - [TEST_SUITE][FAILED] - TestSuiteSite Sample: Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-1160-S5 (The user can add a new contact).run(FCSCMS-1160-S5 (The user can add a new contact):76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640253806556.run(TempTestSuite1640253806556.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2c432e5b2b35d0743c79473f37de817
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

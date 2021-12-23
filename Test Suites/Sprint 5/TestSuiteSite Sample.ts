@@ -71,4 +71,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1f2da61c-4aeb-409d-be84-d2b1d50e6f95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ac74ee2-e359-412c-92a9-f9f20447970c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1161-S5 (The user can vew or edit details of an existing contact on the Contacts tab)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>812494c3-07c7-48be-b306-5c9b0b4e529d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1162-S5 (The user can click the Save button for the contact tab)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f962939-3f76-47b7-8b20-39c9162abeb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1163-S5 (Should be able to click the yes button on the notification modal)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

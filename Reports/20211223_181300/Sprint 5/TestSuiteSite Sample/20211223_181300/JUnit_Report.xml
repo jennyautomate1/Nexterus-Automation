@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteSite Sample" time="112.202" tests="11" failures="0" errors="0">
+   <testsuite name="TestSuiteSite Sample" tests="11" failures="0" errors="0" time="112.202" timestamp="2021-12-23 18:13:13" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 5/TestSuiteSite Sample">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_181300\\Sprint 5\\TestSuiteSite Sample\\20211223_181300"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20211223_181300\\Sprint 5\\TestSuiteSite Sample\\20211223_181300\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 96.0.4664.110"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="sessionId" value="aafae5124e5eaa6efa3f418e9a9a1c57"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1150-S5 (View or edit details of an existing sites on the sites tab)" time="41.549" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1150-S5 (View or edit details of an existing sites on the sites tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:13:13 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1150-S5 (View or edit details of an existing sites on the sites tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1150-S5 (View or edit details of an existing sites on the sites tab)
+
+2021-12-23 18:13:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-23 18:13:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-23 18:13:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-23 18:13:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-23 18:13:19 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2021-12-23 18:13:21 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2021-12-23 18:13:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-23 18:13:21 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-23 18:13:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-23 18:13:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-23 18:13:24 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2021-12-23 18:13:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2021-12-23 18:13:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:13:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2021-12-23 18:13:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2021-12-23 18:13:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:13:28 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2021-12-23 18:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2021-12-23 18:13:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:13:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/a_Clients")): Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2021-12-23 18:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2021-12-23 18:13:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:13:35 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/SearchBar_Clients"), "Smoke Test 3"): Text 'Smoke Test 3' is set on object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients'
+
+2021-12-23 18:13:37 - [MESSAGE][PASSED] - Text 'Smoke Test 3' is set on object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients'
+
+2021-12-23 18:13:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:13:38 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/SearchButton(Clients)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/SearchButton(Clients)' is clicked on
+
+2021-12-23 18:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/SearchButton(Clients)' is clicked on
+
+2021-12-23 18:13:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:13:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:13:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditClient")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditClient' is clicked on
+
+2021-12-23 18:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditClient' is clicked on
+
+2021-12-23 18:13:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:13:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:13:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/div_Sites")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/div_Sites' is clicked on
+
+2021-12-23 18:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/div_Sites' is clicked on
+
+2021-12-23 18:13:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:13:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:13:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:13:48 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteCode")): Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode' is cleared
+
+2021-12-23 18:13:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode' is cleared
+
+2021-12-23 18:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteCode"), "TestSite"): Text 'TestSite' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 18:13:50 - [MESSAGE][PASSED] - Text 'TestSite' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 18:13:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:13:51 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteName")): Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName' is cleared
+
+2021-12-23 18:13:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName' is cleared
+
+2021-12-23 18:13:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteName"), "SiteforAutomation"): Text 'SiteforAutomation' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName'
+
+2021-12-23 18:13:52 - [MESSAGE][PASSED] - Text 'SiteforAutomation' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteName'
+
+2021-12-23 18:13:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:13:53 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 5/Clients/Sites/Description"), STOP_ON_FAILURE): Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description' is cleared
+
+2021-12-23 18:13:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description' is cleared
+
+2021-12-23 18:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/Description"), "Test site for automation"): Text 'Test site for automation' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description'
+
+2021-12-23 18:13:54 - [MESSAGE][PASSED] - Text 'Test site for automation' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/Description'
+
+2021-12-23 18:13:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:55 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1151-S5 (Associate an already exixting contact to the site)" time="3.583" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1151-S5 (Associate an already exixting contact to the site)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:13:55 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1151-S5 (Associate an already exixting contact to the site): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1151-S5 (Associate an already exixting contact to the site)
+
+2021-12-23 18:13:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/SelectContactDropdown"), "ForEmail", false): All options with label 'ForEmail' are selected in object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/SelectContactDropdown' 
+
+2021-12-23 18:13:56 - [MESSAGE][PASSED] - All options with label 'ForEmail' are selected in object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/SelectContactDropdown' 
+
+2021-12-23 18:13:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Add(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Add(Sites)' is clicked on
+
+2021-12-23 18:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Add(Sites)' is clicked on
+
+2021-12-23 18:13:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:13:59 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1152-S5 (Add a new contact to be assosciated with the site)" time="2.253" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1152-S5 (Add a new contact to be assosciated with the site)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:13:59 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1152-S5 (Add a new contact to be assosciated with the site): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1152-S5 (Add a new contact to be assosciated with the site)
+
+2021-12-23 18:13:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:14:01 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1153-S5 (The user can click the Save button for the Sites tab)" time="2.364" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1153-S5 (The user can click the Save button for the Sites tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:14:01 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1153-S5 (The user can click the Save button for the Sites tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1153-S5 (The user can click the Save button for the Sites tab)
+
+2021-12-23 18:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:14:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)")): Object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is visible
+
+2021-12-23 18:14:03 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is visible
+
+2021-12-23 18:14:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)")): Object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)' is visible
+
+2021-12-23 18:14:03 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1154-S5 (Click the Yes to confirm saving of all of the Newly added or edited site information)" time="11.724" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1154-S5 (Click the Yes to confirm saving of all of the Newly added or edited site information)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:14:03 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1154-S5 (Click the Yes to confirm saving of all of the Newly added or edited site information): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1154-S5 (Click the Yes to confirm saving of all of the Newly added or edited site information)
+
+2021-12-23 18:14:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:14:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:14:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:14:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:14:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:14:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:14:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/Delete(ForEmail)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/Delete(ForEmail)' is clicked on
+
+2021-12-23 18:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/Delete(ForEmail)' is clicked on
+
+2021-12-23 18:14:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:14:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:14:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)' is clicked on
+
+2021-12-23 18:14:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:14:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1155-S5 (Click the No button to terminate the saving of the Newly added or edited Sites information)" time="7.328" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1155-S5 (Click the No button to terminate the saving of the Newly added or edited Sites information)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:14:15 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1155-S5 (Click the No button to terminate the saving of the Newly added or edited Sites information): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1155-S5 (Click the No button to terminate the saving of the Newly added or edited Sites information)
+
+2021-12-23 18:14:15 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:14:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:17 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteCode")): Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode' is cleared
+
+2021-12-23 18:14:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode' is cleared
+
+2021-12-23 18:14:18 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/Sites/SiteCode"), "Negative Path"): Text 'Negative Path' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 18:14:18 - [MESSAGE][PASSED] - Text 'Negative Path' is set on object 'Object Repository/Admin/Sprint 5/Clients/Sites/SiteCode'
+
+2021-12-23 18:14:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Save(Sites)' is clicked on
+
+2021-12-23 18:14:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)' is clicked on
+
+2021-12-23 18:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)' is clicked on
+
+2021-12-23 18:14:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:22 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1156-S5 (The user can click the Cancel button for the Site tab)" time="4.191" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1156-S5 (The user can click the Cancel button for the Site tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:14:22 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1156-S5 (The user can click the Cancel button for the Site tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1156-S5 (The user can click the Cancel button for the Site tab)
+
+2021-12-23 18:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:14:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:14:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)' is clicked on
+
+2021-12-23 18:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)' is clicked on
+
+2021-12-23 18:14:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:26 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1157-S5 (The user can click the Yes button from Cancel Confirmation modal)" time="3.718" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1157-S5 (The user can click the Yes button from Cancel Confirmation modal)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:14:26 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1157-S5 (The user can click the Yes button from Cancel Confirmation modal): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1157-S5 (The user can click the Yes button from Cancel Confirmation modal)
+
+2021-12-23 18:14:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Cancel)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Cancel)' is clicked on
+
+2021-12-23 18:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Cancel)' is clicked on
+
+2021-12-23 18:14:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-23 18:14:30 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1158-S5 (Click the No button from Cancel Confirmation modal)" time="4.578" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1158-S5 (Click the No button from Cancel Confirmation modal)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:14:30 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1158-S5 (Click the No button from Cancel Confirmation modal): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1158-S5 (Click the No button from Cancel Confirmation modal)
+
+2021-12-23 18:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/EditSiteButton' is clicked on
+
+2021-12-23 18:14:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:14:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)' is clicked on
+
+2021-12-23 18:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Cancel(Sites)' is clicked on
+
+2021-12-23 18:14:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Cancel)")): Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Cancel)' is clicked on
+
+2021-12-23 18:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Cancel)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab)" time="5.781" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:14:35 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1159-S5 (The user can click the Contacts tab)
+
+2021-12-23 18:14:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:14:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/Contacts/div_Contacts")): Object: 'Object Repository/Admin/Sprint 5/Clients/Contacts/div_Contacts' is clicked on
+
+2021-12-23 18:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/Contacts/div_Contacts' is clicked on
+
+2021-12-23 18:14:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/Clients/Contacts/ContactsDashboard")): Object 'Object Repository/Admin/Sprint 5/Clients/Contacts/ContactsDashboard' is visible
+
+2021-12-23 18:14:41 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/Clients/Contacts/ContactsDashboard' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact)" time="23.401" classname="Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact)" status="PASSED">
+         <system-out><![CDATA[2021-12-23 18:14:41 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact): Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact)
+
+2021-12-23 18:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/button_Add New Contact")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Add New Contact' is clicked on
+
+2021-12-23 18:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Add New Contact' is clicked on
+
+2021-12-23 18:14:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-23 18:14:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-23 18:14:43 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Contact Type"), "Invoicing"): Text 'Invoicing' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Type'
+
+2021-12-23 18:14:44 - [MESSAGE][PASSED] - Text 'Invoicing' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Type'
+
+2021-12-23 18:14:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Contact Type"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Type'
+
+2021-12-23 18:14:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Type'
+
+2021-12-23 18:14:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:46 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Contacts Name"), "AutomationTest2"): Text 'AutomationTest2' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contacts Name'
+
+2021-12-23 18:14:46 - [MESSAGE][PASSED] - Text 'AutomationTest2' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contacts Name'
+
+2021-12-23 18:14:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:47 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Address Name"), "AutomationAddress"): Text 'AutomationAddress' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Name'
+
+2021-12-23 18:14:48 - [MESSAGE][PASSED] - Text 'AutomationAddress' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Name'
+
+2021-12-23 18:14:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:49 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Address Line"), "ATLine1"): Text 'ATLine1' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Line'
+
+2021-12-23 18:14:50 - [MESSAGE][PASSED] - Text 'ATLine1' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Line'
+
+2021-12-23 18:14:50 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Address Line 2"), "ATLine2"): Text 'ATLine2' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Line 2'
+
+2021-12-23 18:14:51 - [MESSAGE][PASSED] - Text 'ATLine2' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Address Line 2'
+
+2021-12-23 18:14:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/CountryDropdown")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/CountryDropdown' is clicked on
+
+2021-12-23 18:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/CountryDropdown' is clicked on
+
+2021-12-23 18:14:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/div_United States(AddNewContact)")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/div_United States(AddNewContact)' is clicked on
+
+2021-12-23 18:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/div_United States(AddNewContact)' is clicked on
+
+2021-12-23 18:14:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/ZipCodeDropdown")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/ZipCodeDropdown' is clicked on
+
+2021-12-23 18:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/ZipCodeDropdown' is clicked on
+
+2021-12-23 18:14:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/div_35007(AddNewContact)")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/div_35007(AddNewContact)' is clicked on
+
+2021-12-23 18:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/div_35007(AddNewContact)' is clicked on
+
+2021-12-23 18:14:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 5/Clients/AddNewContact/TimeZone"), "Central Standard Time", false): All options with label 'Central Standard Time' are selected in object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/TimeZone' 
+
+2021-12-23 18:14:56 - [MESSAGE][PASSED] - All options with label 'Central Standard Time' are selected in object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/TimeZone' 
+
+2021-12-23 18:14:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:57 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Contact Email"), "ATNexterous@gmail.com"): Text 'ATNexterous@gmail.com' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Email'
+
+2021-12-23 18:14:58 - [MESSAGE][PASSED] - Text 'ATNexterous@gmail.com' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Contact Email'
+
+2021-12-23 18:14:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:14:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:14:59 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/Clients/AddNewContact/Mobile_number"), "1112223333"): Text '1112223333' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Mobile_number'
+
+2021-12-23 18:15:00 - [MESSAGE][PASSED] - Text '1112223333' is set on object 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/Mobile_number'
+
+2021-12-23 18:15:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:15:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/SitesCheckbox")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/SitesCheckbox' is clicked on
+
+2021-12-23 18:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/SitesCheckbox' is clicked on
+
+2021-12-23 18:15:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:15:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/button_Save(AddNewContact)")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Save(AddNewContact)' is clicked on
+
+2021-12-23 18:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Save(AddNewContact)' is clicked on
+
+2021-12-23 18:15:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-23 18:15:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-23 18:15:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)")): Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)' is clicked on
+
+2021-12-23 18:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/Clients/AddNewContact/button_Yes(AddNewContact)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-23 18:13:13 - [TEST_SUITE][PASSED] - TestSuiteSite Sample: Test Cases/Sprint 5/FCSCMS-193/FCSCMS-1160-S5 (The user can add a new contact)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

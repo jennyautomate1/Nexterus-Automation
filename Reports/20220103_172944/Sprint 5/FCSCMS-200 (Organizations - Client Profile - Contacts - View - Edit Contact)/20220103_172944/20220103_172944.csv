@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-200 (Organizations - Client Profile - Contacts - View - Edit Contact),Chrome 96.0.4664.110,,,2022-01-03 17:29:55,2022-01-03 17:30:51,55.995s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1186-S5 (Admin user should be able to log in using valid credentials),Chrome 96.0.4664.110,Admin user should be able to log in using valid credentials,,2022-01-03 17:29:55,2022-01-03 17:30:10,14.336s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2022-01-03 17:29:56,2022-01-03 17:29:59,3.308s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 96.0.4664.110,,,2022-01-03 17:29:59,2022-01-03 17:30:02,2.662s,PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2022-01-03 17:30:02,2022-01-03 17:30:02,0.291s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2022-01-03 17:30:02,2022-01-03 17:30:05,3.035s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 96.0.4664.110,,,2022-01-03 17:30:05,2022-01-03 17:30:06,1.424s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2022-01-03 17:30:06,2022-01-03 17:30:07,1.008s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 96.0.4664.110,,,2022-01-03 17:30:07,2022-01-03 17:30:08,0.777s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2022-01-03 17:30:08,2022-01-03 17:30:09,1.020s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:09,2022-01-03 17:30:10,0.432s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1187-S5 (User should be able to click the Clients option from the left navigation panel),Chrome 96.0.4664.110,User should be able to view/edit the client's details,,2022-01-03 17:30:10,2022-01-03 17:30:20,10.687s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:10,2022-01-03 17:30:12,2.013s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:12,2022-01-03 17:30:16,3.567s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:16,2022-01-03 17:30:18,2.011s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:18,2022-01-03 17:30:19,1.667s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2022-01-03 17:30:19,2022-01-03 17:30:20,1.013s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1188-S5 (User should be able to search for the clients name in the quick search tab),Chrome 96.0.4664.110,User should be able to click the Clients option from the left navigation panel,,2022-01-03 17:30:20,2022-01-03 17:30:25,4.458s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-194/SearchBar(Clients)""), ""Smoke Test 3"")",Chrome 96.0.4664.110,,,2022-01-03 17:30:21,2022-01-03 17:30:21,0.710s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2022-01-03 17:30:21,2022-01-03 17:30:22,1.005s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-194/SearchButton(Clients)""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:22,2022-01-03 17:30:23,0.460s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:23,2022-01-03 17:30:25,2.018s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1189-S5 (User should be able to view-edit the clients details),Chrome 96.0.4664.110,User should be able to search for the client's name in the quick search tab,,2022-01-03 17:30:25,2022-01-03 17:30:27,2.633s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:25,2022-01-03 17:30:27,2.007s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS200/EditIcon(FCSCMS200)""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:27,2022-01-03 17:30:27,0.408s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1190-S5 (User should be able to click the Contacts tab on top of the clients page),Chrome 96.0.4664.110,User should be able to click the Contacts tab on top of the clients page,,2022-01-03 17:30:27,2022-01-03 17:30:34,6.029s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-198/Contacts/div_Contacts""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:28,2022-01-03 17:30:32,3.795s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:32,2022-01-03 17:30:34,2.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1191-S5 (User should be able to search for the clients name in the quick search tab),Chrome 96.0.4664.110,User should be able to search for the client's name in the quick search tab,,2022-01-03 17:30:34,2022-01-03 17:30:39,5.693s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS200/SearchField""), ""AutomationTest2"")",Chrome 96.0.4664.110,,,2022-01-03 17:30:34,2022-01-03 17:30:35,0.995s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:35,2022-01-03 17:30:37,2.015s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS200/SearchButton""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:37,2022-01-03 17:30:37,0.411s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:37,2022-01-03 17:30:39,2.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1192-S5 (User should be able to Click view - edit the clients contacts),Chrome 96.0.4664.110,User should be able to Click view/edit the client's contacts,,2022-01-03 17:30:39,2022-01-03 17:30:44,4.626s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:39,2022-01-03 17:30:41,2.006s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS200/EditIcon(AutomationTest2)""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:41,2022-01-03 17:30:42,0.401s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:42,2022-01-03 17:30:44,2.009s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1193-S5 (User should be able to view the filled Contacts form),Chrome 96.0.4664.110,User should be able to view the filled Contacts form,,2022-01-03 17:30:44,2022-01-03 17:30:46,2.585s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/FCSCMS200/ContacsForm(AutomationTest2)""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:44,2022-01-03 17:30:44,0.394s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:44,2022-01-03 17:30:46,2.007s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1194-S5 (User should be able to view - edit the clients Contact Type),Chrome 96.0.4664.110,User should be able to view/edit the client's Contact Type,,2022-01-03 17:30:46,2022-01-03 17:30:51,4.528s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS200/EditContact/ContactSearchField""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:47,2022-01-03 17:30:47,0.425s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2022-01-03 17:30:47,2022-01-03 17:30:48,1.009s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS200/EditContact/div_Funds Requests""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:48,2022-01-03 17:30:49,0.413s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2022-01-03 17:30:49,2022-01-03 17:30:51,2.006s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS200/EditContact/button_Remove item(ContactsEdit)""))",Chrome 96.0.4664.110,,,2022-01-03 17:30:51,2022-01-03 17:30:51,0.373s,PASSED

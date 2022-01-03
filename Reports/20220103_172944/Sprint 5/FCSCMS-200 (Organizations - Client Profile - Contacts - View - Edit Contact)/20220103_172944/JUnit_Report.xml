@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-200 (Organizations - Client Profile - Contacts - View - Edit Contact)" time="56.986" tests="9" failures="0" errors="0">
+   <testsuite name="FCSCMS-200 (Organizations - Client Profile - Contacts - View - Edit Contact)" tests="9" failures="0" errors="0" time="56.986" timestamp="2022-01-03 17:29:55" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 5/FCSCMS-200 (Organizations - Client Profile - Contacts - View - Edit Contact)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220103_172944\\Sprint 5\\FCSCMS-200 (Organizations - Client Profile - Contacts - View - Edit Contact)\\20220103_172944"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220103_172944\\Sprint 5\\FCSCMS-200 (Organizations - Client Profile - Contacts - View - Edit Contact)\\20220103_172944\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 96.0.4664.110"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="sessionId" value="9244e61afc35e4868777925b0e1f9121"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1186-S5 (Admin user should be able to log in using valid credentials)" time="14.336" classname="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1186-S5 (Admin user should be able to log in using valid credentials)" status="PASSED">
+         <system-out><![CDATA[2022-01-03 17:29:55 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1186-S5 (Admin user should be able to log in using valid credentials): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1186-S5 (Admin user should be able to log in using valid credentials)
+
+2022-01-03 17:29:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-03 17:29:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-03 17:29:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-03 17:29:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-03 17:29:59 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-01-03 17:30:02 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-01-03 17:30:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-01-03 17:30:02 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-03 17:30:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-03 17:30:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-03 17:30:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-01-03 17:30:06 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-01-03 17:30:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-03 17:30:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-03 17:30:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-01-03 17:30:08 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-01-03 17:30:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-03 17:30:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-03 17:30:09 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2022-01-03 17:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1187-S5 (User should be able to click the Clients option from the left navigation panel)" time="10.687" classname="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1187-S5 (User should be able to click the Clients option from the left navigation panel)" status="PASSED">
+         <system-out><![CDATA[2022-01-03 17:30:10 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1187-S5 (User should be able to click the Clients option from the left navigation panel): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1187-S5 (User should be able to click the Clients option from the left navigation panel)
+
+2022-01-03 17:30:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-03 17:30:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/a_Clients")): Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2022-01-03 17:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/a_Clients' is clicked on
+
+2022-01-03 17:30:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-03 17:30:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/Clients/SearchBar_Clients")): Object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients' is visible
+
+2022-01-03 17:30:19 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/Clients/SearchBar_Clients' is visible
+
+2022-01-03 17:30:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-03 17:30:20 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1188-S5 (User should be able to search for the clients name in the quick search tab)" time="4.458" classname="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1188-S5 (User should be able to search for the clients name in the quick search tab)" status="PASSED">
+         <system-out><![CDATA[2022-01-03 17:30:20 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1188-S5 (User should be able to search for the clients name in the quick search tab): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1188-S5 (User should be able to search for the clients name in the quick search tab)
+
+2022-01-03 17:30:21 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/FCSCMS-194/SearchBar(Clients)"), "Smoke Test 3"): Text 'Smoke Test 3' is set on object 'Object Repository/Admin/Sprint 5/FCSCMS-194/SearchBar(Clients)'
+
+2022-01-03 17:30:21 - [MESSAGE][PASSED] - Text 'Smoke Test 3' is set on object 'Object Repository/Admin/Sprint 5/FCSCMS-194/SearchBar(Clients)'
+
+2022-01-03 17:30:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-03 17:30:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-03 17:30:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/FCSCMS-194/SearchButton(Clients)")): Object: 'Object Repository/Admin/Sprint 5/FCSCMS-194/SearchButton(Clients)' is clicked on
+
+2022-01-03 17:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/FCSCMS-194/SearchButton(Clients)' is clicked on
+
+2022-01-03 17:30:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:25 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1189-S5 (User should be able to view-edit the clients details)" time="2.633" classname="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1189-S5 (User should be able to view-edit the clients details)" status="PASSED">
+         <system-out><![CDATA[2022-01-03 17:30:25 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1189-S5 (User should be able to view-edit the clients details): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1189-S5 (User should be able to view-edit the clients details)
+
+2022-01-03 17:30:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-03 17:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/FCSCMS200/EditIcon(FCSCMS200)")): Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditIcon(FCSCMS200)' is clicked on
+
+2022-01-03 17:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditIcon(FCSCMS200)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1190-S5 (User should be able to click the Contacts tab on top of the clients page)" time="6.029" classname="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1190-S5 (User should be able to click the Contacts tab on top of the clients page)" status="PASSED">
+         <system-out><![CDATA[2022-01-03 17:30:27 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1190-S5 (User should be able to click the Contacts tab on top of the clients page): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1190-S5 (User should be able to click the Contacts tab on top of the clients page)
+
+2022-01-03 17:30:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/FCSCMS-198/Contacts/div_Contacts")): Object: 'Object Repository/Admin/Sprint 5/FCSCMS-198/Contacts/div_Contacts' is clicked on
+
+2022-01-03 17:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/FCSCMS-198/Contacts/div_Contacts' is clicked on
+
+2022-01-03 17:30:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:34 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1191-S5 (User should be able to search for the clients name in the quick search tab)" time="5.693" classname="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1191-S5 (User should be able to search for the clients name in the quick search tab)" status="PASSED">
+         <system-out><![CDATA[2022-01-03 17:30:34 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1191-S5 (User should be able to search for the clients name in the quick search tab): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1191-S5 (User should be able to search for the clients name in the quick search tab)
+
+2022-01-03 17:30:34 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 5/FCSCMS200/SearchField"), "AutomationTest2"): Text 'AutomationTest2' is set on object 'Object Repository/Admin/Sprint 5/FCSCMS200/SearchField'
+
+2022-01-03 17:30:35 - [MESSAGE][PASSED] - Text 'AutomationTest2' is set on object 'Object Repository/Admin/Sprint 5/FCSCMS200/SearchField'
+
+2022-01-03 17:30:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-03 17:30:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/FCSCMS200/SearchButton")): Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/SearchButton' is clicked on
+
+2022-01-03 17:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/SearchButton' is clicked on
+
+2022-01-03 17:30:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:39 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1192-S5 (User should be able to Click view - edit the clients contacts)" time="4.626" classname="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1192-S5 (User should be able to Click view - edit the clients contacts)" status="PASSED">
+         <system-out><![CDATA[2022-01-03 17:30:39 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1192-S5 (User should be able to Click view - edit the clients contacts): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1192-S5 (User should be able to Click view - edit the clients contacts)
+
+2022-01-03 17:30:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-03 17:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/FCSCMS200/EditIcon(AutomationTest2)")): Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditIcon(AutomationTest2)' is clicked on
+
+2022-01-03 17:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditIcon(AutomationTest2)' is clicked on
+
+2022-01-03 17:30:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:44 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1193-S5 (User should be able to view the filled Contacts form)" time="2.585" classname="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1193-S5 (User should be able to view the filled Contacts form)" status="PASSED">
+         <system-out><![CDATA[2022-01-03 17:30:44 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1193-S5 (User should be able to view the filled Contacts form): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1193-S5 (User should be able to view the filled Contacts form)
+
+2022-01-03 17:30:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 5/FCSCMS200/ContacsForm(AutomationTest2)")): Object 'Object Repository/Admin/Sprint 5/FCSCMS200/ContacsForm(AutomationTest2)' is visible
+
+2022-01-03 17:30:44 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 5/FCSCMS200/ContacsForm(AutomationTest2)' is visible
+
+2022-01-03 17:30:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1194-S5 (User should be able to view - edit the clients Contact Type)" time="4.528" classname="Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1194-S5 (User should be able to view - edit the clients Contact Type)" status="PASSED">
+         <system-out><![CDATA[2022-01-03 17:30:46 - [TEST_CASE][PASSED] - Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1194-S5 (User should be able to view - edit the clients Contact Type): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1194-S5 (User should be able to view - edit the clients Contact Type)
+
+2022-01-03 17:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/FCSCMS200/EditContact/ContactSearchField")): Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditContact/ContactSearchField' is clicked on
+
+2022-01-03 17:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditContact/ContactSearchField' is clicked on
+
+2022-01-03 17:30:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-03 17:30:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-03 17:30:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/FCSCMS200/EditContact/div_Funds Requests")): Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditContact/div_Funds Requests' is clicked on
+
+2022-01-03 17:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditContact/div_Funds Requests' is clicked on
+
+2022-01-03 17:30:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-03 17:30:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-03 17:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 5/FCSCMS200/EditContact/button_Remove item(ContactsEdit)")): Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditContact/button_Remove item(ContactsEdit)' is clicked on
+
+2022-01-03 17:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 5/FCSCMS200/EditContact/button_Remove item(ContactsEdit)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-03 17:29:55 - [TEST_SUITE][PASSED] - FCSCMS-200 (Organizations - Client Profile - Contacts - View - Edit Contact): Test Cases/Sprint 5/FCSCMS-200/FCSCMS-1194-S5 (User should be able to view - edit the clients Contact Type)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-204 (Organizations - Client Profile - Sites - View - Edit Sites),Chrome 97.0.4692.71,,,2022-01-11 20:18:35,2022-01-11 20:19:18,42.684s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-204/FCSCMS-1336-S5 (Admin user should be able to log in using valid credentials),Chrome 97.0.4692.71,Admin user should be able to log in using valid credentials,,2022-01-11 20:18:35,2022-01-11 20:18:50,14.882s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-11 20:18:36,2022-01-11 20:18:41,4.743s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 97.0.4692.71,,,2022-01-11 20:18:41,2022-01-11 20:18:43,1.990s,PASSED
+maximizeWindow(),Chrome 97.0.4692.71,,,2022-01-11 20:18:43,2022-01-11 20:18:43,0.223s,PASSED
+delay(3),Chrome 97.0.4692.71,,,2022-01-11 20:18:43,2022-01-11 20:18:46,3.066s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-11 20:18:46,2022-01-11 20:18:47,1.015s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-11 20:18:47,2022-01-11 20:18:48,1.017s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-11 20:18:48,2022-01-11 20:18:49,0.853s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-11 20:18:49,2022-01-11 20:18:50,1.016s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 97.0.4692.71,,,2022-01-11 20:18:50,2022-01-11 20:18:50,0.453s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-204/FCSCMS-1337-S5 (User should be able to click the Clients option from the left navigation panel),Chrome 97.0.4692.71,User should be able to click the Clients option from the left navigation panel,,2022-01-11 20:18:50,2022-01-11 20:19:06,16.131s,PASSED
+delay(2),Chrome 97.0.4692.71,,,2022-01-11 20:18:51,2022-01-11 20:18:53,2.018s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 97.0.4692.71,,,2022-01-11 20:18:53,2022-01-11 20:19:02,9.299s,PASSED
+delay(2),Chrome 97.0.4692.71,,,2022-01-11 20:19:02,2022-01-11 20:19:04,2.009s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""))",Chrome 97.0.4692.71,,,2022-01-11 20:19:04,2022-01-11 20:19:05,1.355s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-11 20:19:05,2022-01-11 20:19:06,1.015s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-204/FCSCMS-1338-S5 (User should be able to search for the clients name in the quick search tab),Chrome 97.0.4692.71,User should be able to search for the client's name in the quick search tab,,2022-01-11 20:19:06,2022-01-11 20:19:15,8.601s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-194/SearchBar(Clients)""), ""Smoke Test 3"")",Chrome 97.0.4692.71,,,2022-01-11 20:19:07,2022-01-11 20:19:12,4.888s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-11 20:19:12,2022-01-11 20:19:13,1.010s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-194/SearchButton(Clients)""))",Chrome 97.0.4692.71,,,2022-01-11 20:19:13,2022-01-11 20:19:13,0.426s,PASSED
+delay(2),Chrome 97.0.4692.71,,,2022-01-11 20:19:13,2022-01-11 20:19:15,2.014s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-204/FCSCMS-1339-S5 (User should be able to view edit the clients details),Chrome 97.0.4692.71,User should be able to view/edit the client's details,,2022-01-11 20:19:15,2022-01-11 20:19:18,2.664s,PASSED
+delay(2),Chrome 97.0.4692.71,,,2022-01-11 20:19:15,2022-01-11 20:19:17,2.013s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS200/EditIcon(FCSCMS200)""))",Chrome 97.0.4692.71,,,2022-01-11 20:19:17,2022-01-11 20:19:18,0.392s,PASSED

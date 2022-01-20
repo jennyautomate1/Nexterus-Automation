@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))" time="60.94" tests="12" failures="0" errors="0">
+   <testsuite name="FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))" tests="12" failures="0" errors="0" time="60.94" timestamp="2022-01-20 14:53:38" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 6/FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220120_145323\\Sprint 6\\FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))\\20220120_145323"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220120_145323\\Sprint 6\\FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))\\20220120_145323\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="sessionId" value="6408f6044dda16f92d5c20e29e646594"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-918-S6 (Admin user is able to log in using valid credentials)" time="16.322" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-918-S6 (Admin user is able to log in using valid credentials)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:53:38 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-918-S6 (Admin user is able to log in using valid credentials): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-918-S6 (Admin user is able to log in using valid credentials)
+
+2022-01-20 14:53:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-20 14:53:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-20 14:53:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-20 14:53:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-20 14:53:43 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-01-20 14:53:46 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-01-20 14:53:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-01-20 14:53:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-20 14:53:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-20 14:53:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-20 14:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-01-20 14:53:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-01-20 14:53:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:53:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:53:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-01-20 14:53:53 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-01-20 14:53:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:53:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2022-01-20 14:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-919-S6 (User is able to click User and Account Management option from the left navigation panel)" time="7.698" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-919-S6 (User is able to click User and Account Management option from the left navigation panel)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:53:54 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-919-S6 (User is able to click User and Account Management option from the left navigation panel): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-919-S6 (User is able to click User and Account Management option from the left navigation panel)
+
+2022-01-20 14:53:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/span_UserAccountManagement")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/span_UserAccountManagement' is clicked on
+
+2022-01-20 14:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/span_UserAccountManagement' is clicked on
+
+2022-01-20 14:54:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-20 14:54:02 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-920-S6 (Admin user is able to click Add new user button)" time="5.302" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-920-S6 (Admin user is able to click Add new user button)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:02 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-920-S6 (Admin user is able to click Add new user button): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-920-S6 (Admin user is able to click Add new user button)
+
+2022-01-20 14:54:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Add New User")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Add New User' is clicked on
+
+2022-01-20 14:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Add New User' is clicked on
+
+2022-01-20 14:54:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-20 14:54:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-20 14:54:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/Modal_Create User")): Object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/Modal_Create User' is visible
+
+2022-01-20 14:54:06 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/Modal_Create User' is visible
+
+2022-01-20 14:54:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:07 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-921-S6 (Admin user is able to click Privilege Group dropdown button)" time="1.679" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-921-S6 (Admin user is able to click Privilege Group dropdown button)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:07 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-921-S6 (Admin user is able to click Privilege Group dropdown button): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-921-S6 (Admin user is able to click Privilege Group dropdown button)
+
+2022-01-20 14:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Privilege Group")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Privilege Group' is clicked on
+
+2022-01-20 14:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Privilege Group' is clicked on
+
+2022-01-20 14:54:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:09 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-922-S6 (Admin user is able to set the user as IdentityReader)" time="1.59" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-922-S6 (Admin user is able to set the user as IdentityReader)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:09 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-922-S6 (Admin user is able to set the user as IdentityReader): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-922-S6 (Admin user is able to set the user as IdentityReader)
+
+2022-01-20 14:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityReader"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityReader' is clicked on
+
+2022-01-20 14:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityReader' is clicked on
+
+2022-01-20 14:54:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:11 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-923-S6 (Admin user is able to set the user as IdentityWritter)" time="1.787" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-923-S6 (Admin user is able to set the user as IdentityWritter)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:11 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-923-S6 (Admin user is able to set the user as IdentityWritter): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-923-S6 (Admin user is able to set the user as IdentityWritter)
+
+2022-01-20 14:54:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityWriter"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityWriter' is clicked on
+
+2022-01-20 14:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityWriter' is clicked on
+
+2022-01-20 14:54:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:13 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-924-S6 (Admin user is able to set the user as IdentityAdminr)" time="1.613" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-924-S6 (Admin user is able to set the user as IdentityAdminr)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:13 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-924-S6 (Admin user is able to set the user as IdentityAdminr): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-924-S6 (Admin user is able to set the user as IdentityAdminr)
+
+2022-01-20 14:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityAdmin"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityAdmin' is clicked on
+
+2022-01-20 14:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityAdmin' is clicked on
+
+2022-01-20 14:54:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:14 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-925-S6 (Admin user is able to set the user as PrivilegeGroupReader)" time="1.582" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-925-S6 (Admin user is able to set the user as PrivilegeGroupReader)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:14 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-925-S6 (Admin user is able to set the user as PrivilegeGroupReader): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-925-S6 (Admin user is able to set the user as PrivilegeGroupReader)
+
+2022-01-20 14:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupReader")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupReader' is clicked on
+
+2022-01-20 14:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupReader' is clicked on
+
+2022-01-20 14:54:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:16 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-926-S6 (Admin user is able to set the user as PrivilegeGroupWriter)" time="1.687" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-926-S6 (Admin user is able to set the user as PrivilegeGroupWriter)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:16 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-926-S6 (Admin user is able to set the user as PrivilegeGroupWriter): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-926-S6 (Admin user is able to set the user as PrivilegeGroupWriter)
+
+2022-01-20 14:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupWriter"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupWriter' is clicked on
+
+2022-01-20 14:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupWriter' is clicked on
+
+2022-01-20 14:54:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:17 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-927-S6 (Admin user is able to set the user as PrivilegeGroupAdmin)" time="1.606" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-927-S6 (Admin user is able to set the user as PrivilegeGroupAdmin)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:17 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-927-S6 (Admin user is able to set the user as PrivilegeGroupAdmin): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-927-S6 (Admin user is able to set the user as PrivilegeGroupAdmin)
+
+2022-01-20 14:54:18 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupAdmin"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupAdmin' is clicked on
+
+2022-01-20 14:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupAdmin' is clicked on
+
+2022-01-20 14:54:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:19 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-928-S6 (Admin user is able to set the user as GrantReader)" time="1.591" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-928-S6 (Admin user is able to set the user as GrantReader)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:19 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-928-S6 (Admin user is able to set the user as GrantReader): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-928-S6 (Admin user is able to set the user as GrantReader)
+
+2022-01-20 14:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_Values Reader"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_Values Reader' is clicked on
+
+2022-01-20 14:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_Values Reader' is clicked on
+
+2022-01-20 14:54:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:21 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter)" time="16.495" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:54:21 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter)
+
+2022-01-20 14:54:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-20 14:54:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-20 14:54:23 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Login Name"), "AutomationLN"): Text 'AutomationLN' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Login Name'
+
+2022-01-20 14:54:24 - [MESSAGE][PASSED] - Text 'AutomationLN' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Login Name'
+
+2022-01-20 14:54:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:54:25 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Name"), "ATTestUser"): Text 'ATTestUser' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Name'
+
+2022-01-20 14:54:26 - [MESSAGE][PASSED] - Text 'ATTestUser' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Name'
+
+2022-01-20 14:54:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:54:27 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Email"), "Automationtest@gmail.com"): Text 'Automationtest@gmail.com' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Email'
+
+2022-01-20 14:54:27 - [MESSAGE][PASSED] - Text 'Automationtest@gmail.com' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Email'
+
+2022-01-20 14:54:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:54:28 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 1"), "Line 1"): Text 'Line 1' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 1'
+
+2022-01-20 14:54:29 - [MESSAGE][PASSED] - Text 'Line 1' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 1'
+
+2022-01-20 14:54:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:54:30 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 2"), "Line 2"): Text 'Line 2' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 2'
+
+2022-01-20 14:54:31 - [MESSAGE][PASSED] - Text 'Line 2' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 2'
+
+2022-01-20 14:54:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:54:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:54:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Save")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Save' is clicked on
+
+2022-01-20 14:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Save' is clicked on
+
+2022-01-20 14:54:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-20 14:54:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-20 14:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/button_No(Save)")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_No(Save)' is clicked on
+
+2022-01-20 14:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_No(Save)' is clicked on
+
+2022-01-20 14:54:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-20 14:54:37 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-20 14:53:38 - [TEST_SUITE][PASSED] - FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story)): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))" time="66.665" tests="12" failures="1" errors="0">
+   <testsuite name="FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))" tests="12" failures="1" errors="0" time="66.665" timestamp="2022-01-20 14:40:43" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 6/FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220120_144027\\Sprint 6\\FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))\\20220120_144027"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220120_144027\\Sprint 6\\FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))\\20220120_144027\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220120_144027\\Sprint 6\\FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))\\20220120_144027\\1642660908528.png"/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="sessionId" value="005a5906dde7718cad6c366147e9d8b6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-918-S6 (Admin user is able to log in using valid credentials)" time="18.631" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-918-S6 (Admin user is able to log in using valid credentials)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:40:44 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-918-S6 (Admin user is able to log in using valid credentials): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-918-S6 (Admin user is able to log in using valid credentials)
+
+2022-01-20 14:40:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-20 14:40:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-20 14:40:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-20 14:40:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-20 14:40:49 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-01-20 14:40:54 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-01-20 14:40:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-01-20 14:40:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-20 14:40:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-20 14:40:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-20 14:40:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-01-20 14:40:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-01-20 14:40:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:41:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-01-20 14:41:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-01-20 14:41:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2022-01-20 14:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-919-S6 (User is able to click User and Account Management option from the left navigation panel)" time="12.764" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-919-S6 (User is able to click User and Account Management option from the left navigation panel)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:02 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-919-S6 (User is able to click User and Account Management option from the left navigation panel): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-919-S6 (User is able to click User and Account Management option from the left navigation panel)
+
+2022-01-20 14:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/span_UserAccountManagement")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/span_UserAccountManagement' is clicked on
+
+2022-01-20 14:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/span_UserAccountManagement' is clicked on
+
+2022-01-20 14:41:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-20 14:41:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-920-S6 (Admin user is able to click Add new user button)" time="4.355" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-920-S6 (Admin user is able to click Add new user button)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:15 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-920-S6 (Admin user is able to click Add new user button): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-920-S6 (Admin user is able to click Add new user button)
+
+2022-01-20 14:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Add New User")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Add New User' is clicked on
+
+2022-01-20 14:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Add New User' is clicked on
+
+2022-01-20 14:41:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-20 14:41:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-20 14:41:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/Modal_Create User")): Object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/Modal_Create User' is visible
+
+2022-01-20 14:41:18 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/Modal_Create User' is visible
+
+2022-01-20 14:41:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:19 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-921-S6 (Admin user is able to click Privilege Group dropdown button)" time="1.794" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-921-S6 (Admin user is able to click Privilege Group dropdown button)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:19 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-921-S6 (Admin user is able to click Privilege Group dropdown button): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-921-S6 (Admin user is able to click Privilege Group dropdown button)
+
+2022-01-20 14:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Privilege Group")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Privilege Group' is clicked on
+
+2022-01-20 14:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Privilege Group' is clicked on
+
+2022-01-20 14:41:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:21 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-922-S6 (Admin user is able to set the user as IdentityReader)" time="1.713" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-922-S6 (Admin user is able to set the user as IdentityReader)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:21 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-922-S6 (Admin user is able to set the user as IdentityReader): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-922-S6 (Admin user is able to set the user as IdentityReader)
+
+2022-01-20 14:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityReader"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityReader' is clicked on
+
+2022-01-20 14:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityReader' is clicked on
+
+2022-01-20 14:41:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:23 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-923-S6 (Admin user is able to set the user as IdentityWritter)" time="1.932" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-923-S6 (Admin user is able to set the user as IdentityWritter)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:23 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-923-S6 (Admin user is able to set the user as IdentityWritter): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-923-S6 (Admin user is able to set the user as IdentityWritter)
+
+2022-01-20 14:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityWriter"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityWriter' is clicked on
+
+2022-01-20 14:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityWriter' is clicked on
+
+2022-01-20 14:41:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:25 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-924-S6 (Admin user is able to set the user as IdentityAdminr)" time="1.61" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-924-S6 (Admin user is able to set the user as IdentityAdminr)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:25 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-924-S6 (Admin user is able to set the user as IdentityAdminr): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-924-S6 (Admin user is able to set the user as IdentityAdminr)
+
+2022-01-20 14:41:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityAdmin"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityAdmin' is clicked on
+
+2022-01-20 14:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityAdmin' is clicked on
+
+2022-01-20 14:41:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:27 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-925-S6 (Admin user is able to set the user as PrivilegeGroupReader)" time="1.607" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-925-S6 (Admin user is able to set the user as PrivilegeGroupReader)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:27 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-925-S6 (Admin user is able to set the user as PrivilegeGroupReader): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-925-S6 (Admin user is able to set the user as PrivilegeGroupReader)
+
+2022-01-20 14:41:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupReader")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupReader' is clicked on
+
+2022-01-20 14:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupReader' is clicked on
+
+2022-01-20 14:41:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:28 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-926-S6 (Admin user is able to set the user as PrivilegeGroupWriter)" time="1.744" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-926-S6 (Admin user is able to set the user as PrivilegeGroupWriter)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:28 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-926-S6 (Admin user is able to set the user as PrivilegeGroupWriter): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-926-S6 (Admin user is able to set the user as PrivilegeGroupWriter)
+
+2022-01-20 14:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupWriter"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupWriter' is clicked on
+
+2022-01-20 14:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupWriter' is clicked on
+
+2022-01-20 14:41:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:30 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-927-S6 (Admin user is able to set the user as PrivilegeGroupAdmin)" time="1.636" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-927-S6 (Admin user is able to set the user as PrivilegeGroupAdmin)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:30 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-927-S6 (Admin user is able to set the user as PrivilegeGroupAdmin): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-927-S6 (Admin user is able to set the user as PrivilegeGroupAdmin)
+
+2022-01-20 14:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupAdmin"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupAdmin' is clicked on
+
+2022-01-20 14:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupAdmin' is clicked on
+
+2022-01-20 14:41:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:32 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-928-S6 (Admin user is able to set the user as GrantReader)" time="1.625" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-928-S6 (Admin user is able to set the user as GrantReader)" status="PASSED">
+         <system-out><![CDATA[2022-01-20 14:41:32 - [TEST_CASE][PASSED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-928-S6 (Admin user is able to set the user as GrantReader): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-928-S6 (Admin user is able to set the user as GrantReader)
+
+2022-01-20 14:41:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_Values Reader"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_Values Reader' is clicked on
+
+2022-01-20 14:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_Values Reader' is clicked on
+
+2022-01-20 14:41:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:33 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter)" time="15.099" classname="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter).run(FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642660827086.run(TempTestSuite1642660827086.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; class=&quot;choices__button&quot; data-button=&quot;&quot; aria-label=&quot;Remove item: '6'&quot;>...&lt;/button> is not clickable at point (1358, 193). Other element would receive the click: &lt;div class=&quot;popup-backdrop&quot; data-popup-backdrop=&quot;&quot;>...&lt;/div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 005a5906dde7718cad6c366147e9d8b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-20 14:41:33 - [TEST_CASE][FAILED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter).run(FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642660827086.run(TempTestSuite1642660827086.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="choices__button" data-button="" aria-label="Remove item: '6'">...</button> is not clickable at point (1358, 193). Other element would receive the click: <div class="popup-backdrop" data-popup-backdrop="">...</div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 005a5906dde7718cad6c366147e9d8b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-20 14:41:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-20 14:41:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-20 14:41:35 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Login Name"), "AutomationLN"): Text 'AutomationLN' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Login Name'
+
+2022-01-20 14:41:36 - [MESSAGE][PASSED] - Text 'AutomationLN' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Login Name'
+
+2022-01-20 14:41:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:41:37 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Name"), "ATTestUser"): Text 'ATTestUser' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Name'
+
+2022-01-20 14:41:38 - [MESSAGE][PASSED] - Text 'ATTestUser' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Name'
+
+2022-01-20 14:41:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:41:39 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Email"), "Automationtest@gmail.com"): Text 'Automationtest@gmail.com' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Email'
+
+2022-01-20 14:41:40 - [MESSAGE][PASSED] - Text 'Automationtest@gmail.com' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Email'
+
+2022-01-20 14:41:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:41:41 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 1"), "Line 1"): Text 'Line 1' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 1'
+
+2022-01-20 14:41:41 - [MESSAGE][PASSED] - Text 'Line 1' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 1'
+
+2022-01-20 14:41:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:41:42 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 2"), "Line 2"): Text 'Line 2' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 2'
+
+2022-01-20 14:41:43 - [MESSAGE][PASSED] - Text 'Line 2' is set on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 2'
+
+2022-01-20 14:41:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-20 14:41:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-20 14:41:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Save")): Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Save' is clicked on
+
+2022-01-20 14:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Save' is clicked on
+
+2022-01-20 14:41:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-20 14:41:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-20 14:41:47 - [TEST_STEP][FAILED] - click(findTestObject("Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)")): Unable to click on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter).run(FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642660827086.run(TempTestSuite1642660827086.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="choices__button" data-button="" aria-label="Remove item: '6'">...</button> is not clickable at point (1358, 193). Other element would receive the click: <div class="popup-backdrop" data-popup-backdrop="">...</div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 005a5906dde7718cad6c366147e9d8b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642650562150.run(Script1642650562150.groovy:45)
+	... 13 more
+)
+
+2022-01-20 14:41:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter).run(FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642660827086.run(TempTestSuite1642660827086.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="choices__button" data-button="" aria-label="Remove item: '6'">...</button> is not clickable at point (1358, 193). Other element would receive the click: <div class="popup-backdrop" data-popup-backdrop="">...</div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 005a5906dde7718cad6c366147e9d8b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642650562150.run(Script1642650562150.groovy:45)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220120_144027\\Sprint 6\\FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))\\20220120_144027\\1642660908528.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-20 14:41:33 - [TEST_CASE][FAILED] - Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter).run(FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642660827086.run(TempTestSuite1642660827086.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="choices__button" data-button="" aria-label="Remove item: '6'">...</button> is not clickable at point (1358, 193). Other element would receive the click: <div class="popup-backdrop" data-popup-backdrop="">...</div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 005a5906dde7718cad6c366147e9d8b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-20 14:40:43 - [TEST_SUITE][FAILED] - FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story)): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter).run(FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642660827086.run(TempTestSuite1642660827086.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="choices__button" data-button="" aria-label="Remove item: '6'">...</button> is not clickable at point (1358, 193). Other element would receive the click: <div class="popup-backdrop" data-popup-backdrop="">...</div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 005a5906dde7718cad6c366147e9d8b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-20 14:40:43 - [TEST_SUITE][FAILED] - FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story)): Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter).run(FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642660827086.run(TempTestSuite1642660827086.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="choices__button" data-button="" aria-label="Remove item: '6'">...</button> is not clickable at point (1358, 193). Other element would receive the click: <div class="popup-backdrop" data-popup-backdrop="">...</div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\me\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 005a5906dde7718cad6c366147e9d8b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

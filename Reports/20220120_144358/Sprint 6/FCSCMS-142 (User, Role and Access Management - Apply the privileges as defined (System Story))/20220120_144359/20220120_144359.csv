@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"FCSCMS-142 (User, Role and Access Management - Apply the privileges as defined (System Story))",Chrome 97.0.4692.71,,,2022-01-20 14:44:11,2022-01-20 14:45:12,1m - 0.628s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-918-S6 (Admin user is able to log in using valid credentials),Chrome 97.0.4692.71,Admin user is able to log in using valid credentials,,2022-01-20 14:44:11,2022-01-20 14:44:27,15.836s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-20 14:44:12,2022-01-20 14:44:16,3.886s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 97.0.4692.71,,,2022-01-20 14:44:16,2022-01-20 14:44:20,4.012s,PASSED
+maximizeWindow(),Chrome 97.0.4692.71,,,2022-01-20 14:44:20,2022-01-20 14:44:20,0.242s,PASSED
+delay(3),Chrome 97.0.4692.71,,,2022-01-20 14:44:20,2022-01-20 14:44:23,3.071s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-20 14:44:23,2022-01-20 14:44:24,0.951s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:24,2022-01-20 14:44:25,1.008s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-20 14:44:25,2022-01-20 14:44:26,0.738s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:26,2022-01-20 14:44:27,1.008s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 97.0.4692.71,,,2022-01-20 14:44:27,2022-01-20 14:44:27,0.427s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-919-S6 (User is able to click User and Account Management option from the left navigation panel),Chrome 97.0.4692.71,User is able to click User and Account Management option from the left navigation panel,,2022-01-20 14:44:27,2022-01-20 14:44:36,8.655s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/span_UserAccountManagement""))",Chrome 97.0.4692.71,,,2022-01-20 14:44:28,2022-01-20 14:44:34,6.209s,PASSED
+delay(2),Chrome 97.0.4692.71,,,2022-01-20 14:44:34,2022-01-20 14:44:36,2.010s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-920-S6 (Admin user is able to click Add new user button),Chrome 97.0.4692.71,Admin user is able to click Add new user button,,2022-01-20 14:44:36,2022-01-20 14:44:44,8.337s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Add New User""))",Chrome 97.0.4692.71,,,2022-01-20 14:44:36,2022-01-20 14:44:39,2.355s,PASSED
+delay(2),Chrome 97.0.4692.71,,,2022-01-20 14:44:39,2022-01-20 14:44:41,2.008s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/Modal_Create User""))",Chrome 97.0.4692.71,,,2022-01-20 14:44:41,2022-01-20 14:44:43,2.711s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:43,2022-01-20 14:44:44,1.004s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-921-S6 (Admin user is able to click Privilege Group dropdown button),Chrome 97.0.4692.71,Admin user is able to click Privilege Group dropdown button,,2022-01-20 14:44:44,2022-01-20 14:44:46,1.652s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Privilege Group""))",Chrome 97.0.4692.71,,,2022-01-20 14:44:44,2022-01-20 14:44:45,0.428s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:45,2022-01-20 14:44:46,1.005s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-922-S6 (Admin user is able to set the user as IdentityReader),Chrome 97.0.4692.71,Admin user is able to set the user as IdentityReader,,2022-01-20 14:44:46,2022-01-20 14:44:48,1.603s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityReader""), STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-20 14:44:46,2022-01-20 14:44:47,0.409s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:47,2022-01-20 14:44:48,1.014s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-923-S6 (Admin user is able to set the user as IdentityWritter),Chrome 97.0.4692.71,Admin user is able to set the user as IdentityWritter,,2022-01-20 14:44:48,2022-01-20 14:44:49,1.731s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityWriter""), STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-20 14:44:48,2022-01-20 14:44:48,0.450s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:48,2022-01-20 14:44:49,1.004s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-924-S6 (Admin user is able to set the user as IdentityAdminr),Chrome 97.0.4692.71,Admin user is able to set the user as IdentityAdminr,,2022-01-20 14:44:49,2022-01-20 14:44:51,1.634s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_IdentityAdmin""), STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-20 14:44:49,2022-01-20 14:44:50,0.393s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:50,2022-01-20 14:44:51,1.014s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-925-S6 (Admin user is able to set the user as PrivilegeGroupReader),Chrome 97.0.4692.71,Admin user is able to set the user as PrivilegeGroupReader,,2022-01-20 14:44:51,2022-01-20 14:44:53,1.615s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupReader""))",Chrome 97.0.4692.71,,,2022-01-20 14:44:51,2022-01-20 14:44:52,0.389s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:52,2022-01-20 14:44:53,1.012s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-926-S6 (Admin user is able to set the user as PrivilegeGroupWriter),Chrome 97.0.4692.71,Admin user is able to set the user as PrivilegeGroupWriter,,2022-01-20 14:44:53,2022-01-20 14:44:54,1.786s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupWriter""), STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-20 14:44:53,2022-01-20 14:44:53,0.403s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:53,2022-01-20 14:44:54,1.007s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-927-S6 (Admin user is able to set the user as PrivilegeGroupAdmin),Chrome 97.0.4692.71,Admin user is able to set the user as PrivilegeGroupAdmin,,2022-01-20 14:44:54,2022-01-20 14:44:56,1.581s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_PrivilegeGroupAdmin""), STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-20 14:44:55,2022-01-20 14:44:55,0.365s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:55,2022-01-20 14:44:56,1.018s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-928-S6 (Admin user is able to set the user as GrantReader),Chrome 97.0.4692.71,Admin user is able to set the user as GrantReader,,2022-01-20 14:44:56,2022-01-20 14:44:58,1.603s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_Values Reader""), STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-20 14:44:56,2022-01-20 14:44:57,0.399s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:44:57,2022-01-20 14:44:58,1.005s,PASSED
+,,,,,,,
+Test Cases/Sprint 6/FCSCMS-142/FCSCMS-929-S6 (Admin user is able to set the user as GrantWriter),Chrome 97.0.4692.71,Admin user is able to set the user as GrantWriter,,2022-01-20 14:44:58,2022-01-20 14:45:12,14.045s,PASSED
+delay(2),Chrome 97.0.4692.71,,,2022-01-20 14:44:58,2022-01-20 14:45:00,2.014s,PASSED
+"setText(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Login Name""), ""AutomationLN"")",Chrome 97.0.4692.71,,,2022-01-20 14:45:00,2022-01-20 14:45:01,0.790s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:45:01,2022-01-20 14:45:02,1.010s,PASSED
+"setText(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Name""), ""ATTestUser"")",Chrome 97.0.4692.71,,,2022-01-20 14:45:02,2022-01-20 14:45:02,0.787s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:45:02,2022-01-20 14:45:03,1.013s,PASSED
+"setText(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Email""), ""Automationtest@gmail.com"")",Chrome 97.0.4692.71,,,2022-01-20 14:45:03,2022-01-20 14:45:04,0.811s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:45:04,2022-01-20 14:45:05,1.006s,PASSED
+"setText(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 1""), ""Line 1"")",Chrome 97.0.4692.71,,,2022-01-20 14:45:05,2022-01-20 14:45:06,0.742s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:45:06,2022-01-20 14:45:07,1.013s,PASSED
+"setText(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 2""), ""Line 2"")",Chrome 97.0.4692.71,,,2022-01-20 14:45:07,2022-01-20 14:45:08,0.735s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-20 14:45:08,2022-01-20 14:45:09,1.006s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Save""))",Chrome 97.0.4692.71,,,2022-01-20 14:45:09,2022-01-20 14:45:09,0.440s,PASSED
+delay(2),Chrome 97.0.4692.71,,,2022-01-20 14:45:09,2022-01-20 14:45:11,2.003s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Yes(Save)""))",Chrome 97.0.4692.71,,,2022-01-20 14:45:11,2022-01-20 14:45:12,0.472s,PASSED

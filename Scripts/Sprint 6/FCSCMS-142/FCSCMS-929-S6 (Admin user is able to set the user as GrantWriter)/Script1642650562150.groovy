@@ -18,31 +18,31 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Login Name'), 'AutomationLN')
+WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/input_User Login Name'), 'AutomationLN')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/input_User Name'), 'ATTestUser')
+WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/input_User Name'), 'ATTestUser')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Email'), 'Automationtest@gmail.com')
+WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/input_Email'), 'Automationtest@gmail.com')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 1'), 'Line 1')
+WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/input_Address Line 1'), 'Line 1')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Address Line 2'), 'Line 2')
+WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/input_Address Line 2'), 'Line 2')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Save'))
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/button_Save'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/button_No(Save)'))
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/button_No(Save)'))
 
 WebUI.delay(2)
 

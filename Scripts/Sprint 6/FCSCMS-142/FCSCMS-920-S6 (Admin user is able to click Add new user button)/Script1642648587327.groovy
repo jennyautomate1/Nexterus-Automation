@@ -16,11 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/button_Add New User'))
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/button_Add New User'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/Modal_Create User'))
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/Modal_Create User'))
 
 WebUI.delay(1)
 

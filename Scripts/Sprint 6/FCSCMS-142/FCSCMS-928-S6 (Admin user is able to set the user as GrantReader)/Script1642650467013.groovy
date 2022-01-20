@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/PrivilegeGroup/div_Values Reader'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/PrivilegeGroup/div_Values Reader'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 

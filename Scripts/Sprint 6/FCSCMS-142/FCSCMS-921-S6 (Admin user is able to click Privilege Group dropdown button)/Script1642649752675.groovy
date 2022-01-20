@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-198/AddNewUser/input_Privilege Group'))
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-142/AddNewUser/input_Privilege Group'))
 
 WebUI.delay(1)
 

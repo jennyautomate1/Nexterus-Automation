@@ -16,11 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-198/EditUser/Remove item_IdentityReader'))
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-142/EditUser/Remove item_IdentityReader'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-198/EditUser/input_Privilege Group'))
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-142/EditUser/input_Privilege Group'))
 
 WebUI.delay(1)
 

@@ -1,0 +1,160 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-199 (Organizations - Client Profile - Contacts - Add New Contact),Chrome 97.0.4692.99,,,2022-01-27 13:24:26,2022-01-27 13:27:50,3m - 23.817s,FAILED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1240-S5 (Admin user should be able to log in using valid credentials),Chrome 97.0.4692.99,Admin user should be able to log in using valid credentials,,2022-01-27 13:24:28,2022-01-27 13:24:54,26.701s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-27 13:24:30,2022-01-27 13:24:43,12.164s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 97.0.4692.99,,,2022-01-27 13:24:43,2022-01-27 13:24:45,2.676s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-01-27 13:24:45,2022-01-27 13:24:45,0.240s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 13:24:45,2022-01-27 13:24:48,3.037s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 97.0.4692.99,,,2022-01-27 13:24:48,2022-01-27 13:24:51,2.675s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:24:51,2022-01-27 13:24:52,1.007s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 97.0.4692.99,,,2022-01-27 13:24:52,2022-01-27 13:24:53,0.864s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:24:53,2022-01-27 13:24:54,1.015s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 97.0.4692.99,,,2022-01-27 13:24:54,2022-01-27 13:24:54,0.435s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1241-S5 (User should be able to click the Clients option from the left navigation panel),Chrome 97.0.4692.99,User should be able to click the Clients option from the left navigation panel,,2022-01-27 13:24:54,2022-01-27 13:25:04,9.279s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:24:55,2022-01-27 13:24:57,2.024s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 97.0.4692.99,,,2022-01-27 13:24:57,2022-01-27 13:25:00,2.626s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:00,2022-01-27 13:25:02,2.006s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:02,2022-01-27 13:25:03,1.126s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:25:03,2022-01-27 13:25:04,1.017s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1242-S5 (User should be able to search for the clients name in the quick search tab),Chrome 97.0.4692.99,User should be able to search for the client's name in the quick search tab,,2022-01-27 13:25:04,2022-01-27 13:25:08,4.577s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-194/SearchBar(Clients)""), ""Smoke Test 3"")",Chrome 97.0.4692.99,,,2022-01-27 13:25:04,2022-01-27 13:25:05,0.826s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:25:05,2022-01-27 13:25:06,1.008s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-194/SearchButton(Clients)""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:06,2022-01-27 13:25:06,0.445s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:06,2022-01-27 13:25:08,2.010s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1243-S5 (User should be able to click Contacts tab),Chrome 97.0.4692.99,User should be able to click Contacts tab,,2022-01-27 13:25:08,2022-01-27 13:25:15,7.101s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/EditIcon""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:09,2022-01-27 13:25:09,0.408s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:09,2022-01-27 13:25:11,2.017s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-198/Contacts/div_Contacts""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:11,2022-01-27 13:25:13,2.338s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:13,2022-01-27 13:25:15,2.015s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1244-S5 (User should be able to click Add new Contact button),Chrome 97.0.4692.99,User should be able to click Add new Contact button,,2022-01-27 13:25:15,2022-01-27 13:25:18,3.028s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:16,2022-01-27 13:25:18,2.018s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Contacts/button_Add New Contact""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:18,2022-01-27 13:25:18,0.552s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1245-S5 (User should be able to click Contact type dropdown button),Chrome 97.0.4692.99,User should be able to click Contact type dropdown button,,2022-01-27 13:25:18,2022-01-27 13:25:22,3.093s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:19,2022-01-27 13:25:21,2.027s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/input_Contact Type_choices__input choices__input--cloned""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:21,2022-01-27 13:25:22,0.516s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1246-S5 (User should be able to select Contact type),Chrome 97.0.4692.99,User should be able to select Contact type,,2022-01-27 13:25:22,2022-01-27 13:25:29,7.650s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:25:22,2022-01-27 13:25:23,1.014s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Contacts/div_Funds Requests""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:23,2022-01-27 13:25:23,0.414s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:25:23,2022-01-27 13:25:24,1.017s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Contacts/div_Invoicing""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:24,2022-01-27 13:25:25,0.411s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:25:25,2022-01-27 13:25:26,1.003s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Contacts/div_Legal""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:26,2022-01-27 13:25:26,0.400s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 13:25:26,2022-01-27 13:25:29,3.012s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1247-S5 (User is abel to fill Contact name),Chrome 97.0.4692.99,User is abel to fill Contact name,,2022-01-27 13:25:29,2022-01-27 13:25:33,3.728s,PASSED
+"clearText(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/input_Contacts Name_b14-Input_ContactName""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:30,2022-01-27 13:25:30,0.425s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:30,2022-01-27 13:25:32,2.014s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/input_Contacts Name_b14-Input_ContactName""), ""AT Happy Path"")",Chrome 97.0.4692.99,,,2022-01-27 13:25:32,2022-01-27 13:25:33,0.804s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1248-S5 (User is able to click Assign site dropdown),Chrome 97.0.4692.99,User is able to click Assign site dropdown,,2022-01-27 13:25:33,2022-01-27 13:25:38,5.244s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/select_SelectTest Address for Site""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:33,2022-01-27 13:25:34,0.468s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:34,2022-01-27 13:25:36,2.005s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/select_SelectTest Address for Site""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:36,2022-01-27 13:25:36,0.454s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:36,2022-01-27 13:25:38,2.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1249-S5 (User is able to select Assign site address),Chrome 97.0.4692.99,User is able to select Assign site address,,2022-01-27 13:25:38,2022-01-27 13:25:40,1.470s,FAILED
+"selectOptionByLabel(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/select_SelectTest Address for Site""), ""Test Address for Site"", false)",Chrome 97.0.4692.99,,,2022-01-27 13:25:38,2022-01-27 13:25:40,1.202s,FAILED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1250-S5 (User is able to enter Assign site manually),Chrome 97.0.4692.99,User is able to enter Assign site manually,,2022-01-27 13:25:40,2022-01-27 13:25:43,3.016s,PASSED
+"selectOptionByLabel(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/select_SelectTest Address for Site""), ""Select"", false)",Chrome 97.0.4692.99,,,2022-01-27 13:25:40,2022-01-27 13:25:41,0.625s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:41,2022-01-27 13:25:43,2.005s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1251-S5 (User is abel to fill Address name),Chrome 97.0.4692.99,User is abel to fill Address name,,2022-01-27 13:25:43,2022-01-27 13:25:46,3.074s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/input_Address Name_b14-Input_AddressName_ClientContact""), ""AT Test Address"")",Chrome 97.0.4692.99,,,2022-01-27 13:25:43,2022-01-27 13:25:44,0.801s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:44,2022-01-27 13:25:46,2.004s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1252-S5 (User is abel to fill Address Line 1),Chrome 97.0.4692.99,User is abel to fill Address Line 1,,2022-01-27 13:25:46,2022-01-27 13:25:49,3.095s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/input_Address Line 1_b14-Input_AddressLine1_ClientContact""), ""Test Address Line 1"")",Chrome 97.0.4692.99,,,2022-01-27 13:25:46,2022-01-27 13:25:47,0.811s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:47,2022-01-27 13:25:49,2.015s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1253-S5 (User is abel to fill Address Line 2),Chrome 97.0.4692.99,User is abel to fill Address Line 2,,2022-01-27 13:25:49,2022-01-27 13:25:52,3.122s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/input_Address Line 2_b14-Input_AddressLine2""), ""Test Address Line 2"")",Chrome 97.0.4692.99,,,2022-01-27 13:25:49,2022-01-27 13:25:50,0.824s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:50,2022-01-27 13:25:52,2.011s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1254-S5 (User should be able to click City dropdown button),Chrome 97.0.4692.99,User should be able to click City dropdown button,,2022-01-27 13:25:52,2022-01-27 13:25:55,2.712s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/div_City""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:52,2022-01-27 13:25:53,0.453s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:53,2022-01-27 13:25:55,2.005s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1255-S5 (User should be able to Search - select City),Chrome 97.0.4692.99,User should be able to Search / select City,,2022-01-27 13:25:55,2022-01-27 13:26:00,4.901s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/City/div_Alabaster""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:55,2022-01-27 13:25:56,0.563s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:25:56,2022-01-27 13:25:58,2.008s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/div_City""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:58,2022-01-27 13:25:58,0.428s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:25:58,2022-01-27 13:25:59,1.002s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/City/div_Select""))",Chrome 97.0.4692.99,,,2022-01-27 13:25:59,2022-01-27 13:26:00,0.452s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1256-S5 (User should be able to click State dropdown button),Chrome 97.0.4692.99,User should be able to click State dropdown button,,2022-01-27 13:26:00,2022-01-27 13:26:03,3.428s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/div_State""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:00,2022-01-27 13:26:01,1.054s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:01,2022-01-27 13:26:03,2.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1257-S5 (User should be able to Search - select State),Chrome 97.0.4692.99,User should be able to Search / select State,,2022-01-27 13:26:03,2022-01-27 13:26:06,2.652s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/State/div_Alabama""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:03,2022-01-27 13:26:04,0.410s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:04,2022-01-27 13:26:06,2.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1258-S5 (User should be able to click Zip Code dropdown button),Chrome 97.0.4692.99,User should be able to click Zip Code dropdown button,,2022-01-27 13:26:06,2022-01-27 13:26:08,2.724s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/div_ZipCode""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:06,2022-01-27 13:26:06,0.442s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:06,2022-01-27 13:26:08,2.013s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1259-S5 (User should be able to Search - select Zip Code),Chrome 97.0.4692.99,User should be able to Search / select Zip Code,,2022-01-27 13:26:08,2022-01-27 13:26:11,2.711s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/ZipCode/div_35007""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:09,2022-01-27 13:26:09,0.418s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:09,2022-01-27 13:26:11,2.009s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1260-S5 (User should be able to click Country dropdown button),Chrome 97.0.4692.99,User should be able to click Country dropdown button,,2022-01-27 13:26:11,2022-01-27 13:26:14,2.693s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/div_Country""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:11,2022-01-27 13:26:12,0.436s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:12,2022-01-27 13:26:14,2.015s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1261-S5 (User should be able to Search - select Country),Chrome 97.0.4692.99,User should be able to Search / select Country,,2022-01-27 13:26:14,2022-01-27 13:26:17,2.692s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Country/div_United States""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:14,2022-01-27 13:26:15,0.428s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:15,2022-01-27 13:26:17,2.008s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1262-S5 (User should be able to click Time zone dropdown button),Chrome 97.0.4692.99,User should be able to click Time zone dropdown button,,2022-01-27 13:26:17,2022-01-27 13:26:21,4.362s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/TimeZone""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:17,2022-01-27 13:26:17,0.558s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:17,2022-01-27 13:26:19,2.011s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/TimeZone""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:19,2022-01-27 13:26:20,0.517s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:26:20,2022-01-27 13:26:21,1.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1263-S5 (User should be able to select Time zone),Chrome 97.0.4692.99,User should be able to select Time zone,,2022-01-27 13:26:21,2022-01-27 13:26:24,2.960s,PASSED
+"selectOptionByLabel(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/TimeZone""), ""Central Standard Time"", false)",Chrome 97.0.4692.99,,,2022-01-27 13:26:21,2022-01-27 13:26:22,0.704s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:22,2022-01-27 13:26:24,2.013s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1264-S5 (User should be able to fill and input Contact email),Chrome 97.0.4692.99,User should be able to fill and input Contact email,,2022-01-27 13:26:24,2022-01-27 13:26:27,3.029s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/Contact Email""), ""AT Test Email"")",Chrome 97.0.4692.99,,,2022-01-27 13:26:24,2022-01-27 13:26:25,0.779s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:25,2022-01-27 13:26:27,2.012s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1265-S5 (User should be able to fill and input Contact Phone),Chrome 97.0.4692.99,User should be able to fill and input Contact Phone,,2022-01-27 13:26:27,2022-01-27 13:26:30,3.118s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/Contact Phone""), ""1111555555"")",Chrome 97.0.4692.99,,,2022-01-27 13:26:27,2022-01-27 13:26:28,0.811s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:28,2022-01-27 13:26:30,2.009s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1266-S5 (User should be able to fill and input Mobile),Chrome 97.0.4692.99,User should be able to fill and input Mobile,,2022-01-27 13:26:30,2022-01-27 13:26:33,3.109s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/Mobile""), ""1111555555"")",Chrome 97.0.4692.99,,,2022-01-27 13:26:30,2022-01-27 13:26:31,0.809s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:31,2022-01-27 13:26:33,2.011s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1267-S5 (User should be able to Click Site dropdown),Chrome 97.0.4692.99,User should be able to Click Site dropdown,,2022-01-27 13:26:33,2022-01-27 13:26:36,2.700s,PASSED
+"check(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/SitesCheckBox""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:33,2022-01-27 13:26:34,0.463s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:34,2022-01-27 13:26:36,2.010s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1268-S5 (User should be able to select Sites),Chrome 97.0.4692.99,User should be able to select Sites,,2022-01-27 13:26:36,2022-01-27 13:26:37,1.290s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:26:36,2022-01-27 13:26:37,1.003s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1269-S5 (User should be able to click Save button),Chrome 97.0.4692.99,User should be able to click Save button,,2022-01-27 13:26:37,2022-01-27 13:26:40,2.793s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/button_Save""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:37,2022-01-27 13:26:38,0.484s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:26:38,2022-01-27 13:26:40,2.003s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1270-S5 (User should be able to Add New Contacts),Chrome 97.0.4692.99,User should be able to Add New Contacts,,2022-01-27 13:26:40,2022-01-27 13:27:12,31.735s,FAILED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/button_Yes(Save)""))",Chrome 97.0.4692.99,,,2022-01-27 13:26:40,2022-01-27 13:27:12,31.478s,FAILED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1271-S5 (User should be able to select Yes No as confirmation),Chrome 97.0.4692.99,User should be able to select Yes/No as confirmation,,2022-01-27 13:27:12,2022-01-27 13:27:14,2.600s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:27:12,2022-01-27 13:27:14,2.013s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-199/FCSCMS-1272-S5 (User should be able to Cancel process),Chrome 97.0.4692.99,User should be able to Cancel process,,2022-01-27 13:27:14,2022-01-27 13:27:50,35.781s,FAILED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Contacts/button_Add New Contact""))",Chrome 97.0.4692.99,,,2022-01-27 13:27:15,2022-01-27 13:27:15,0.514s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 13:27:15,2022-01-27 13:27:17,2.016s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Add New Contact/button_Cancel""))",Chrome 97.0.4692.99,,,2022-01-27 13:27:17,2022-01-27 13:27:18,0.585s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 13:27:18,2022-01-27 13:27:19,1.013s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-199/Contacts/button_Yes(Cancel)""))",Chrome 97.0.4692.99,,,2022-01-27 13:27:19,2022-01-27 13:27:50,31.366s,FAILED

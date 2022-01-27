@@ -1,0 +1,175 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-191 (Organizations - Client Profile - Search Clients),Chrome 97.0.4692.99,,,2022-01-27 15:05:27,2022-01-27 15:07:53,2m - 26.060s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1065-S5 (Admin user should be able to log in using valid credentials),Chrome 97.0.4692.99,Admin user should be able to log in using valid credentials,,2022-01-27 15:05:28,2022-01-27 15:05:45,16.915s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-27 15:05:28,2022-01-27 15:05:34,5.091s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 97.0.4692.99,,,2022-01-27 15:05:34,2022-01-27 15:05:36,2.642s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-01-27 15:05:36,2022-01-27 15:05:36,0.205s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 15:05:36,2022-01-27 15:05:39,3.062s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 97.0.4692.99,,,2022-01-27 15:05:39,2022-01-27 15:05:41,1.769s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:05:41,2022-01-27 15:05:42,1.011s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 97.0.4692.99,,,2022-01-27 15:05:42,2022-01-27 15:05:43,0.771s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:05:43,2022-01-27 15:05:44,1.018s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 97.0.4692.99,,,2022-01-27 15:05:44,2022-01-27 15:05:45,0.542s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1066-S5 (Click the Clients option from the left navigation panel),Chrome 97.0.4692.99,User should be able to click the Clients option from the left navigation panel,,2022-01-27 15:05:45,2022-01-27 15:05:54,9.590s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:05:45,2022-01-27 15:05:47,2.010s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 97.0.4692.99,,,2022-01-27 15:05:47,2022-01-27 15:05:50,2.889s,PASSED
+"verifyElementPresent(findTestObject(""Admin/Sprint 5/Clients/NewXpaths/SearchBar2""), 0)",Chrome 97.0.4692.99,,,2022-01-27 15:05:50,2022-01-27 15:05:54,3.760s,PASSED
+"verifyElementPresent(findTestObject(""Admin/Sprint 5/Clients/NewXpaths/ClientDashboard2""), 0)",Chrome 97.0.4692.99,,,2022-01-27 15:05:54,2022-01-27 15:05:54,0.369s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1067-S5 (Put characters on Search bar),Chrome 97.0.4692.99,User should be able to put characters on Search bar,,2022-01-27 15:05:54,2022-01-27 15:05:57,3.221s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/NewXpaths/SearchBar2""), ""Smoke Test 3"")",Chrome 97.0.4692.99,,,2022-01-27 15:05:55,2022-01-27 15:05:55,0.829s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:05:55,2022-01-27 15:05:57,2.020s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1068-S5 (User should be able to search clients),Chrome 97.0.4692.99,User should be able to search clients,,2022-01-27 15:05:57,2022-01-27 15:06:08,10.434s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/NewXpaths/SearchButtonNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:05:58,2022-01-27 15:05:58,0.632s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:05:58,2022-01-27 15:06:00,2.016s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/NewXpaths/td_Smoke Test 3""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:00,2022-01-27 15:06:01,0.797s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:01,2022-01-27 15:06:02,1.016s,PASSED
+"clearText(findTestObject(""Admin/Sprint 5/Clients/NewXpaths/SearchBar2""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:02,2022-01-27 15:06:03,0.482s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:03,2022-01-27 15:06:04,1.013s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/NewXpaths/SearchBar2""), ""AutomationTest"")",Chrome 97.0.4692.99,,,2022-01-27 15:06:04,2022-01-27 15:06:04,0.753s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:04,2022-01-27 15:06:05,1.003s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/NewXpaths/SearchButtonNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:05,2022-01-27 15:06:06,0.399s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:06,2022-01-27 15:06:07,1.005s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:07,2022-01-27 15:06:08,1.018s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1069-S5 (Able to Click Advance search button),Chrome 97.0.4692.99,User should be able to Click Advance search button,,2022-01-27 15:06:08,2022-01-27 15:06:14,6.527s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Advanced Search""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:08,2022-01-27 15:06:09,0.517s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/ClientNameNEW""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:09,2022-01-27 15:06:10,0.935s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/StatusDropdownNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:10,2022-01-27 15:06:10,0.345s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/AccountManagerNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:10,2022-01-27 15:06:10,0.360s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/SalesRepNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:10,2022-01-27 15:06:11,0.570s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/Address Line 1 New""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:11,2022-01-27 15:06:11,0.343s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/Address Line 2 New""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:11,2022-01-27 15:06:12,0.424s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/CityDropDownNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:12,2022-01-27 15:06:12,0.376s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/StateDropDownNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:12,2022-01-27 15:06:13,0.361s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/ZipCodeDropDownNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:13,2022-01-27 15:06:13,0.347s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/CountryDropDownNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:13,2022-01-27 15:06:13,0.363s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/input_Contact Name_Input_AS_ContactName""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:13,2022-01-27 15:06:14,0.361s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/input_Contact Email_Input_AS_ContactEmail""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:14,2022-01-27 15:06:14,0.359s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/input_Contact Phone_Input_AS_ContactPhone""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:14,2022-01-27 15:06:14,0.343s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1070-S5 (Search clients using Client name),Chrome 97.0.4692.99,User should be able to search clients using Client name,,2022-01-27 15:06:14,2022-01-27 15:06:18,4.049s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:06:15,2022-01-27 15:06:17,2.018s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Element Veification SP5/input_Client Name_Input_ClientName""), ""Smoke Test 3"")",Chrome 97.0.4692.99,,,2022-01-27 15:06:17,2022-01-27 15:06:17,0.779s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:17,2022-01-27 15:06:18,1.005s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1071-S5 (Select Status Dropdown button),Chrome 97.0.4692.99,User should be able to select Status Dropdown button,,2022-01-27 15:06:18,2022-01-27 15:06:22,4.053s,PASSED
+"selectOptionByLabel(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/StatusDropdownNew""), ""Active"", false)",Chrome 97.0.4692.99,,,2022-01-27 15:06:19,2022-01-27 15:06:19,0.709s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 15:06:19,2022-01-27 15:06:22,3.005s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1072-S5 (Put characters on Address field),Chrome 97.0.4692.99,User should be able to put characters on Address field,,2022-01-27 15:06:22,2022-01-27 15:06:29,6.514s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/Address Line 1 New""), ""Line 1"")",Chrome 97.0.4692.99,,,2022-01-27 15:06:23,2022-01-27 15:06:23,0.739s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:06:23,2022-01-27 15:06:25,2.005s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/Address Line 2 New""), ""Line 2"")",Chrome 97.0.4692.99,,,2022-01-27 15:06:25,2022-01-27 15:06:26,0.767s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:06:26,2022-01-27 15:06:28,2.012s,PASSED
+"clearText(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/Address Line 1 New""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:28,2022-01-27 15:06:29,0.377s,PASSED
+"clearText(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/Address Line 2 New""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:29,2022-01-27 15:06:29,0.370s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1073-S5 (Select Country on Type-in search dropdown),Chrome 97.0.4692.99,User should be able to search or select Country on Tyoe-in search dropdown,,2022-01-27 15:06:29,2022-01-27 15:06:34,5.210s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/CountryDropDownNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:29,2022-01-27 15:06:30,0.457s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:30,2022-01-27 15:06:31,1.018s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/div_United StatesNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:31,2022-01-27 15:06:31,0.449s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 15:06:31,2022-01-27 15:06:34,3.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1074-S5 (Search or select State on Type-in search dropdown),Chrome 97.0.4692.99,User should be able to search or select State on Tyoe-in search dropdown,,2022-01-27 15:06:34,2022-01-27 15:06:39,5.151s,PASSED
+"click(findTestObject(""Admin/Sprint 5/StateDropDown/StateDropDown""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:34,2022-01-27 15:06:35,0.425s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:06:35,2022-01-27 15:06:37,2.006s,PASSED
+"click(findTestObject(""Admin/Sprint 5/StateDropDown/div_Alabama""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:37,2022-01-27 15:06:37,0.484s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:06:37,2022-01-27 15:06:39,2.010s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1075-S5 (Search or select City on Tyoe-in search dropdown),Chrome 97.0.4692.99,User should be able to search or select City on Type-in search dropdown,,2022-01-27 15:06:39,2022-01-27 15:06:42,2.940s,PASSED
+"click(findTestObject(""Admin/Sprint 5/CityDropDown/CityDropDown""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:40,2022-01-27 15:06:40,0.394s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:40,2022-01-27 15:06:41,1.011s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/CityDropDown/CityDropDownSearchField""), ""Alexander"")",Chrome 97.0.4692.99,,,2022-01-27 15:06:41,2022-01-27 15:06:42,0.704s,PASSED
+"sendKeys(findTestObject(""Admin/Sprint 5/CityDropDown/CityDropDownSearchField""), Keys.chord(ENTER))",Chrome 97.0.4692.99,,,2022-01-27 15:06:42,2022-01-27 15:06:42,0.554s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1076-S5 (Search or select Zip code on Tyoe-in search dropdown),Chrome 97.0.4692.99,User should be able to search or select Zip code on Type-in search dropdown,,2022-01-27 15:06:42,2022-01-27 15:06:52,10.128s,PASSED
+"click(findTestObject(""Admin/Sprint 5/ZipCodeDropDown/ZipCodeDropDown""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:43,2022-01-27 15:06:44,0.940s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:44,2022-01-27 15:06:45,1.016s,PASSED
+"click(findTestObject(""Admin/Sprint 5/ZipCodeDropDown/div_35010""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:45,2022-01-27 15:06:45,0.398s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:06:45,2022-01-27 15:06:47,2.011s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Clear""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:47,2022-01-27 15:06:47,0.411s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:06:47,2022-01-27 15:06:49,2.005s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 15:06:49,2022-01-27 15:06:52,3.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1077-S5 (Search clients using Contact name),Chrome 97.0.4692.99,User should be able to search clients using Contact name,,2022-01-27 15:06:52,2022-01-27 15:07:00,7.880s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 15:06:53,2022-01-27 15:06:56,3.015s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/input_Contact Name_Input_AS_ContactName""), ""AutomationTest"")",Chrome 97.0.4692.99,,,2022-01-27 15:06:56,2022-01-27 15:06:56,0.756s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:56,2022-01-27 15:06:57,1.012s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Search""))",Chrome 97.0.4692.99,,,2022-01-27 15:06:57,2022-01-27 15:06:58,0.435s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:58,2022-01-27 15:06:59,1.009s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:06:59,2022-01-27 15:07:00,1.002s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Clear""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:00,2022-01-27 15:07:00,0.410s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1078-S5 (Search clients using Contact Email),Chrome 97.0.4692.99,User should be able to search clients using Contact Email,,2022-01-27 15:07:00,2022-01-27 15:07:12,11.258s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:07:01,2022-01-27 15:07:03,2.008s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Element Veification SP5/input_Contact Email_Input_AS_ContactEmail""), ""Automation@gmail.com"")",Chrome 97.0.4692.99,,,2022-01-27 15:07:03,2022-01-27 15:07:03,0.785s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:03,2022-01-27 15:07:04,1.016s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Search""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:04,2022-01-27 15:07:05,0.405s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:07:05,2022-01-27 15:07:07,2.010s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/td_Smoke Test 3""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:07,2022-01-27 15:07:07,0.376s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:07:07,2022-01-27 15:07:09,2.005s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Clear""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:09,2022-01-27 15:07:10,0.408s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:07:10,2022-01-27 15:07:12,2.005s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1079-S5 (Search clients using Contact Phone),Chrome 97.0.4692.99,User should be able to search clients using Contact Phone,,2022-01-27 15:07:12,2022-01-27 15:07:20,8.142s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:07:12,2022-01-27 15:07:14,2.008s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Element Veification SP5/input_Contact Phone_Input_AS_ContactPhone""), ""1112223333"")",Chrome 97.0.4692.99,,,2022-01-27 15:07:14,2022-01-27 15:07:15,0.734s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:15,2022-01-27 15:07:16,1.011s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Search""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:16,2022-01-27 15:07:16,0.648s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:07:16,2022-01-27 15:07:18,2.007s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:18,2022-01-27 15:07:19,1.002s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Clear""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:19,2022-01-27 15:07:20,0.425s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1080-S5 (Search clients using Sales Rep),Chrome 97.0.4692.99,User should be able to search clients using Sales Rep.,,2022-01-27 15:07:20,2022-01-27 15:07:26,6.244s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:20,2022-01-27 15:07:21,1.010s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/SalesRepNew""), ""AutomationTest"")",Chrome 97.0.4692.99,,,2022-01-27 15:07:21,2022-01-27 15:07:22,1.054s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:22,2022-01-27 15:07:23,1.003s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Search""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:23,2022-01-27 15:07:23,0.424s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:23,2022-01-27 15:07:24,1.014s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:24,2022-01-27 15:07:25,1.011s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Clear""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:25,2022-01-27 15:07:26,0.439s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1081-S5 (Search clients using Account Manager),Chrome 97.0.4692.99,User should be able to search clients using Account Manager,,2022-01-27 15:07:26,2022-01-27 15:07:32,6.238s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:26,2022-01-27 15:07:27,1.006s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/AccountManagerNew""), ""AutomationTest"")",Chrome 97.0.4692.99,,,2022-01-27 15:07:27,2022-01-27 15:07:28,1.092s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:28,2022-01-27 15:07:29,1.008s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Search""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:29,2022-01-27 15:07:30,0.430s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:30,2022-01-27 15:07:31,1.016s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:31,2022-01-27 15:07:32,1.015s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Clear""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:32,2022-01-27 15:07:32,0.433s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1082-S5 (Search client using Advance search),Chrome 97.0.4692.99,User should able to search client using Advance search,,2022-01-27 15:07:32,2022-01-27 15:07:38,6.175s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:33,2022-01-27 15:07:34,1.012s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/ClientNameNEW""), ""Smoke Test 3"")",Chrome 97.0.4692.99,,,2022-01-27 15:07:34,2022-01-27 15:07:34,0.966s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:34,2022-01-27 15:07:36,1.012s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Search""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:36,2022-01-27 15:07:36,0.401s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:36,2022-01-27 15:07:37,1.012s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:37,2022-01-27 15:07:38,1.004s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Clear""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:38,2022-01-27 15:07:38,0.432s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1083-S5 (Clear content on advance search page),Chrome 97.0.4692.99,User should be able to clear content on advance search page,,2022-01-27 15:07:38,2022-01-27 15:07:45,6.298s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:39,2022-01-27 15:07:40,1.004s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Element Veification SP5/input_Client Name_Input_ClientName""), ""Smoke Test 3"")",Chrome 97.0.4692.99,,,2022-01-27 15:07:40,2022-01-27 15:07:41,1.046s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:41,2022-01-27 15:07:42,1.012s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Element Veification SP5/input_Address Line 1_Input_AS_AddressLine1""), ""Line 1"")",Chrome 97.0.4692.99,,,2022-01-27 15:07:42,2022-01-27 15:07:42,0.716s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Element Veification SP5/input_Address Line 2_Input_AS_AddressLine2""), ""Line 2"")",Chrome 97.0.4692.99,,,2022-01-27 15:07:42,2022-01-27 15:07:43,0.826s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:43,2022-01-27 15:07:44,1.004s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Clear""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:44,2022-01-27 15:07:45,0.409s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-191/FCSCMS-1084-S5 (User is able to click Add New Client button),Chrome 97.0.4692.99,User is able to click Add New Client button,,2022-01-27 15:07:45,2022-01-27 15:07:53,8.432s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:45,2022-01-27 15:07:46,1.011s,PASSED
+"click(findTestObject(""Admin/Sprint 5/AddNewClient/button_Add New Client""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:46,2022-01-27 15:07:46,0.436s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:07:46,2022-01-27 15:07:47,1.010s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/AccountManager_Dropdown""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:47,2022-01-27 15:07:50,2.554s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/button_Cancel""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:50,2022-01-27 15:07:51,0.656s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/button_Save""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:51,2022-01-27 15:07:51,0.374s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/input_Business Details_b10-Input_BusinessDetails""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:51,2022-01-27 15:07:51,0.365s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/input_Client Name_b10-Input_ClientName""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:51,2022-01-27 15:07:52,0.351s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/input_IRS Number_b10-Input_IRSNumber""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:52,2022-01-27 15:07:52,0.350s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/input_Termination Date_b10-Input_TerminationDate""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:52,2022-01-27 15:07:52,0.362s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/SalesRep_Dropdown""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:52,2022-01-27 15:07:53,0.350s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/AddNewClient/Element Verification/select_SelectActiveInactive""))",Chrome 97.0.4692.99,,,2022-01-27 15:07:53,2022-01-27 15:07:53,0.377s,PASSED

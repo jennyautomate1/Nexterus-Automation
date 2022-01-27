@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-192 (Organizations - Client Profile - Client Listing),Chrome 97.0.4692.99,,,2022-01-27 15:13:36,2022-01-27 15:14:25,49.847s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1049-S5 (Admin user should be able to log in using valid credentials),Chrome 97.0.4692.99,Admin user should be able to log in using valid credentials,,2022-01-27 15:13:36,2022-01-27 15:13:50,13.638s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-27 15:13:37,2022-01-27 15:13:40,3.355s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 97.0.4692.99,,,2022-01-27 15:13:40,2022-01-27 15:13:43,2.407s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-01-27 15:13:43,2022-01-27 15:13:43,0.204s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 15:13:43,2022-01-27 15:13:46,3.039s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 97.0.4692.99,,,2022-01-27 15:13:46,2022-01-27 15:13:47,1.012s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:13:47,2022-01-27 15:13:48,1.016s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 97.0.4692.99,,,2022-01-27 15:13:48,2022-01-27 15:13:48,0.714s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:13:48,2022-01-27 15:13:50,1.015s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 97.0.4692.99,,,2022-01-27 15:13:50,2022-01-27 15:13:50,0.391s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1050-S5 (Click the Clients option from the left navigation panel),Chrome 97.0.4692.99,User should be able to click the Clients option from the left navigation panel,,2022-01-27 15:13:50,2022-01-27 15:13:59,9.022s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:13:50,2022-01-27 15:13:52,2.005s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 97.0.4692.99,,,2022-01-27 15:13:52,2022-01-27 15:13:55,2.597s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:13:55,2022-01-27 15:13:57,2.007s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""))",Chrome 97.0.4692.99,,,2022-01-27 15:13:57,2022-01-27 15:13:58,1.078s,PASSED
+delay(1),Chrome 97.0.4692.99,,,2022-01-27 15:13:58,2022-01-27 15:13:59,1.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1051-S5 (User should be able to view client grid),Chrome 97.0.4692.99,User should be able to view client grid,,2022-01-27 15:13:59,2022-01-27 15:14:04,4.813s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/button_Add New Client""))",Chrome 97.0.4692.99,,,2022-01-27 15:13:59,2022-01-27 15:14:00,0.350s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/button_Advanced Search""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:00,2022-01-27 15:14:00,0.360s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/ClientsDashboard""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:00,2022-01-27 15:14:00,0.341s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/div_Download""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:00,2022-01-27 15:14:01,0.329s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/input_Logout_b4-Input_TextVar""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:01,2022-01-27 15:14:01,0.331s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Action""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:01,2022-01-27 15:14:01,0.343s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Address""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:01,2022-01-27 15:14:02,0.332s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_City""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:02,2022-01-27 15:14:02,0.393s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Client Name""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:02,2022-01-27 15:14:02,0.382s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Country""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:02,2022-01-27 15:14:03,0.339s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_State""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:03,2022-01-27 15:14:03,0.347s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Status""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:03,2022-01-27 15:14:03,0.327s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Element Verification/th_Zip Code""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:03,2022-01-27 15:14:04,0.384s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1052-S5 (User should be able to view-edit client information),Chrome 97.0.4692.99,User should be able to view / edit client information,,2022-01-27 15:14:04,2022-01-27 15:14:14,9.775s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/Edit_ImageNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:04,2022-01-27 15:14:04,0.389s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:14:04,2022-01-27 15:14:06,2.013s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/input_Client Name_b10-Input_ClientName""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:06,2022-01-27 15:14:08,1.341s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/StatusDropdownNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:08,2022-01-27 15:14:08,0.333s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/input_Business Details_b10-Input_BusinessDetails""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:08,2022-01-27 15:14:08,0.454s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/input_IRS Number_b10-Input_IRSNumber""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:08,2022-01-27 15:14:09,0.327s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/SalesRepField""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:09,2022-01-27 15:14:09,0.349s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/input_IRS Number_b10-Input_IRSNumber""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:09,2022-01-27 15:14:09,0.357s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/input_Termination Date_b10-Input_TerminationDate""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:09,2022-01-27 15:14:10,0.332s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/StatusDropdownNew""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:10,2022-01-27 15:14:10,0.360s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/EditClientXpathNew/AccountManagerDropdown""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:10,2022-01-27 15:14:11,0.330s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 15:14:11,2022-01-27 15:14:14,3.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1053-S5 (User should be able to use the pagination widget),Chrome 97.0.4692.99,User should be able to use the pagination widget.,,2022-01-27 15:14:14,2022-01-27 15:14:18,4.793s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:14,2022-01-27 15:14:14,0.446s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:14:14,2022-01-27 15:14:16,2.010s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:14:16,2022-01-27 15:14:18,2.017s,PASSED
+,,,,,,,
+Test Cases/Sprint 5/FCSCMS-192/FCSCMS-1054-S5 (User should be able to export file by clicking export icon),Chrome 97.0.4692.99,User should be able to export file by clicking export icon.,,2022-01-27 15:14:18,2022-01-27 15:14:25,7.158s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Export/ExportImage""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:19,2022-01-27 15:14:19,0.409s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-01-27 15:14:19,2022-01-27 15:14:21,2.007s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/Export/ExportFileNameField""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:21,2022-01-27 15:14:21,0.357s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/Clients/Export/ExportFileNameField""), ""AT Export Test"")",Chrome 97.0.4692.99,,,2022-01-27 15:14:21,2022-01-27 15:14:22,0.702s,PASSED
+"click(findTestObject(""Admin/Sprint 5/Clients/Export/button_Download""))",Chrome 97.0.4692.99,,,2022-01-27 15:14:22,2022-01-27 15:14:22,0.462s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-27 15:14:22,2022-01-27 15:14:25,3.004s,PASSED

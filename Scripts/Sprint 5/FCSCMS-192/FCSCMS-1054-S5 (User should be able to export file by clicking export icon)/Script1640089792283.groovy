@@ -22,13 +22,9 @@ WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Export/ExportFileNameField'))
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Export/button_Cancel'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Export/ExportFileNameField'))
-
 WebUI.setText(findTestObject('Admin/Sprint 5/Clients/Export/ExportFileNameField'), 'AT Export Test')
 
 WebUI.click(findTestObject('Admin/Sprint 5/Clients/Export/button_Download'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 

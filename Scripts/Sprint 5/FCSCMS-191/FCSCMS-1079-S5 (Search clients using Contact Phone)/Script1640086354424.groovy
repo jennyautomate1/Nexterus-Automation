@@ -26,8 +26,6 @@ WebUI.click(findTestObject('Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Searc
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/AdvanceSearchNEW/td_Smoke Test 3'))
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Admin/Sprint 5/Clients/AdvanceSearchNEW/button_Clear'))

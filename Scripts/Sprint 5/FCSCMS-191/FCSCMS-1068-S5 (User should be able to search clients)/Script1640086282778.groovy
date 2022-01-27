@@ -36,7 +36,5 @@ WebUI.click(findTestObject('Admin/Sprint 5/Clients/NewXpaths/SearchButtonNew'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/NewXpaths/td_Smoke Test 3'))
-
 WebUI.delay(1)
 

@@ -24,11 +24,18 @@ WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/Edit
 
 WebUI.delay(2)
 
+WebUI.selectOptionByLabel(findTestObject('Admin/Sprint 5/Clients/AddNewContact/SelectContact'), 'AT Test Contract 2', false, 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Admin/Sprint 5/Clients/AddNewContact/Add(SelectContact)'))
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/Delete(ForEmail)'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)'))
+WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Delete)'))
 
 WebUI.delay(1)
 
@@ -36,7 +43,7 @@ WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/butt
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)'))
+WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Save)'))
 
 WebUI.delay(2)
 

@@ -20,7 +20,3 @@ WebUI.click(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/butt
 
 WebUI.delay(1)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_Yes(Confirmation)'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Sites/Site Edit Elements/button_No(Confirmation)'))
-

@@ -44,5 +44,5 @@ WebUI.click(findTestObject('Admin/Sprint 5/Clients/AddNewContact/button_Cancel(A
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/AddNewContact/button_No(forCancel)'))
+WebUI.click(findTestObject('Admin/Sprint 5/Clients/AddNewContact/button_No(forCancel) -NewXpath'))
 

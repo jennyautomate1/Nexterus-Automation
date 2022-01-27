@@ -20,17 +20,5 @@ WebUI.click(findTestObject('Admin/Sprint 5/a_Clients'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Pagination/Pagination_Widget'))
-
-WebUI.verifyElementVisible(findTestObject('Admin/Sprint 5/Clients/Pagination/SearchFieldPagination'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/Pagination/PaginationNext'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Admin/Sprint 5/Clients/Pagination/PaginationPrevious'))
-
 WebUI.delay(2)
 

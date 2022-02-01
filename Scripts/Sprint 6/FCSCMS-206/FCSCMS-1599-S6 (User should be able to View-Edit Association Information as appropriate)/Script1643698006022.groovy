@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Admin/Sprint 5/FCSCMS-194/SearchBar(Clients)'), 'Smoke Test 3')
+WebUI.setText(findTestObject('Admin/Sprint 6/FCSCMS-205/AddNewAssociation/Default Rule'), 'Automated Sample Default Rule (Edit Path)')
 
-WebUI.delay(1)
+WebUI.delay(2)
 

@@ -16,7 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Admin/Sprint 5/FCSCMS-194/SearchBar(Clients)'), 'Smoke Test 3')
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-206/Edit_Carriers'))
 
 WebUI.delay(1)
+
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-205/AddNewAssociation/button_Save'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Admin/Sprint 6/FCSCMS-205/AddNewAssociation/button_No(Save)'))
+
+WebUI.delay(2)
 

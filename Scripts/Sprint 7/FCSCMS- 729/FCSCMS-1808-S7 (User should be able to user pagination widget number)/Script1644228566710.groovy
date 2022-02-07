@@ -16,7 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-729/a_Product Catalog'))
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-729/Pagination/button_2(Pagination)'))
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-729/Pagination/button_1(Pagination)'))
+
+WebUI.delay(1)
 

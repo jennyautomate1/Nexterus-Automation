@@ -16,7 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-729/a_Product Catalog'))
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 7/FCSCMS-729/Element Verification/div_Product Catalog'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 7/FCSCMS-729/Element Verification/th_Action'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 7/FCSCMS-729/Element Verification/th_Class'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 7/FCSCMS-729/Element Verification/th_Hazmat'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 7/FCSCMS-729/Element Verification/th_Hazmat Description'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 7/FCSCMS-729/Element Verification/th_NMFC'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 7/FCSCMS-729/Element Verification/th_Product Code'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 7/FCSCMS-729/Element Verification/th_Product Description'))
+
+WebUI.verifyElementVisible(findTestObject('Admin/Sprint 7/FCSCMS-729/Element Verification/th_UN  NA Number'))
 
 WebUI.delay(2)
 

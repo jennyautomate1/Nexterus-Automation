@@ -16,7 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-729/a_Product Catalog'))
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-729/Export(button)'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-729/Export/FileName(Export)'), 'Test Export')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-729/Export/button_Download'))
 
 WebUI.delay(2)
 

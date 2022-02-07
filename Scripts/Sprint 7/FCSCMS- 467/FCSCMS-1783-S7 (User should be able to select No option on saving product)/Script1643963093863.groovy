@@ -16,43 +16,43 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS- 467/button_Add New Product'))
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-467/button_Add New Product'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS- 467/input_Product Description'), 'Negative Path')
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-467/input_Product Description'), 'Negative Path')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS- 467/input_Product Code'), '0000000')
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-467/input_Product Code'), '0000000')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS- 467/input_Class'), 'Negative Path Class')
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-467/input_Class'), 'Negative Path Class')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS- 467/input_NMFC'), 'Negative Path NMFC')
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-467/input_NMFC'), 'Negative Path NMFC')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS- 467/Hazmat_Yes'))
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-467/Hazmat_Yes'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS- 467/input_UN'), '1478')
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-467/input_UN'), '1478')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS- 467/textarea_Hazmat Description'), 'Negative Path')
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-467/textarea_Hazmat Description'), 'Negative Path')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS- 467/button_Save'))
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-467/button_Save'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS- 467/button_No(Save)'))
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-467/button_No(Save)'))
 
 WebUI.delay(3)
 

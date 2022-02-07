@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS- 467/textarea_Hazmat Description'), 'Test Hazmart Description for Automation')
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-467/textarea_Hazmat Description'), 'Test Hazmart Description for Automation')
 
 WebUI.delay(1)
 

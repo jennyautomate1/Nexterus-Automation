@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User should be able to click Delete button on Product Details section</description>
+   <name>FCSCMS-1867-S7 (User should be able to click Delete button on Product Details section)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28f0f975-0aa8-4560-905b-56b3e8225108</testCaseGuid>
+</TestCaseEntity>

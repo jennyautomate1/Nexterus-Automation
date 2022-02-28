@@ -16,7 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Admin/Sprint 8/FCSCMS-952/ItemstoBeShipped/button_Add Items'))
+WebUI.navigateToUrl('https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login')
+
+WebUI.maximizeWindow()
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Login/Username_Field'), 'admin')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Login/Password_Field'), 'admin')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Login/BTN_Login'))
 

@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Admin/Sprint 8/FCSCMS-952/ItemstoBeShipped/button_Add Items'))
+WebUI.setText(findTestObject('Admin/Sprint 8/FCSCMS-952/AddNewQoute/input_Ship Date'), '03/10/2022')
 

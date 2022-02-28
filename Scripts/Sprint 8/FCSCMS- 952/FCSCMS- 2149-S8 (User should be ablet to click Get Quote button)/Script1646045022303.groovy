@@ -16,7 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Admin/Sprint 8/FCSCMS-952/GetQoute/button_Get Quote'))
 
-WebUI.click(findTestObject('Admin/Sprint 8/FCSCMS-952/ItemstoBeShipped/button_Add Items'))
+WebUI.delay(3)
+
+WebUI.waitForElementVisible(findTestObject('Admin/Sprint 8/FCSCMS-952/GetQoute/circle'), 0)
+
+WebUI.click(findTestObject('Admin/Sprint 8/FCSCMS-952/GetQoute/circle'))
 

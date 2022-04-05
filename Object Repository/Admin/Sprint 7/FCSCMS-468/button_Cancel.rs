@@ -6,8 +6,12 @@
    <elementGuidId>8628f51e-fe4c-4668-8fa8-a4c8ae33ebcf</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[2]/div[6]/aside/div[2]/span/div/div/form/div[5]/button[2]</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -6,6 +6,10 @@
    <elementGuidId>4961dd42-0718-469e-a500-f54dc296b4d5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Yes' or . = 'Yes')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>/html/body/div[3]/div/div/div/div/span[2]/div/button[2]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>button.btn.btn-Primary</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-729 (Product Catalog Management- Product Catalog - Listing)" time="60.063" tests="10" failures="0" errors="0">
+   <testsuite name="FCSCMS-729 (Product Catalog Management- Product Catalog - Listing)" tests="10" failures="0" errors="0" time="60.063" skipped="0" timestamp="2022-03-24 16:22:27" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 7/FCSCMS-729 (Product Catalog Management- Product Catalog - Listing)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220324_162212\\Sprint 7\\FCSCMS-729 (Product Catalog Management- Product Catalog - Listing)\\20220324_162212"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220324_162212\\Sprint 7\\FCSCMS-729 (Product Catalog Management- Product Catalog - Listing)\\20220324_162212\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.82"/>
+         <property name="hostAddress" value="192.168.100.8"/>
+         <property name="sessionId" value="fc860506bec01797db7b8ce9e137b698"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1803-S7 (User should be able to Log in using Admin-Valid credentials)" time="18.479" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1803-S7 (User should be able to Log in using Admin-Valid credentials)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:22:27 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1803-S7 (User should be able to Log in using Admin-Valid credentials): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1803-S7 (User should be able to Log in using Admin-Valid credentials)
+
+2022-03-24 16:22:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 16:22:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 16:22:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 16:22:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 16:22:32 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-03-24 16:22:36 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-03-24 16:22:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 16:22:37 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 16:22:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-24 16:22:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-24 16:22:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-03-24 16:22:42 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-03-24 16:22:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-24 16:22:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-24 16:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-03-24 16:22:44 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-03-24 16:22:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-24 16:22:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-24 16:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2022-03-24 16:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1804-S7 (Click Product Catalog)" time="7.459" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1804-S7 (Click Product Catalog)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:22:46 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1804-S7 (Click Product Catalog): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1804-S7 (Click Product Catalog)
+
+2022-03-24 16:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/a_Product Catalog")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/a_Product Catalog' is clicked on
+
+2022-03-24 16:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/a_Product Catalog' is clicked on
+
+2022-03-24 16:22:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-24 16:22:53 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1805-S7 (User should be able to see complete information of Product catalog)" time="2.399" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1805-S7 (User should be able to see complete information of Product catalog)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:22:53 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1805-S7 (User should be able to see complete information of Product catalog): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1805-S7 (User should be able to see complete information of Product catalog)
+
+2022-03-24 16:22:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-24 16:22:56 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1806-S7 (User should be able to click View-Edit Product information)" time="6.67" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1806-S7 (User should be able to click View-Edit Product information)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:22:56 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1806-S7 (User should be able to click View-Edit Product information): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1806-S7 (User should be able to click View-Edit Product information)
+
+2022-03-24 16:22:56 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2022-03-24 16:22:57 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-03-24 16:22:57 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Edit Product/Product 1_Edit")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Edit Product/Product 1_Edit' is clicked on
+
+2022-03-24 16:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Edit Product/Product 1_Edit' is clicked on
+
+2022-03-24 16:22:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-24 16:23:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-24 16:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Edit Product/Close(x)_Edit")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Edit Product/Close(x)_Edit' is clicked on
+
+2022-03-24 16:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Edit Product/Close(x)_Edit' is clicked on
+
+2022-03-24 16:23:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-24 16:23:02 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1807-S7 (User should be able to user pagination widget arrow)" time="3.391" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1807-S7 (User should be able to user pagination widget arrow)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:23:02 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1807-S7 (User should be able to user pagination widget arrow): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1807-S7 (User should be able to user pagination widget arrow)
+
+2022-03-24 16:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Pagination/pagination-Next")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Pagination/pagination-Next' is clicked on
+
+2022-03-24 16:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Pagination/pagination-Next' is clicked on
+
+2022-03-24 16:23:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-24 16:23:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-24 16:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Pagination/pagination-Previous")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Pagination/pagination-Previous' is clicked on
+
+2022-03-24 16:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Pagination/pagination-Previous' is clicked on
+
+2022-03-24 16:23:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-24 16:23:06 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1808-S7 (User should be able to user pagination widget number)" time="4.287" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1808-S7 (User should be able to user pagination widget number)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:23:06 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1808-S7 (User should be able to user pagination widget number): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1808-S7 (User should be able to user pagination widget number)
+
+2022-03-24 16:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Pagination/button_2(Pagination)")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Pagination/button_2(Pagination)' is clicked on
+
+2022-03-24 16:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Pagination/button_2(Pagination)' is clicked on
+
+2022-03-24 16:23:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-24 16:23:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-24 16:23:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Pagination/button_1(Pagination)")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Pagination/button_1(Pagination)' is clicked on
+
+2022-03-24 16:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Pagination/button_1(Pagination)' is clicked on
+
+2022-03-24 16:23:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-24 16:23:10 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1809-S7 (User should be eble to click Export button)" time="3.033" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1809-S7 (User should be eble to click Export button)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:23:10 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1809-S7 (User should be eble to click Export button): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1809-S7 (User should be eble to click Export button)
+
+2022-03-24 16:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Export(button)")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export(button)' is clicked on
+
+2022-03-24 16:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export(button)' is clicked on
+
+2022-03-24 16:23:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-24 16:23:13 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1810-S7 (User should be able to fill File name field)" time="3.31" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1810-S7 (User should be able to fill File name field)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:23:13 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1810-S7 (User should be able to fill File name field): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1810-S7 (User should be able to fill File name field)
+
+2022-03-24 16:23:13 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 7/FCSCMS-729/Export/FileName(Export)"), "Test Export"): Text 'Test Export' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export/FileName(Export)'
+
+2022-03-24 16:23:14 - [MESSAGE][PASSED] - Text 'Test Export' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export/FileName(Export)'
+
+2022-03-24 16:23:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-24 16:23:16 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1811-S7 (User should be able to Select Cancel on export process)" time="2.888" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1811-S7 (User should be able to Select Cancel on export process)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:23:16 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1811-S7 (User should be able to Select Cancel on export process): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1811-S7 (User should be able to Select Cancel on export process)
+
+2022-03-24 16:23:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Export/button_Cancel")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export/button_Cancel' is clicked on
+
+2022-03-24 16:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export/button_Cancel' is clicked on
+
+2022-03-24 16:23:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-24 16:23:19 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1812-S7 (User should be able to export product file upon clicking yes button)" time="7.34" classname="Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1812-S7 (User should be able to export product file upon clicking yes button)" status="PASSED">
+         <system-out><![CDATA[2022-03-24 16:23:19 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1812-S7 (User should be able to export product file upon clicking yes button): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1812-S7 (User should be able to export product file upon clicking yes button)
+
+2022-03-24 16:23:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Export(button)")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export(button)' is clicked on
+
+2022-03-24 16:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export(button)' is clicked on
+
+2022-03-24 16:23:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-24 16:23:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-24 16:23:22 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 7/FCSCMS-729/Export/FileName(Export)"), "Test Export"): Text 'Test Export' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export/FileName(Export)'
+
+2022-03-24 16:23:23 - [MESSAGE][PASSED] - Text 'Test Export' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export/FileName(Export)'
+
+2022-03-24 16:23:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-24 16:23:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-24 16:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/Export/button_Download")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export/button_Download' is clicked on
+
+2022-03-24 16:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/Export/button_Download' is clicked on
+
+2022-03-24 16:23:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-24 16:23:27 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-24 16:22:27 - [TEST_SUITE][PASSED] - FCSCMS-729 (Product Catalog Management- Product Catalog - Listing): Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1812-S7 (User should be able to export product file upon clicking yes button)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

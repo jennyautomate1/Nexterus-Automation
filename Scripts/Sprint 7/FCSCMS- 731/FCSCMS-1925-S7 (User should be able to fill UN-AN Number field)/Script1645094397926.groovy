@@ -16,3 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.clearText(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/input_UN  NA Number'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/input_UN  NA Number'), '1324')
+
+WebUI.delay(1)
+

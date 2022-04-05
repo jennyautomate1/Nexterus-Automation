@@ -6,8 +6,12 @@
    <elementGuidId>b497db6d-8499-453a-900a-a2daa84dfee1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Save' or . = 'Save')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='submit'])[3]</value>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[2]/div[6]/aside/div[2]/span/div/div/form/div[5]/button[3]</value>
       </entry>
       <entry>
          <key>CSS</key>

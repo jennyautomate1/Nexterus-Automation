@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-728 (Product Catalog Management - Search Products)" time="122.419" tests="16" failures="0" errors="0">
+   <testsuite name="FCSCMS-728 (Product Catalog Management - Search Products)" tests="16" failures="0" errors="0" time="122.419" skipped="0" timestamp="2022-03-30 17:46:43" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 7/FCSCMS-728 (Product Catalog Management - Search Products)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174628\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174628"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174628\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174628\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.84"/>
+         <property name="hostAddress" value="192.168.100.8"/>
+         <property name="sessionId" value="fa3b4f8f165b19ec1f930007e843c814"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1828-S7 (User should be able to Log in using Admin-Valid credentials)" time="21.542" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1828-S7 (User should be able to Log in using Admin-Valid credentials)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:46:44 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1828-S7 (User should be able to Log in using Admin-Valid credentials): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1828-S7 (User should be able to Log in using Admin-Valid credentials)
+
+2022-03-30 17:46:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-30 17:46:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-30 17:46:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-30 17:46:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-30 17:46:51 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-03-30 17:46:54 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-03-30 17:46:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-30 17:46:54 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-30 17:46:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-30 17:46:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-30 17:46:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-03-30 17:47:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-03-30 17:47:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 17:47:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 17:47:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-03-30 17:47:02 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-03-30 17:47:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 17:47:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 17:47:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2022-03-30 17:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1829-S7 (Click Product Catalog)" time="40.653" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1829-S7 (Click Product Catalog)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:47:05 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1829-S7 (Click Product Catalog): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1829-S7 (Click Product Catalog)
+
+2022-03-30 17:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/a_Product Catalog")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/a_Product Catalog' is clicked on
+
+2022-03-30 17:47:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/a_Product Catalog' is clicked on
+
+2022-03-30 17:47:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:47:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1830-S7 (User should be able to fill search bar)" time="6.953" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1830-S7 (User should be able to fill search bar)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:47:46 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1830-S7 (User should be able to fill search bar): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1830-S7 (User should be able to fill search bar)
+
+2022-03-30 17:47:46 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog"), "Automation Test Product"): Text 'Automation Test Product' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:47:51 - [MESSAGE][PASSED] - Text 'Automation Test Product' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:47:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:47:53 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1831-S7 (User should be able to Search product on the Search button)" time="2.924" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1831-S7 (User should be able to Search product on the Search button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:47:53 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1831-S7 (User should be able to Search product on the Search button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1831-S7 (User should be able to Search product on the Search button)
+
+2022-03-30 17:47:53 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/Search Button")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/Search Button' is clicked on
+
+2022-03-30 17:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/Search Button' is clicked on
+
+2022-03-30 17:47:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:47:56 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1832-S7 (User should be able to Search product using Enter button)" time="6.142" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1832-S7 (User should be able to Search product using Enter button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:47:56 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1832-S7 (User should be able to Search product using Enter button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1832-S7 (User should be able to Search product using Enter button)
+
+2022-03-30 17:47:56 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog")): Text of object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog' is cleared
+
+2022-03-30 17:47:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog' is cleared
+
+2022-03-30 17:47:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 17:47:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 17:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog"), "Automation Test Product"): Text 'Automation Test Product' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:47:58 - [MESSAGE][PASSED] - Text 'Automation Test Product' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:47:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 17:47:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 17:47:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:48:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:48:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:02 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1833-S7 (User is able to click Advance search button)" time="2.921" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1833-S7 (User is able to click Advance search button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:02 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1833-S7 (User is able to click Advance search button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1833-S7 (User is able to click Advance search button)
+
+2022-03-30 17:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Advanced Search")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Advanced Search' is clicked on
+
+2022-03-30 17:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Advanced Search' is clicked on
+
+2022-03-30 17:48:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:05 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1834-S7 (Select Product Code)" time="3.408" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1834-S7 (Select Product Code)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:05 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1834-S7 (Select Product Code): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1834-S7 (Select Product Code)
+
+2022-03-30 17:48:05 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Product Code")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Product Code' is clicked on
+
+2022-03-30 17:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Product Code' is clicked on
+
+2022-03-30 17:48:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductCode/div_123456")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductCode/div_123456' is clicked on
+
+2022-03-30 17:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductCode/div_123456' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1835-S7 (Select Class)" time="5.729" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1835-S7 (Select Class)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:08 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1835-S7 (Select Class): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1835-S7 (Select Class)
+
+2022-03-30 17:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class' is clicked on
+
+2022-03-30 17:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class' is clicked on
+
+2022-03-30 17:48:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class 1/div_AT Test Class")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class 1/div_AT Test Class' is clicked on
+
+2022-03-30 17:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class 1/div_AT Test Class' is clicked on
+
+2022-03-30 17:48:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:14 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1836-S7 (Select NMFC)" time="5.401" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1836-S7 (Select NMFC)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:14 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1836-S7 (Select NMFC): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1836-S7 (Select NMFC)
+
+2022-03-30 17:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC' is clicked on
+
+2022-03-30 17:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC' is clicked on
+
+2022-03-30 17:48:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC 1/div_1122")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC 1/div_1122' is clicked on
+
+2022-03-30 17:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC 1/div_1122' is clicked on
+
+2022-03-30 17:48:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:19 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1837-S7 (Product Description)" time="5.425" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1837-S7 (Product Description)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:19 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1837-S7 (Product Description): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1837-S7 (Product Description)
+
+2022-03-30 17:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductDescription")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductDescription' is clicked on
+
+2022-03-30 17:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductDescription' is clicked on
+
+2022-03-30 17:48:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is clicked on
+
+2022-03-30 17:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is clicked on
+
+2022-03-30 17:48:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:25 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option)" time="3.322" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:25 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option)
+
+2022-03-30 17:48:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat"), "Yes", false): All options with label 'Yes' are selected in object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat' 
+
+2022-03-30 17:48:26 - [MESSAGE][PASSED] - All options with label 'Yes' are selected in object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat' 
+
+2022-03-30 17:48:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:28 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1839-S7 (User should be able to fill Hazmat Description)" time="3.306" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1839-S7 (User should be able to fill Hazmat Description)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:28 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1839-S7 (User should be able to fill Hazmat Description): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1839-S7 (User should be able to fill Hazmat Description)
+
+2022-03-30 17:48:28 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat Description"), "This is for Automation Purposes Only"): Text 'This is for Automation Purposes Only' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat Description'
+
+2022-03-30 17:48:29 - [MESSAGE][PASSED] - Text 'This is for Automation Purposes Only' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat Description'
+
+2022-03-30 17:48:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:31 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1840-S7 (User should be alble to select UN-AN number)" time="5.275" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1840-S7 (User should be alble to select UN-AN number)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:31 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1840-S7 (User should be alble to select UN-AN number): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1840-S7 (User should be alble to select UN-AN number)
+
+2022-03-30 17:48:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN-NA Number")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN-NA Number' is clicked on
+
+2022-03-30 17:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN-NA Number' is clicked on
+
+2022-03-30 17:48:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN NA/div_1122")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN NA/div_1122' is clicked on
+
+2022-03-30 17:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN NA/div_1122' is clicked on
+
+2022-03-30 17:48:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:37 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1841-S7 (User should be able to click Search button)" time="2.861" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1841-S7 (User should be able to click Search button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:37 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1841-S7 (User should be able to click Search button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1841-S7 (User should be able to click Search button)
+
+2022-03-30 17:48:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Search")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Search' is clicked on
+
+2022-03-30 17:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Search' is clicked on
+
+2022-03-30 17:48:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:40 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product)" time="2.808" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:40 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product)
+
+2022-03-30 17:48:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product")): Object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is visible
+
+2022-03-30 17:48:40 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is visible
+
+2022-03-30 17:48:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:42 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button)" time="2.939" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:48:42 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button)
+
+2022-03-30 17:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Clear")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Clear' is clicked on
+
+2022-03-30 17:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Clear' is clicked on
+
+2022-03-30 17:48:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:48:45 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-30 17:46:43 - [TEST_SUITE][PASSED] - FCSCMS-728 (Product Catalog Management - Search Products): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

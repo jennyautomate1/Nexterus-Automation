@@ -6,6 +6,10 @@
    <elementGuidId>fea2e38a-9082-4d9e-8b6f-f0b09e2a801d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>/html/body/div[3]/div/div/div/div/div[2]/div/form/div[2]/button[1]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>button.btn.border-radius-rounded</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

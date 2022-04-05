@@ -6,8 +6,12 @@
    <elementGuidId>618ec634-8c8e-425d-b91c-8971055029d3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0);']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='b18-l2_0-184_0-b19-Column1']/div/a</value>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div[5]/div/div/div/span[2]/div/div[3]/table/tbody/tr/td[1]/div/div/div[1]/div/a/img</value>
       </entry>
       <entry>
          <key>CSS</key>

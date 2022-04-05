@@ -16,3 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-732(NEW)/Search/DeleteIcon'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-732(NEW)/DeleteButtons/button_Yes(Delete)'))
+
+WebUI.delay(3)
+

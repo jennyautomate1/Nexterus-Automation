@@ -39,4 +39,9 @@
       <initValue>'AutomationTest'</initValue>
       <name>SalesRep</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

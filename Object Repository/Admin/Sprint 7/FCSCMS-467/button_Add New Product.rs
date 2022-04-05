@@ -6,6 +6,10 @@
    <elementGuidId>27f9a2ad-2798-48ab-b6b2-c2e5c7cfcc2b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Add New Product' or . = 'Add New Product')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[14]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#b18-b1-ButtonBar > button.btn.btn-secondary.ThemeGrid_MarginGutter</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

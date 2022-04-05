@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-730 (Product Catalog Management - Add New Product)" time="43.744" tests="18" failures="0" errors="0">
+   <testsuite name="FCSCMS-730 (Product Catalog Management - Add New Product)" tests="18" failures="0" errors="0" time="43.744" skipped="0" timestamp="2022-03-30 13:00:56" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 7/FCSCMS-730 (Product Catalog Management - Add New Product)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_130039\\Sprint 7\\FCSCMS-730 (Product Catalog Management - Add New Product)\\20220330_130039"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_130039\\Sprint 7\\FCSCMS-730 (Product Catalog Management - Add New Product)\\20220330_130039\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.84"/>
+         <property name="hostAddress" value="192.168.100.8"/>
+         <property name="sessionId" value="360494c1f0ed4ed36c8647c196e12464"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1844-S7 (User should be able to Log in using Admin-Valid credentials)" time="19.48" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1844-S7 (User should be able to Log in using Admin-Valid credentials)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:00:57 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1844-S7 (User should be able to Log in using Admin-Valid credentials): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1844-S7 (User should be able to Log in using Admin-Valid credentials)
+
+2022-03-30 13:00:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-30 13:00:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-30 13:00:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-30 13:01:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-30 13:01:05 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-03-30 13:01:08 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-03-30 13:01:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-30 13:01:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-30 13:01:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-30 13:01:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-30 13:01:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-03-30 13:01:13 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-03-30 13:01:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 13:01:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 13:01:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-03-30 13:01:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-03-30 13:01:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 13:01:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 13:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2022-03-30 13:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1845-S7 (User should be able to click Product Catalog)" time="13.244" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1845-S7 (User should be able to click Product Catalog)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:17 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1845-S7 (User should be able to click Product Catalog): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1845-S7 (User should be able to click Product Catalog)
+
+2022-03-30 13:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/a_Product Catalog")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/a_Product Catalog' is clicked on
+
+2022-03-30 13:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/a_Product Catalog' is clicked on
+
+2022-03-30 13:01:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 13:01:30 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1846-S7 (User is able to click Add new product button)" time="0.524" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1846-S7 (User is able to click Add new product button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:30 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1846-S7 (User is able to click Add new product button): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1846-S7 (User is able to click Add new product button)
+
+2022-03-30 13:01:31 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1847-S7 (User should be able to fill Product description field (mandatory))" time="0.635" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1847-S7 (User should be able to fill Product description field (mandatory))" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:31 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1847-S7 (User should be able to fill Product description field (mandatory)): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1847-S7 (User should be able to fill Product description field (mandatory))
+
+2022-03-30 13:01:31 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1848-S7 (User should be able to fill Product Code field)" time="0.544" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1848-S7 (User should be able to fill Product Code field)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:31 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1848-S7 (User should be able to fill Product Code field): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1848-S7 (User should be able to fill Product Code field)
+
+2022-03-30 13:01:32 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1849-S7 (User should be able to fill Class field)" time="0.492" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1849-S7 (User should be able to fill Class field)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:32 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1849-S7 (User should be able to fill Class field): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1849-S7 (User should be able to fill Class field)
+
+2022-03-30 13:01:32 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1850-S7 (User should be able to fill NMFC field)" time="0.584" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1850-S7 (User should be able to fill NMFC field)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:32 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1850-S7 (User should be able to fill NMFC field): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1850-S7 (User should be able to fill NMFC field)
+
+2022-03-30 13:01:33 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1851-S7 (User should be able to select No on Hazmat option)" time="0.583" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1851-S7 (User should be able to select No on Hazmat option)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:33 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1851-S7 (User should be able to select No on Hazmat option): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1851-S7 (User should be able to select No on Hazmat option)
+
+2022-03-30 13:01:33 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1852-S7 (User should be able to select Yes on Hazmat option)" time="0.741" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1852-S7 (User should be able to select Yes on Hazmat option)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:33 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1852-S7 (User should be able to select Yes on Hazmat option): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1852-S7 (User should be able to select Yes on Hazmat option)
+
+2022-03-30 13:01:34 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1853-S7 (User should be able to fill UN-AN Number field)" time="0.852" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1853-S7 (User should be able to fill UN-AN Number field)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:34 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1853-S7 (User should be able to fill UN-AN Number field): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1853-S7 (User should be able to fill UN-AN Number field)
+
+2022-03-30 13:01:35 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1854-S7 (User should be able to fill Hazmat Description field)" time="0.653" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1854-S7 (User should be able to fill Hazmat Description field)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:35 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1854-S7 (User should be able to fill Hazmat Description field): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1854-S7 (User should be able to fill Hazmat Description field)
+
+2022-03-30 13:01:36 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1855-S7 (User shoueld be able to click Cancel button)" time="0.514" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1855-S7 (User shoueld be able to click Cancel button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:36 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1855-S7 (User shoueld be able to click Cancel button): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1855-S7 (User shoueld be able to click Cancel button)
+
+2022-03-30 13:01:36 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1856-S7 (User should be able to select No on Cancel process)" time="0.804" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1856-S7 (User should be able to select No on Cancel process)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:36 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1856-S7 (User should be able to select No on Cancel process): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1856-S7 (User should be able to select No on Cancel process)
+
+2022-03-30 13:01:37 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1857-S7 (User should be able to select Yes on Cancel process)" time="0.725" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1857-S7 (User should be able to select Yes on Cancel process)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:37 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1857-S7 (User should be able to select Yes on Cancel process): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1857-S7 (User should be able to select Yes on Cancel process)
+
+2022-03-30 13:01:38 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1858-S7 (User should get error notification)" time="0.576" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1858-S7 (User should get error notification)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:38 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1858-S7 (User should get error notification): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1858-S7 (User should get error notification)
+
+2022-03-30 13:01:38 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1859-S7 (User should be able to click Save button)" time="0.447" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1859-S7 (User should be able to click Save button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:38 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1859-S7 (User should be able to click Save button): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1859-S7 (User should be able to click Save button)
+
+2022-03-30 13:01:39 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1860-S7 (User should be able to select No on Save option)" time="0.458" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1860-S7 (User should be able to select No on Save option)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:39 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1860-S7 (User should be able to select No on Save option): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1860-S7 (User should be able to select No on Save option)
+
+2022-03-30 13:01:39 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1861-S7 (User should be able to select Yes on Save option)" time="0.743" classname="Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1861-S7 (User should be able to select Yes on Save option)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 13:01:39 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1861-S7 (User should be able to select Yes on Save option): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1861-S7 (User should be able to select Yes on Save option)
+
+2022-03-30 13:01:40 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-30 13:00:56 - [TEST_SUITE][PASSED] - FCSCMS-730 (Product Catalog Management - Add New Product): Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1861-S7 (User should be able to select Yes on Save option)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

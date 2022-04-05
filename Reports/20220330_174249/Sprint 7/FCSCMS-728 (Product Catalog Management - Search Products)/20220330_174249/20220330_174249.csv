@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-728 (Product Catalog Management - Search Products),Chrome 99.0.4844.84,Product Catalog Management: Search Products,,2022-03-30 17:43:07,2022-03-30 17:44:39,1m - 32.321s,FAILED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1828-S7 (User should be able to Log in using Admin-Valid credentials),Chrome 99.0.4844.84,User should be able to Log in using Admin/Valid credentials,,2022-03-30 17:43:08,2022-03-30 17:43:26,17.725s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.84,,,2022-03-30 17:43:09,2022-03-30 17:43:15,6.172s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 99.0.4844.84,,,2022-03-30 17:43:15,2022-03-30 17:43:17,2.068s,PASSED
+maximizeWindow(),Chrome 99.0.4844.84,,,2022-03-30 17:43:17,2022-03-30 17:43:17,0.385s,PASSED
+delay(3),Chrome 99.0.4844.84,,,2022-03-30 17:43:17,2022-03-30 17:43:21,3.071s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 99.0.4844.84,,,2022-03-30 17:43:21,2022-03-30 17:43:22,1.118s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:43:22,2022-03-30 17:43:23,1.013s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 99.0.4844.84,,,2022-03-30 17:43:23,2022-03-30 17:43:24,0.847s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:43:24,2022-03-30 17:43:25,1.020s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 99.0.4844.84,,,2022-03-30 17:43:25,2022-03-30 17:43:26,1.102s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1829-S7 (Click Product Catalog),Chrome 99.0.4844.84,User should be able to clicks Product Catalog option from the left navigation panel,,2022-03-30 17:43:26,2022-03-30 17:43:44,17.676s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/a_Product Catalog""))",Chrome 99.0.4844.84,,,2022-03-30 17:43:26,2022-03-30 17:43:41,15.219s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:43:41,2022-03-30 17:43:43,2.012s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1830-S7 (User should be able to fill search bar),Chrome 99.0.4844.84,User should be able to fill search bar,,2022-03-30 17:43:44,2022-03-30 17:43:50,6.322s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog""), ""Automation Test Product"")",Chrome 99.0.4844.84,,,2022-03-30 17:43:44,2022-03-30 17:43:48,3.678s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:43:48,2022-03-30 17:43:50,2.011s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1831-S7 (User should be able to Search product on the Search button),Chrome 99.0.4844.84,User should be able to Search product on the  Search button,,2022-03-30 17:43:50,2022-03-30 17:43:53,2.988s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728/Advanced Search/Search Button""))",Chrome 99.0.4844.84,,,2022-03-30 17:43:50,2022-03-30 17:43:51,0.524s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:43:51,2022-03-30 17:43:53,2.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1832-S7 (User should be able to Search product using Enter button),Chrome 99.0.4844.84,User should be able to Search product using Enter button,,2022-03-30 17:43:53,2022-03-30 17:43:59,6.144s,PASSED
+"clearText(findTestObject(""Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog""))",Chrome 99.0.4844.84,,,2022-03-30 17:43:53,2022-03-30 17:43:54,0.417s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:43:54,2022-03-30 17:43:55,1.014s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog""), ""Automation Test Product"")",Chrome 99.0.4844.84,,,2022-03-30 17:43:55,2022-03-30 17:43:56,0.768s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:43:56,2022-03-30 17:43:57,1.008s,PASSED
+"sendKeys(findTestObject(""Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog""), Keys.chord(ENTER))",Chrome 99.0.4844.84,,,2022-03-30 17:43:57,2022-03-30 17:43:57,0.421s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:43:57,2022-03-30 17:43:59,2.009s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1833-S7 (User is able to click Advance search button),Chrome 99.0.4844.84,User is able to click Advance search button,,2022-03-30 17:43:59,2022-03-30 17:44:02,2.907s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Advanced Search""))",Chrome 99.0.4844.84,,,2022-03-30 17:43:59,2022-03-30 17:44:00,0.478s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:00,2022-03-30 17:44:02,2.007s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1834-S7 (Select Product Code),Chrome 99.0.4844.84,User should be able to Search/Select Product code in Search Dropdown,,2022-03-30 17:44:02,2022-03-30 17:44:05,3.354s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Product Code""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:02,2022-03-30 17:44:03,0.483s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:03,2022-03-30 17:44:05,2.014s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductCode/div_123456""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:05,2022-03-30 17:44:05,0.421s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1835-S7 (Select Class),Chrome 99.0.4844.84,User should be able to Search/Select Class in Search Dropdown,,2022-03-30 17:44:05,2022-03-30 17:44:11,5.776s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:06,2022-03-30 17:44:07,0.482s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:07,2022-03-30 17:44:09,2.010s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class 1/div_AT Test Class""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:09,2022-03-30 17:44:09,0.443s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:09,2022-03-30 17:44:11,2.004s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1836-S7 (Select NMFC),Chrome 99.0.4844.84,User should be able to Search/Select NMFC in Search Dropdown,,2022-03-30 17:44:11,2022-03-30 17:44:17,5.629s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:12,2022-03-30 17:44:12,0.544s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:12,2022-03-30 17:44:14,2.008s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC 1/div_1122""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:14,2022-03-30 17:44:15,0.435s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:15,2022-03-30 17:44:17,2.008s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1837-S7 (Product Description),Chrome 99.0.4844.84,User should be able to Search/Select Product Description in Search Dropdown,,2022-03-30 17:44:17,2022-03-30 17:44:22,5.334s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductDescription""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:17,2022-03-30 17:44:18,0.424s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:18,2022-03-30 17:44:20,2.009s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:20,2022-03-30 17:44:20,0.489s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:20,2022-03-30 17:44:22,2.010s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option),Chrome 99.0.4844.84,User should be alble to select Hazmat option,,2022-03-30 17:44:22,2022-03-30 17:44:24,1.452s,FAILED
+"selectOptionByValue(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat""), ""Yes"", false)",Chrome 99.0.4844.84,,,2022-03-30 17:44:23,2022-03-30 17:44:23,0.962s,FAILED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1839-S7 (User should be able to fill Hazmat Description),Chrome 99.0.4844.84,User should be able to fill Hazmat Description,,2022-03-30 17:44:24,2022-03-30 17:44:27,3.360s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat Description""), ""This is for Automation Purposes Only"")",Chrome 99.0.4844.84,,,2022-03-30 17:44:24,2022-03-30 17:44:25,0.904s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:25,2022-03-30 17:44:27,2.004s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1840-S7 (User should be alble to select UN-AN number),Chrome 99.0.4844.84,User should be alble to select UN/AN number,,2022-03-30 17:44:27,2022-03-30 17:44:32,5.323s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN-NA Number""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:27,2022-03-30 17:44:28,0.457s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:28,2022-03-30 17:44:30,2.011s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN NA/div_1122""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:30,2022-03-30 17:44:30,0.429s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:30,2022-03-30 17:44:32,2.018s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1841-S7 (User should be able to click Search button),Chrome 99.0.4844.84,User should be able to click Search button,,2022-03-30 17:44:32,2022-03-30 17:44:35,2.846s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Search""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:33,2022-03-30 17:44:33,0.461s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:33,2022-03-30 17:44:35,2.012s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product),Chrome 99.0.4844.84,User should be able to Search Product,,2022-03-30 17:44:35,2022-03-30 17:44:36,1.264s,FAILED
+"verifyElementVisible(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:35,2022-03-30 17:44:36,0.849s,FAILED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button),Chrome 99.0.4844.84,User should be able to click Clear button,,2022-03-30 17:44:36,2022-03-30 17:44:39,2.922s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Clear""))",Chrome 99.0.4844.84,,,2022-03-30 17:44:37,2022-03-30 17:44:37,0.452s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:44:37,2022-03-30 17:44:39,2.012s,PASSED

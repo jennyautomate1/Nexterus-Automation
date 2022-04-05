@@ -6,6 +6,10 @@
    <elementGuidId>391a4f07-d649-4c11-a9b6-d0eb7a717d7b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'No' or . = 'No')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>/html/body/div[3]/div/div/div/div/span[2]/div/button[1]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>button.btn.border-radius-rounded</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

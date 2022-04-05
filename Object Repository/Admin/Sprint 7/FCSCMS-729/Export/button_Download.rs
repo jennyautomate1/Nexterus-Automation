@@ -6,6 +6,10 @@
    <elementGuidId>703095b9-092d-4c74-a50d-fbda23f4cc84</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Download' or . = 'Download')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>/html/body/div[3]/div/div/div/div/div[2]/div/form/div[2]/button[2]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>button.btn.btn-Primary.ThemeGrid_MarginGutter</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

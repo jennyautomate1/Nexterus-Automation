@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-730 (Product Catalog Management - Add New Product),Chrome 99.0.4844.84,Product Catalog Management: Add New Product,,2022-03-30 13:00:56,2022-03-30 13:01:40,43.744s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1844-S7 (User should be able to Log in using Admin-Valid credentials),Chrome 99.0.4844.84,User should be able to Log in using Admin/Valid credentials,,2022-03-30 13:00:57,2022-03-30 13:01:17,19.480s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.84,,,2022-03-30 13:00:58,2022-03-30 13:01:05,7.250s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 99.0.4844.84,,,2022-03-30 13:01:05,2022-03-30 13:01:08,2.322s,PASSED
+maximizeWindow(),Chrome 99.0.4844.84,,,2022-03-30 13:01:08,2022-03-30 13:01:08,0.259s,PASSED
+delay(3),Chrome 99.0.4844.84,,,2022-03-30 13:01:08,2022-03-30 13:01:11,3.084s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 99.0.4844.84,,,2022-03-30 13:01:11,2022-03-30 13:01:13,1.963s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 13:01:13,2022-03-30 13:01:14,1.008s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 99.0.4844.84,,,2022-03-30 13:01:14,2022-03-30 13:01:15,1.093s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 13:01:15,2022-03-30 13:01:16,1.015s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 99.0.4844.84,,,2022-03-30 13:01:16,2022-03-30 13:01:17,0.756s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1845-S7 (User should be able to click Product Catalog),Chrome 99.0.4844.84,User should be able to clicks Product Catalog option from the left navigation panel,,2022-03-30 13:01:17,2022-03-30 13:01:30,13.244s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/a_Product Catalog""))",Chrome 99.0.4844.84,,,2022-03-30 13:01:17,2022-03-30 13:01:28,10.525s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 13:01:28,2022-03-30 13:01:30,2.014s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1846-S7 (User is able to click Add new product button),Chrome 99.0.4844.84,User is able to click Add new product button,,2022-03-30 13:01:30,2022-03-30 13:01:31,0.524s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:31,2022-03-30 13:01:31,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1847-S7 (User should be able to fill Product description field (mandatory)),Chrome 99.0.4844.84,User should be able to fill Product description field (mandatory),,2022-03-30 13:01:31,2022-03-30 13:01:31,0.635s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:31,2022-03-30 13:01:31,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1848-S7 (User should be able to fill Product Code field),Chrome 99.0.4844.84,FCSCMS- 1848	User should be able to fill Product Code field,,2022-03-30 13:01:31,2022-03-30 13:01:32,0.544s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:32,2022-03-30 13:01:32,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1849-S7 (User should be able to fill Class field),Chrome 99.0.4844.84,User should be able to fill Class field,,2022-03-30 13:01:32,2022-03-30 13:01:32,0.492s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:32,2022-03-30 13:01:32,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1850-S7 (User should be able to fill NMFC field),Chrome 99.0.4844.84,,,2022-03-30 13:01:32,2022-03-30 13:01:33,0.584s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:33,2022-03-30 13:01:33,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1851-S7 (User should be able to select No on Hazmat option),Chrome 99.0.4844.84,User should be able to select No on Hazmat option,,2022-03-30 13:01:33,2022-03-30 13:01:33,0.583s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:33,2022-03-30 13:01:33,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1852-S7 (User should be able to select Yes on Hazmat option),Chrome 99.0.4844.84,User should be able to select Yes on Hazmat option,,2022-03-30 13:01:33,2022-03-30 13:01:34,0.741s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:34,2022-03-30 13:01:34,0.000s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1853-S7 (User should be able to fill UN-AN Number field),Chrome 99.0.4844.84,User should be able to fill UN/AN Number field,,2022-03-30 13:01:34,2022-03-30 13:01:35,0.852s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:35,2022-03-30 13:01:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1854-S7 (User should be able to fill Hazmat Description field),Chrome 99.0.4844.84,User should be able to fill Hazmat Description field,,2022-03-30 13:01:35,2022-03-30 13:01:36,0.653s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:36,2022-03-30 13:01:36,0.000s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1855-S7 (User shoueld be able to click Cancel button),Chrome 99.0.4844.84,User shoueld be able to click Cancel button,,2022-03-30 13:01:36,2022-03-30 13:01:36,0.514s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:36,2022-03-30 13:01:36,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1856-S7 (User should be able to select No on Cancel process),Chrome 99.0.4844.84,User should be able to select No on Cancel process,,2022-03-30 13:01:36,2022-03-30 13:01:37,0.804s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:37,2022-03-30 13:01:37,0.003s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1857-S7 (User should be able to select Yes on Cancel process),Chrome 99.0.4844.84,User should be able to select Yes on Cancel process,,2022-03-30 13:01:37,2022-03-30 13:01:38,0.725s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:38,2022-03-30 13:01:38,0.007s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1858-S7 (User should get error notification),Chrome 99.0.4844.84,User should get error notification upon clicking Save button when mandatory fields are empty,,2022-03-30 13:01:38,2022-03-30 13:01:38,0.576s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:38,2022-03-30 13:01:38,0.000s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1859-S7 (User should be able to click Save button),Chrome 99.0.4844.84,User should be able to click Save button,,2022-03-30 13:01:38,2022-03-30 13:01:39,0.447s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:39,2022-03-30 13:01:39,0.000s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1860-S7 (User should be able to select No on Save option),Chrome 99.0.4844.84,User should be able to select No on Save option,,2022-03-30 13:01:39,2022-03-30 13:01:39,0.458s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:39,2022-03-30 13:01:39,0.001s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1861-S7 (User should be able to select Yes on Save option),Chrome 99.0.4844.84,User should be able to select Yes on Save option,,2022-03-30 13:01:39,2022-03-30 13:01:40,0.743s,PASSED
+return null,Chrome 99.0.4844.84,,,2022-03-30 13:01:40,2022-03-30 13:01:40,0.001s,PASSED

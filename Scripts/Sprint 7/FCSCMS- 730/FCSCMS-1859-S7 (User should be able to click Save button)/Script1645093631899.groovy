@@ -16,3 +16,39 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Add New Product'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductDescription'), 'AT Test Description')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductCode'), 'AT Test Code')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductClass'), 'AT Test Class')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Input_NMFC'), '1234')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Hazmat_YES'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/input_UN  NA Number'), '1324')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/HazmatDescription'), 'Automation Test Description')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Save'))
+
+WebUI.delay(1)
+

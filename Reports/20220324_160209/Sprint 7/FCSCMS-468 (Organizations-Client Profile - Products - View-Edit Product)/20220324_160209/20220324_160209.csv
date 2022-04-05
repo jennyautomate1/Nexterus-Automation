@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-468 (Organizations-Client Profile - Products - View-Edit Product),Chrome 99.0.4844.82,Organizations: Client Profile - Products - View/Edit Product,,2022-03-24 16:02:21,2022-03-24 16:03:38,1m - 16.432s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1787-S7 (User should be able to Log in using Admin-Valid credentials),Chrome 99.0.4844.82,User should be able to Log in using Admin/Valid credentials,,2022-03-24 16:02:22,2022-03-24 16:02:37,15.067s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-24 16:02:23,2022-03-24 16:02:26,3.492s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 99.0.4844.82,,,2022-03-24 16:02:26,2022-03-24 16:02:29,3.011s,PASSED
+maximizeWindow(),Chrome 99.0.4844.82,,,2022-03-24 16:02:29,2022-03-24 16:02:29,0.185s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:02:29,2022-03-24 16:02:32,3.065s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 99.0.4844.82,,,2022-03-24 16:02:32,2022-03-24 16:02:34,1.274s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:02:34,2022-03-24 16:02:35,1.010s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 99.0.4844.82,,,2022-03-24 16:02:35,2022-03-24 16:02:35,0.760s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:02:35,2022-03-24 16:02:36,1.016s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 99.0.4844.82,,,2022-03-24 16:02:36,2022-03-24 16:02:37,0.649s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1788-S7 (User should be able to clicks Clients option from the left navigation panel),Chrome 99.0.4844.82,User should be able to clicks Clients option from the left navigation panel,,2022-03-24 16:02:37,2022-03-24 16:02:47,10.225s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:02:38,2022-03-24 16:02:40,2.012s,PASSED
+"click(findTestObject(""Admin/Sprint 5/a_Clients""))",Chrome 99.0.4844.82,,,2022-03-24 16:02:40,2022-03-24 16:02:44,3.579s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:02:44,2022-03-24 16:02:46,2.016s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 5/Clients/SearchBar_Clients""))",Chrome 99.0.4844.82,,,2022-03-24 16:02:46,2022-03-24 16:02:46,0.407s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:02:46,2022-03-24 16:02:47,1.018s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1789-S7 (User should be able to search clients),Chrome 99.0.4844.82,User should be able to search clients,,2022-03-24 16:02:47,2022-03-24 16:02:55,7.561s,PASSED
+"setText(findTestObject(""Admin/Sprint 5/FCSCMS-194/SearchBar(Clients)""), ""Smoke Test 3"")",Chrome 99.0.4844.82,,,2022-03-24 16:02:48,2022-03-24 16:02:48,0.776s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:02:48,2022-03-24 16:02:49,1.013s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS-194/SearchButton(Clients)""))",Chrome 99.0.4844.82,,,2022-03-24 16:02:49,2022-03-24 16:02:53,3.420s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:02:53,2022-03-24 16:02:55,2.008s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1790-S7 (User should be able to click edit button),Chrome 99.0.4844.82,User should be able to click edit button,,2022-03-24 16:02:55,2022-03-24 16:03:01,6.003s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:02:55,2022-03-24 16:02:57,2.019s,PASSED
+"click(findTestObject(""Admin/Sprint 5/FCSCMS200/EditIcon(FCSCMS200)""))",Chrome 99.0.4844.82,,,2022-03-24 16:02:57,2022-03-24 16:02:58,0.464s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:02:58,2022-03-24 16:03:01,3.014s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1791-S7 (User should be able to click Products tab button),Chrome 99.0.4844.82,User should be able to click Products tab button,,2022-03-24 16:03:01,2022-03-24 16:03:05,3.638s,PASSED
+"click(findTestObject(""Admin/Sprint 6/FCSCMS-464/div_Products""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:02,2022-03-24 16:03:03,0.551s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:03:03,2022-03-24 16:03:05,2.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1792-S7 (User should be able to click View-Edit Product button),Chrome 99.0.4844.82,User should be able to click View/Edit Produst button,,2022-03-24 16:03:05,2022-03-24 16:03:07,2.909s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/Edit_TestProduct""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:05,2022-03-24 16:03:05,0.480s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:03:05,2022-03-24 16:03:07,2.017s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1793-S7 (User should be able to click Product desciription dropdown button),Chrome 99.0.4844.82,User should be able to click Product desciription dropdown button,,2022-03-24 16:03:07,2022-03-24 16:03:10,2.355s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:03:08,2022-03-24 16:03:10,2.013s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1794-S7 (User should be ablt to reselect Product),Chrome 99.0.4844.82,User should be ablt to reselect Product,,2022-03-24 16:03:10,2022-03-24 16:03:11,1.347s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:03:10,2022-03-24 16:03:11,1.004s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1795-S7 (User is able to click Add New checkbox),Chrome 99.0.4844.82,User is able to click Add New checkbox,,2022-03-24 16:03:11,2022-03-24 16:03:13,1.552s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:03:12,2022-03-24 16:03:13,1.017s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1796-S7 (User is able to click Delete text button),Chrome 99.0.4844.82,User is able to click Delete text button,,2022-03-24 16:03:13,2022-03-24 16:03:16,3.185s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/button_Delete""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:13,2022-03-24 16:03:14,0.439s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:03:14,2022-03-24 16:03:16,2.007s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/Delete/button_No(Delete)""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:16,2022-03-24 16:03:16,0.406s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1797-S7 (User is able to click cancel button),Chrome 99.0.4844.82,User is able to click cancel button,,2022-03-24 16:03:16,2022-03-24 16:03:18,2.003s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/button_Cancel""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:16,2022-03-24 16:03:17,0.550s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:03:17,2022-03-24 16:03:18,1.004s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1798-S7 (User should be able to select No option on Cancel process),Chrome 99.0.4844.82,User should be able to select No option on Cancel process,,2022-03-24 16:03:18,2022-03-24 16:03:20,2.307s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/Cancel/button_No(Cancel)""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:18,2022-03-24 16:03:19,0.843s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:03:19,2022-03-24 16:03:20,1.007s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1799-S7 (User should be able to select Yes option on Cancel process),Chrome 99.0.4844.82,User should be able to select Yes option on Cancel process,,2022-03-24 16:03:20,2022-03-24 16:03:25,4.732s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/button_Cancel""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:21,2022-03-24 16:03:21,0.481s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:03:21,2022-03-24 16:03:23,2.008s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/Cancel/button_Yes(Cancel)""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:23,2022-03-24 16:03:24,0.583s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:03:24,2022-03-24 16:03:25,1.011s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1800-S7 (User is able to click Save button),Chrome 99.0.4844.82,User is able to click Save button,,2022-03-24 16:03:25,2022-03-24 16:03:31,6.487s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/Edit_TestProduct""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:25,2022-03-24 16:03:26,0.556s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:03:26,2022-03-24 16:03:29,3.009s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/button_Save""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:29,2022-03-24 16:03:29,0.493s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:03:29,2022-03-24 16:03:31,2.003s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1801-S7 (User should be able to select Yes option on saving product),Chrome 99.0.4844.82,User should be able to select Yes option on saving product,,2022-03-24 16:03:31,2022-03-24 16:03:33,1.969s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/Save/button_Yes(Save)""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:32,2022-03-24 16:03:32,0.453s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:03:32,2022-03-24 16:03:33,1.011s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 468/FCSCMS-1802-S7 (User should be able to select No option on saving product),Chrome 99.0.4844.82,User should be able to select No option on saving product,,2022-03-24 16:03:33,2022-03-24 16:03:38,4.445s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/Edit_TestProduct""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:34,2022-03-24 16:03:34,0.500s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:03:34,2022-03-24 16:03:35,1.008s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/button_Save""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:35,2022-03-24 16:03:36,1.032s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:03:36,2022-03-24 16:03:37,1.011s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-468/Save/button_No(Save)""))",Chrome 99.0.4844.82,,,2022-03-24 16:03:37,2022-03-24 16:03:38,0.492s,PASSED

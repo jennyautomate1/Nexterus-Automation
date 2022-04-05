@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-729 (Product Catalog Management- Product Catalog - Listing),Chrome 99.0.4844.82,Product Catalog Management: Product Catalog / Listing,,2022-03-24 16:22:27,2022-03-24 16:23:27,1m - 0.063s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1803-S7 (User should be able to Log in using Admin-Valid credentials),Chrome 99.0.4844.82,User should be able to Log in using Admin/Valid credentials,,2022-03-24 16:22:27,2022-03-24 16:22:46,18.479s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-24 16:22:28,2022-03-24 16:22:32,4.292s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 99.0.4844.82,,,2022-03-24 16:22:32,2022-03-24 16:22:36,3.818s,PASSED
+maximizeWindow(),Chrome 99.0.4844.82,,,2022-03-24 16:22:36,2022-03-24 16:22:37,0.458s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:22:37,2022-03-24 16:22:40,3.096s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 99.0.4844.82,,,2022-03-24 16:22:40,2022-03-24 16:22:42,2.519s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:22:42,2022-03-24 16:22:43,1.013s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 99.0.4844.82,,,2022-03-24 16:22:43,2022-03-24 16:22:44,0.929s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:22:44,2022-03-24 16:22:45,1.025s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 99.0.4844.82,,,2022-03-24 16:22:45,2022-03-24 16:22:46,0.533s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1804-S7 (Click Product Catalog),Chrome 99.0.4844.82,User should be able to clicks Product Catalog option from the left navigation panel,,2022-03-24 16:22:46,2022-03-24 16:22:53,7.459s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/a_Product Catalog""))",Chrome 99.0.4844.82,,,2022-03-24 16:22:46,2022-03-24 16:22:51,4.901s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:22:51,2022-03-24 16:22:53,2.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1805-S7 (User should be able to see complete information of Product catalog),Chrome 99.0.4844.82,User should be able to see complete information of Product catalog,,2022-03-24 16:22:53,2022-03-24 16:22:56,2.399s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:22:54,2022-03-24 16:22:56,2.014s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1806-S7 (User should be able to click View-Edit Product information),Chrome 99.0.4844.82,User should be able to click View/Edit Product information,,2022-03-24 16:22:56,2022-03-24 16:23:02,6.670s,PASSED
+refresh(),Chrome 99.0.4844.82,,,2022-03-24 16:22:56,2022-03-24 16:22:57,0.473s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Edit Product/Product 1_Edit""))",Chrome 99.0.4844.82,,,2022-03-24 16:22:57,2022-03-24 16:22:59,2.327s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:22:59,2022-03-24 16:23:00,1.021s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Edit Product/Close(x)_Edit""))",Chrome 99.0.4844.82,,,2022-03-24 16:23:00,2022-03-24 16:23:00,0.454s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:23:00,2022-03-24 16:23:02,2.005s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1807-S7 (User should be able to user pagination widget arrow),Chrome 99.0.4844.82,User should be able to user pagination widget arrow,,2022-03-24 16:23:02,2022-03-24 16:23:06,3.391s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Pagination/pagination-Next""))",Chrome 99.0.4844.82,,,2022-03-24 16:23:03,2022-03-24 16:23:03,0.434s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:23:03,2022-03-24 16:23:04,1.012s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Pagination/pagination-Previous""))",Chrome 99.0.4844.82,,,2022-03-24 16:23:04,2022-03-24 16:23:05,0.421s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:23:05,2022-03-24 16:23:06,1.008s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1808-S7 (User should be able to user pagination widget number),Chrome 99.0.4844.82,User should be able to user pagination widget number,,2022-03-24 16:23:06,2022-03-24 16:23:10,4.287s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Pagination/button_2(Pagination)""))",Chrome 99.0.4844.82,,,2022-03-24 16:23:06,2022-03-24 16:23:07,0.423s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:23:07,2022-03-24 16:23:09,2.008s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Pagination/button_1(Pagination)""))",Chrome 99.0.4844.82,,,2022-03-24 16:23:09,2022-03-24 16:23:09,0.412s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:23:09,2022-03-24 16:23:10,1.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1809-S7 (User should be eble to click Export button),Chrome 99.0.4844.82,User should be eble to click Export button,,2022-03-24 16:23:10,2022-03-24 16:23:13,3.033s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Export(button)""))",Chrome 99.0.4844.82,,,2022-03-24 16:23:11,2022-03-24 16:23:11,0.450s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:23:11,2022-03-24 16:23:13,2.007s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1810-S7 (User should be able to fill File name field),Chrome 99.0.4844.82,User should be able to fill File name field,,2022-03-24 16:23:13,2022-03-24 16:23:16,3.310s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-729/Export/FileName(Export)""), ""Test Export"")",Chrome 99.0.4844.82,,,2022-03-24 16:23:13,2022-03-24 16:23:14,0.858s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:23:14,2022-03-24 16:23:16,2.015s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1811-S7 (User should be able to Select Cancel on export process),Chrome 99.0.4844.82,User should be able to Select Cancel on export process,,2022-03-24 16:23:16,2022-03-24 16:23:19,2.888s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Export/button_Cancel""))",Chrome 99.0.4844.82,,,2022-03-24 16:23:17,2022-03-24 16:23:17,0.438s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:23:17,2022-03-24 16:23:19,2.003s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 729/FCSCMS-1812-S7 (User should be able to export product file upon clicking yes button),Chrome 99.0.4844.82,User should be able to Select Yes on export process and have the Excel copy of Product grid,,2022-03-24 16:23:19,2022-03-24 16:23:27,7.340s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Export(button)""))",Chrome 99.0.4844.82,,,2022-03-24 16:23:20,2022-03-24 16:23:20,0.538s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:23:20,2022-03-24 16:23:22,2.017s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-729/Export/FileName(Export)""), ""Test Export"")",Chrome 99.0.4844.82,,,2022-03-24 16:23:22,2022-03-24 16:23:23,0.756s,PASSED
+delay(1),Chrome 99.0.4844.82,,,2022-03-24 16:23:23,2022-03-24 16:23:24,1.018s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/Export/button_Download""))",Chrome 99.0.4844.82,,,2022-03-24 16:23:24,2022-03-24 16:23:25,0.417s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:23:25,2022-03-24 16:23:27,2.015s,PASSED

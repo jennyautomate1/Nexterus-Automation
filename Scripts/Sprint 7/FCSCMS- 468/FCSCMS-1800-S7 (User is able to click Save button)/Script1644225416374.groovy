@@ -16,6 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-468/Edit_TestProduct'))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-468/button_Save'))
 
 WebUI.delay(2)

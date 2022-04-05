@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-732 (Product Catalog Management - Delete Product),Chrome 99.0.4844.84,Product Catalog Management: Delete Product,,2022-04-04 18:00:07,2022-04-04 18:01:30,1m - 22.706s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 732/FCSCMS-1862-S7 (User should be able to Log in using Admin-Valid credentials),Chrome 99.0.4844.84,User should be able to Log in using Admin/Valid credentials,,2022-04-04 18:00:08,2022-04-04 18:00:23,15.296s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.84,,,2022-04-04 18:00:09,2022-04-04 18:00:13,4.505s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 99.0.4844.84,,,2022-04-04 18:00:13,2022-04-04 18:00:15,2.173s,PASSED
+maximizeWindow(),Chrome 99.0.4844.84,,,2022-04-04 18:00:15,2022-04-04 18:00:16,0.458s,PASSED
+delay(3),Chrome 99.0.4844.84,,,2022-04-04 18:00:16,2022-04-04 18:00:19,3.082s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 99.0.4844.84,,,2022-04-04 18:00:19,2022-04-04 18:00:20,1.137s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-04-04 18:00:20,2022-04-04 18:00:21,1.004s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 99.0.4844.84,,,2022-04-04 18:00:21,2022-04-04 18:00:22,0.776s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-04-04 18:00:22,2022-04-04 18:00:23,1.018s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 99.0.4844.84,,,2022-04-04 18:00:23,2022-04-04 18:00:23,0.458s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 732/FCSCMS-1863-S7 (User should be able to clicks Product Catalog),Chrome 99.0.4844.84,User should be able to clicks Product Catalog option from the left navigation panel,,2022-04-04 18:00:23,2022-04-04 18:01:06,42.465s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/a_Product Catalog""))",Chrome 99.0.4844.84,,,2022-04-04 18:00:24,2022-04-04 18:01:00,35.895s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-04-04 18:01:00,2022-04-04 18:01:02,2.014s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/a_Product Catalog""))",Chrome 99.0.4844.84,,,2022-04-04 18:01:02,2022-04-04 18:01:06,3.940s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 732/FCSCMS-1864-S7 (User shoulb be able to click Delete button from the Grid),Chrome 99.0.4844.84,User shoulb be able to click Delete button from the Grid,,2022-04-04 18:01:06,2022-04-04 18:01:30,24.403s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Add New Product""))",Chrome 99.0.4844.84,,,2022-04-04 18:01:06,2022-04-04 18:01:07,0.969s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-04-04 18:01:07,2022-04-04 18:01:09,2.018s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductDescription""), ""Delete Product Path"")",Chrome 99.0.4844.84,,,2022-04-04 18:01:09,2022-04-04 18:01:10,0.760s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-04-04 18:01:10,2022-04-04 18:01:11,1.010s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductCode""), ""0000"")",Chrome 99.0.4844.84,,,2022-04-04 18:01:11,2022-04-04 18:01:12,0.785s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductClass""), ""Test Class"")",Chrome 99.0.4844.84,,,2022-04-04 18:01:12,2022-04-04 18:01:13,0.844s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Input_NMFC""), ""1324"")",Chrome 99.0.4844.84,,,2022-04-04 18:01:13,2022-04-04 18:01:13,0.841s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-04-04 18:01:13,2022-04-04 18:01:15,2.013s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Hazmat_YES""))",Chrome 99.0.4844.84,,,2022-04-04 18:01:15,2022-04-04 18:01:16,0.506s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/input_UN  NA Number""), ""0000"")",Chrome 99.0.4844.84,,,2022-04-04 18:01:16,2022-04-04 18:01:17,0.914s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-04-04 18:01:17,2022-04-04 18:01:18,1.016s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/HazmatDescription""), ""Product Delete Path"")",Chrome 99.0.4844.84,,,2022-04-04 18:01:18,2022-04-04 18:01:19,0.841s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-04-04 18:01:19,2022-04-04 18:01:20,1.006s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Save""))",Chrome 99.0.4844.84,,,2022-04-04 18:01:20,2022-04-04 18:01:20,0.448s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-04-04 18:01:20,2022-04-04 18:01:21,1.014s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Yes(Save)""))",Chrome 99.0.4844.84,,,2022-04-04 18:01:21,2022-04-04 18:01:22,0.520s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-04-04 18:01:22,2022-04-04 18:01:24,2.012s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-732(NEW)/Search/SearchBar""), ""Delete Product Path"")",Chrome 99.0.4844.84,,,2022-04-04 18:01:24,2022-04-04 18:01:25,0.807s,PASSED
+delay(3),Chrome 99.0.4844.84,,,2022-04-04 18:01:25,2022-04-04 18:01:28,3.019s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-732(NEW)/Search/DeleteIcon""))",Chrome 99.0.4844.84,,,2022-04-04 18:01:28,2022-04-04 18:01:28,0.495s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-04-04 18:01:28,2022-04-04 18:01:30,2.017s,PASSED

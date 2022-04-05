@@ -6,6 +6,10 @@
    <elementGuidId>afeeff7a-7deb-45ca-b92c-88c7d36a7832</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[5]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>div.margin-top-s.text-align-center > button.btn.btn-secondary.cancel-btn</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

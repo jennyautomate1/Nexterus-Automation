@@ -16,3 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Hazmat_NO'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Hazmat_YES'))
+
+WebUI.delay(2)
+

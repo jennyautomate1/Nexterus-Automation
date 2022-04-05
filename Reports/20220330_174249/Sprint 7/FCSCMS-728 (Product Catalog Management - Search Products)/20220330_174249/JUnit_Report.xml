@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-728 (Product Catalog Management - Search Products)" time="92.321" tests="16" failures="2" errors="0">
+   <testsuite name="FCSCMS-728 (Product Catalog Management - Search Products)" tests="16" failures="2" errors="0" time="92.321" skipped="0" timestamp="2022-03-30 17:43:07" hostname="me - DESKTOP-S7SF50D" id="Test Suites/Sprint 7/FCSCMS-728 (Product Catalog Management - Search Products)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174249\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174249"/>
+         <property name="logFiles" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174249\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174249\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174249\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174249\\1648633463778.png, C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174249\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174249\\1648633476506.png, C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174249\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174249\\1648633476684.png"/>
+         <property name="hostName" value="me - DESKTOP-S7SF50D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.84"/>
+         <property name="hostAddress" value="192.168.100.8"/>
+         <property name="sessionId" value="973e0424d89eb756115ade1a441bf330"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1828-S7 (User should be able to Log in using Admin-Valid credentials)" time="17.725" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1828-S7 (User should be able to Log in using Admin-Valid credentials)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:43:08 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1828-S7 (User should be able to Log in using Admin-Valid credentials): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1828-S7 (User should be able to Log in using Admin-Valid credentials)
+
+2022-03-30 17:43:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-30 17:43:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-30 17:43:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-30 17:43:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-30 17:43:15 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-03-30 17:43:17 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-03-30 17:43:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-30 17:43:17 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-30 17:43:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-30 17:43:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-30 17:43:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-03-30 17:43:22 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Username_Field'
+
+2022-03-30 17:43:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 17:43:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 17:43:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-03-30 17:43:24 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Password_Field'
+
+2022-03-30 17:43:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 17:43:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 17:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2022-03-30 17:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1829-S7 (Click Product Catalog)" time="17.676" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1829-S7 (Click Product Catalog)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:43:26 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1829-S7 (Click Product Catalog): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1829-S7 (Click Product Catalog)
+
+2022-03-30 17:43:26 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-729/a_Product Catalog")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/a_Product Catalog' is clicked on
+
+2022-03-30 17:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-729/a_Product Catalog' is clicked on
+
+2022-03-30 17:43:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1830-S7 (User should be able to fill search bar)" time="6.322" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1830-S7 (User should be able to fill search bar)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:43:44 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1830-S7 (User should be able to fill search bar): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1830-S7 (User should be able to fill search bar)
+
+2022-03-30 17:43:44 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog"), "Automation Test Product"): Text 'Automation Test Product' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:43:48 - [MESSAGE][PASSED] - Text 'Automation Test Product' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:43:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:43:50 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1831-S7 (User should be able to Search product on the Search button)" time="2.988" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1831-S7 (User should be able to Search product on the Search button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:43:50 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1831-S7 (User should be able to Search product on the Search button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1831-S7 (User should be able to Search product on the Search button)
+
+2022-03-30 17:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/Search Button")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/Search Button' is clicked on
+
+2022-03-30 17:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/Search Button' is clicked on
+
+2022-03-30 17:43:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:43:53 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1832-S7 (User should be able to Search product using Enter button)" time="6.144" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1832-S7 (User should be able to Search product using Enter button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:43:53 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1832-S7 (User should be able to Search product using Enter button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1832-S7 (User should be able to Search product using Enter button)
+
+2022-03-30 17:43:53 - [TEST_STEP][PASSED] - clearText(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog")): Text of object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog' is cleared
+
+2022-03-30 17:43:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog' is cleared
+
+2022-03-30 17:43:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 17:43:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 17:43:55 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog"), "Automation Test Product"): Text 'Automation Test Product' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:43:56 - [MESSAGE][PASSED] - Text 'Automation Test Product' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:43:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-30 17:43:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-30 17:43:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:43:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Sprint 7/FCSCMS-728/Advanced Search/SearchBar_ProductCatalog'
+
+2022-03-30 17:43:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:43:59 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1833-S7 (User is able to click Advance search button)" time="2.907" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1833-S7 (User is able to click Advance search button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:43:59 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1833-S7 (User is able to click Advance search button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1833-S7 (User is able to click Advance search button)
+
+2022-03-30 17:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Advanced Search")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Advanced Search' is clicked on
+
+2022-03-30 17:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Advanced Search' is clicked on
+
+2022-03-30 17:44:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:02 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1834-S7 (Select Product Code)" time="3.354" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1834-S7 (Select Product Code)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:44:02 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1834-S7 (Select Product Code): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1834-S7 (Select Product Code)
+
+2022-03-30 17:44:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Product Code")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Product Code' is clicked on
+
+2022-03-30 17:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Product Code' is clicked on
+
+2022-03-30 17:44:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:44:05 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductCode/div_123456")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductCode/div_123456' is clicked on
+
+2022-03-30 17:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductCode/div_123456' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1835-S7 (Select Class)" time="5.776" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1835-S7 (Select Class)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:44:05 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1835-S7 (Select Class): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1835-S7 (Select Class)
+
+2022-03-30 17:44:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class' is clicked on
+
+2022-03-30 17:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class' is clicked on
+
+2022-03-30 17:44:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:44:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class 1/div_AT Test Class")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class 1/div_AT Test Class' is clicked on
+
+2022-03-30 17:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Class 1/div_AT Test Class' is clicked on
+
+2022-03-30 17:44:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:11 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1836-S7 (Select NMFC)" time="5.629" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1836-S7 (Select NMFC)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:44:11 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1836-S7 (Select NMFC): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1836-S7 (Select NMFC)
+
+2022-03-30 17:44:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC' is clicked on
+
+2022-03-30 17:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC' is clicked on
+
+2022-03-30 17:44:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:44:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC 1/div_1122")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC 1/div_1122' is clicked on
+
+2022-03-30 17:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/NMFC 1/div_1122' is clicked on
+
+2022-03-30 17:44:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:17 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1837-S7 (Product Description)" time="5.334" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1837-S7 (Product Description)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:44:17 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1837-S7 (Product Description): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1837-S7 (Product Description)
+
+2022-03-30 17:44:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductDescription")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductDescription' is clicked on
+
+2022-03-30 17:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/ProductDescription' is clicked on
+
+2022-03-30 17:44:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:44:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is clicked on
+
+2022-03-30 17:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is clicked on
+
+2022-03-30 17:44:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:22 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option)" time="1.452" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Yes' of object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at FCSCMS-1838-S7 (User should be alble to select Hazmat option).run(FCSCMS-1838-S7 (User should be alble to select Hazmat option):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Yes
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-03-30 17:44:22 - [TEST_CASE][FAILED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Yes' of object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at FCSCMS-1838-S7 (User should be alble to select Hazmat option).run(FCSCMS-1838-S7 (User should be alble to select Hazmat option):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Yes
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-03-30 17:44:23 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat"), "Yes", false): Unable to select option by value 'Yes' of object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Yes' of object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at FCSCMS-1838-S7 (User should be alble to select Hazmat option).run(FCSCMS-1838-S7 (User should be alble to select Hazmat option):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Yes
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at Script1648626450351.run(Script1648626450351.groovy:20)
+	... 13 more
+)
+
+2022-03-30 17:44:23 - [MESSAGE][FAILED] - Unable to select option by value 'Yes' of object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Yes' of object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at FCSCMS-1838-S7 (User should be alble to select Hazmat option).run(FCSCMS-1838-S7 (User should be alble to select Hazmat option):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Yes
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at Script1648626450351.run(Script1648626450351.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174249\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174249\\1648633463778.png]]]]></system-out>
+         <system-err><![CDATA[2022-03-30 17:44:22 - [TEST_CASE][FAILED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Yes' of object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at FCSCMS-1838-S7 (User should be alble to select Hazmat option).run(FCSCMS-1838-S7 (User should be alble to select Hazmat option):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Yes
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1839-S7 (User should be able to fill Hazmat Description)" time="3.36" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1839-S7 (User should be able to fill Hazmat Description)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:44:24 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1839-S7 (User should be able to fill Hazmat Description): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1839-S7 (User should be able to fill Hazmat Description)
+
+2022-03-30 17:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat Description"), "This is for Automation Purposes Only"): Text 'This is for Automation Purposes Only' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat Description'
+
+2022-03-30 17:44:25 - [MESSAGE][PASSED] - Text 'This is for Automation Purposes Only' is set on object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat Description'
+
+2022-03-30 17:44:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:27 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1840-S7 (User should be alble to select UN-AN number)" time="5.323" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1840-S7 (User should be alble to select UN-AN number)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:44:27 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1840-S7 (User should be alble to select UN-AN number): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1840-S7 (User should be alble to select UN-AN number)
+
+2022-03-30 17:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN-NA Number")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN-NA Number' is clicked on
+
+2022-03-30 17:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN-NA Number' is clicked on
+
+2022-03-30 17:44:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 17:44:30 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN NA/div_1122")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN NA/div_1122' is clicked on
+
+2022-03-30 17:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/UN NA/div_1122' is clicked on
+
+2022-03-30 17:44:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:32 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1841-S7 (User should be able to click Search button)" time="2.846" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1841-S7 (User should be able to click Search button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:44:32 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1841-S7 (User should be able to click Search button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1841-S7 (User should be able to click Search button)
+
+2022-03-30 17:44:33 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Search")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Search' is clicked on
+
+2022-03-30 17:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Search' is clicked on
+
+2022-03-30 17:44:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:35 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product)" time="1.264" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at FCSCMS-1842-S7 (User should be able to Search Product).run(FCSCMS-1842-S7 (User should be able to Search Product):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-03-30 17:44:35 - [TEST_CASE][FAILED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at FCSCMS-1842-S7 (User should be able to Search Product).run(FCSCMS-1842-S7 (User should be able to Search Product):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-03-30 17:44:35 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product")): Unable to verify object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at FCSCMS-1842-S7 (User should be able to Search Product).run(FCSCMS-1842-S7 (User should be able to Search Product):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2022-03-30 17:44:36 - [MESSAGE][FAILED] - Object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at FCSCMS-1842-S7 (User should be able to Search Product).run(FCSCMS-1842-S7 (User should be able to Search Product):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174249\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174249\\1648633476506.png]]
+
+2022-03-30 17:44:36 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at FCSCMS-1842-S7 (User should be able to Search Product).run(FCSCMS-1842-S7 (User should be able to Search Product):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\me\\git\\nexterous-automation\\Reports\\20220330_174249\\Sprint 7\\FCSCMS-728 (Product Catalog Management - Search Products)\\20220330_174249\\1648633476684.png]]]]></system-out>
+         <system-err><![CDATA[2022-03-30 17:44:35 - [TEST_CASE][FAILED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1842-S7 (User should be able to Search Product) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at FCSCMS-1842-S7 (User should be able to Search Product).run(FCSCMS-1842-S7 (User should be able to Search Product):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Automation Test Product/div_Automation Test Product' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button)" time="2.922" classname="Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button)" status="PASSED">
+         <system-out><![CDATA[2022-03-30 17:44:36 - [TEST_CASE][PASSED] - Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1843-S7 (User should be able to click Clear button)
+
+2022-03-30 17:44:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Clear")): Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Clear' is clicked on
+
+2022-03-30 17:44:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/button_Clear' is clicked on
+
+2022-03-30 17:44:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-30 17:44:39 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-30 17:43:07 - [TEST_SUITE][FAILED] - FCSCMS-728 (Product Catalog Management - Search Products): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Yes' of object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at FCSCMS-1838-S7 (User should be alble to select Hazmat option).run(FCSCMS-1838-S7 (User should be alble to select Hazmat option):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Yes
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-03-30 17:43:07 - [TEST_SUITE][FAILED] - FCSCMS-728 (Product Catalog Management - Search Products): Test Cases/Sprint 7/FCSCMS- 728/FCSCMS-1838-S7 (User should be alble to select Hazmat option) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Yes' of object 'Object Repository/Admin/Sprint 7/FCSCMS-728(NEW)/Advance Search/Hazmat' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at FCSCMS-1838-S7 (User should be alble to select Hazmat option).run(FCSCMS-1838-S7 (User should be alble to select Hazmat option):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648633369797.run(TempTestSuite1648633369797.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Yes
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-S7SF50D', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

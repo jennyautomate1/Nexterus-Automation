@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCSCMS-730 (Product Catalog Management - Add New Product),Chrome 99.0.4844.84,Product Catalog Management: Add New Product,,2022-03-30 17:56:34,2022-03-30 17:58:57,2m - 22.537s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1844-S7 (User should be able to Log in using Admin-Valid credentials),Chrome 99.0.4844.84,User should be able to Log in using Admin/Valid credentials,,2022-03-30 17:56:35,2022-03-30 17:56:51,15.938s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.84,,,2022-03-30 17:56:36,2022-03-30 17:56:41,4.915s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 99.0.4844.84,,,2022-03-30 17:56:41,2022-03-30 17:56:43,2.142s,PASSED
+maximizeWindow(),Chrome 99.0.4844.84,,,2022-03-30 17:56:43,2022-03-30 17:56:44,0.592s,PASSED
+delay(3),Chrome 99.0.4844.84,,,2022-03-30 17:56:44,2022-03-30 17:56:47,3.072s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""admin"")",Chrome 99.0.4844.84,,,2022-03-30 17:56:47,2022-03-30 17:56:48,0.981s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:56:48,2022-03-30 17:56:49,1.011s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""admin"")",Chrome 99.0.4844.84,,,2022-03-30 17:56:49,2022-03-30 17:56:50,0.871s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:56:50,2022-03-30 17:56:51,1.013s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 99.0.4844.84,,,2022-03-30 17:56:51,2022-03-30 17:56:51,0.518s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1845-S7 (User should be able to click Product Catalog),Chrome 99.0.4844.84,User should be able to clicks Product Catalog option from the left navigation panel,,2022-03-30 17:56:51,2022-03-30 17:57:28,36.952s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-729/a_Product Catalog""))",Chrome 99.0.4844.84,,,2022-03-30 17:56:52,2022-03-30 17:57:26,34.263s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:57:26,2022-03-30 17:57:28,2.019s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1846-S7 (User is able to click Add new product button),Chrome 99.0.4844.84,User is able to click Add new product button,,2022-03-30 17:57:28,2022-03-30 17:57:34,6.044s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Add New Product""))",Chrome 99.0.4844.84,,,2022-03-30 17:57:29,2022-03-30 17:57:32,3.457s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:57:32,2022-03-30 17:57:34,2.015s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1847-S7 (User should be able to fill Product description field (mandatory)),Chrome 99.0.4844.84,User should be able to fill Product description field (mandatory),,2022-03-30 17:57:34,2022-03-30 17:57:37,3.245s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductDescription""), ""AT Test Description"")",Chrome 99.0.4844.84,,,2022-03-30 17:57:35,2022-03-30 17:57:35,0.801s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:57:35,2022-03-30 17:57:37,2.012s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1848-S7 (User should be able to fill Product Code field),Chrome 99.0.4844.84,FCSCMS- 1848	User should be able to fill Product Code field,,2022-03-30 17:57:37,2022-03-30 17:57:41,3.354s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductCode""), ""AT Test Code"")",Chrome 99.0.4844.84,,,2022-03-30 17:57:38,2022-03-30 17:57:39,0.762s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:57:39,2022-03-30 17:57:41,2.014s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1849-S7 (User should be able to fill Class field),Chrome 99.0.4844.84,User should be able to fill Class field,,2022-03-30 17:57:41,2022-03-30 17:57:43,2.254s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductClass""), ""AT Test Class"")",Chrome 99.0.4844.84,,,2022-03-30 17:57:41,2022-03-30 17:57:42,0.772s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:57:42,2022-03-30 17:57:43,1.010s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1850-S7 (User should be able to fill NMFC field),Chrome 99.0.4844.84,,,2022-03-30 17:57:43,2022-03-30 17:57:45,2.171s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Input_NMFC""), ""1234"")",Chrome 99.0.4844.84,,,2022-03-30 17:57:44,2022-03-30 17:57:44,0.712s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:57:44,2022-03-30 17:57:45,1.016s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1851-S7 (User should be able to select No on Hazmat option),Chrome 99.0.4844.84,User should be able to select No on Hazmat option,,2022-03-30 17:57:45,2022-03-30 17:57:47,1.470s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:57:46,2022-03-30 17:57:47,1.018s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1852-S7 (User should be able to select Yes on Hazmat option),Chrome 99.0.4844.84,User should be able to select Yes on Hazmat option,,2022-03-30 17:57:47,2022-03-30 17:57:49,2.156s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Hazmat_YES""))",Chrome 99.0.4844.84,,,2022-03-30 17:57:47,2022-03-30 17:57:48,0.494s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:57:48,2022-03-30 17:57:49,1.015s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1853-S7 (User should be able to fill UN-AN Number field),Chrome 99.0.4844.84,User should be able to fill UN/AN Number field,,2022-03-30 17:57:49,2022-03-30 17:57:51,2.196s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/input_UN  NA Number""), ""1324"")",Chrome 99.0.4844.84,,,2022-03-30 17:57:49,2022-03-30 17:57:50,0.762s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:57:50,2022-03-30 17:57:51,1.006s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1854-S7 (User should be able to fill Hazmat Description field),Chrome 99.0.4844.84,User should be able to fill Hazmat Description field,,2022-03-30 17:57:51,2022-03-30 17:57:54,3.355s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/HazmatDescription""), ""Automation Test Description"")",Chrome 99.0.4844.84,,,2022-03-30 17:57:52,2022-03-30 17:57:52,0.863s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:57:52,2022-03-30 17:57:54,2.013s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1855-S7 (User shoueld be able to click Cancel button),Chrome 99.0.4844.84,User shoueld be able to click Cancel button,,2022-03-30 17:57:54,2022-03-30 17:57:57,2.956s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Cancel""))",Chrome 99.0.4844.84,,,2022-03-30 17:57:55,2022-03-30 17:57:55,0.438s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:57:55,2022-03-30 17:57:57,2.014s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1856-S7 (User should be able to select No on Cancel process),Chrome 99.0.4844.84,User should be able to select No on Cancel process,,2022-03-30 17:57:57,2022-03-30 17:58:00,2.932s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_No(Cancel)""))",Chrome 99.0.4844.84,,,2022-03-30 17:57:58,2022-03-30 17:57:58,0.495s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:57:58,2022-03-30 17:58:00,2.017s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1857-S7 (User should be able to select Yes on Cancel process),Chrome 99.0.4844.84,User should be able to select Yes on Cancel process,,2022-03-30 17:58:00,2022-03-30 17:58:04,3.386s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Cancel""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:01,2022-03-30 17:58:01,0.445s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:01,2022-03-30 17:58:03,2.017s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Yes(Cancel)""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:03,2022-03-30 17:58:04,0.464s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1858-S7 (User should get error notification),Chrome 99.0.4844.84,User should get error notification upon clicking Save button when mandatory fields are empty,,2022-03-30 17:58:04,2022-03-30 17:58:12,8.519s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Add New Product""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:05,2022-03-30 17:58:05,0.408s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:05,2022-03-30 17:58:07,2.011s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Save""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:07,2022-03-30 17:58:07,0.462s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:07,2022-03-30 17:58:08,1.019s,PASSED
+"verifyElementVisible(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/NotificationFlag(Error)""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:08,2022-03-30 17:58:09,0.436s,PASSED
+delay(3),Chrome 99.0.4844.84,,,2022-03-30 17:58:09,2022-03-30 17:58:12,3.011s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Close(x)AddNewProduct""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:12,2022-03-30 17:58:12,0.460s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1859-S7 (User should be able to click Save button),Chrome 99.0.4844.84,User should be able to click Save button,,2022-03-30 17:58:12,2022-03-30 17:58:32,19.860s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Add New Product""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:13,2022-03-30 17:58:13,0.421s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:13,2022-03-30 17:58:15,2.018s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductDescription""), ""AT Test Description"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:15,2022-03-30 17:58:16,0.847s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:16,2022-03-30 17:58:18,2.017s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductCode""), ""AT Test Code"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:18,2022-03-30 17:58:19,0.811s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:19,2022-03-30 17:58:21,2.004s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductClass""), ""AT Test Class"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:21,2022-03-30 17:58:22,0.776s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:22,2022-03-30 17:58:23,1.011s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Input_NMFC""), ""1234"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:23,2022-03-30 17:58:24,0.719s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:24,2022-03-30 17:58:25,1.013s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Hazmat_YES""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:25,2022-03-30 17:58:25,0.449s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:25,2022-03-30 17:58:26,1.016s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/input_UN  NA Number""), ""1324"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:26,2022-03-30 17:58:27,0.753s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:27,2022-03-30 17:58:28,1.006s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/HazmatDescription""), ""Automation Test Description"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:28,2022-03-30 17:58:29,0.809s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:29,2022-03-30 17:58:31,2.019s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Save""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:31,2022-03-30 17:58:31,0.527s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:31,2022-03-30 17:58:32,1.004s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1860-S7 (User should be able to select No on Save option),Chrome 99.0.4844.84,User should be able to select No on Save option,,2022-03-30 17:58:32,2022-03-30 17:58:35,2.917s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_No(Save)""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:33,2022-03-30 17:58:33,0.491s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:33,2022-03-30 17:58:35,2.008s,PASSED
+,,,,,,,
+Test Cases/Sprint 7/FCSCMS- 730/FCSCMS-1861-S7 (User should be able to select Yes on Save option),Chrome 99.0.4844.84,User should be able to select Yes on Save option,,2022-03-30 17:58:35,2022-03-30 17:58:57,21.861s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Add New Product""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:36,2022-03-30 17:58:36,0.445s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:36,2022-03-30 17:58:38,2.015s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductDescription""), ""AT Test Description"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:38,2022-03-30 17:58:39,0.784s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:39,2022-03-30 17:58:41,2.005s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductCode""), ""AT Test Code"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:41,2022-03-30 17:58:42,0.743s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:42,2022-03-30 17:58:44,2.011s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/ProductClass""), ""AT Test Class"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:44,2022-03-30 17:58:44,0.774s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:44,2022-03-30 17:58:45,1.006s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Input_NMFC""), ""1234"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:45,2022-03-30 17:58:46,0.701s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:46,2022-03-30 17:58:47,1.010s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/Hazmat_YES""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:47,2022-03-30 17:58:48,0.404s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:48,2022-03-30 17:58:49,1.014s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/input_UN  NA Number""), ""1324"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:49,2022-03-30 17:58:49,0.758s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:49,2022-03-30 17:58:50,1.009s,PASSED
+"setText(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/HazmatDescription""), ""Automation Test Description"")",Chrome 99.0.4844.84,,,2022-03-30 17:58:50,2022-03-30 17:58:51,0.793s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:51,2022-03-30 17:58:53,2.017s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Save""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:53,2022-03-30 17:58:54,0.415s,PASSED
+delay(2),Chrome 99.0.4844.84,,,2022-03-30 17:58:54,2022-03-30 17:58:56,2.016s,PASSED
+"click(findTestObject(""Admin/Sprint 7/FCSCMS-730(NEW)/AddNewProduct/button_Yes(Save)""))",Chrome 99.0.4844.84,,,2022-03-30 17:58:56,2022-03-30 17:58:56,0.425s,PASSED
+delay(1),Chrome 99.0.4844.84,,,2022-03-30 17:58:56,2022-03-30 17:58:57,1.012s,PASSED

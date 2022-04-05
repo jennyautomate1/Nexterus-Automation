@@ -30,7 +30,7 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('Login/Password_Field'), 'admin')
 
-WebUI.delay(3)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Login/BTN_Login'))
 

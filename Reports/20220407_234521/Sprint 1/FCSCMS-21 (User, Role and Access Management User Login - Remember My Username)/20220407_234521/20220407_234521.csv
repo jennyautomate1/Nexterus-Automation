@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"FCSCMS-21 (User, Role and Access Management User Login - Remember My Username)",Chrome 100.0.4896.75,,,2022-04-07 23:45:27,2022-04-07 23:54:05,8m - 38.700s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-21/FCSCMS-271,Chrome 100.0.4896.75,User is able to fill the username,271,2022-04-07 23:45:27,2022-04-07 23:45:39,11.848s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-04-07 23:45:28,2022-04-07 23:45:32,4.378s,PASSED
+"navigateToUrl(""https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"")",Chrome 100.0.4896.75,,,2022-04-07 23:45:32,2022-04-07 23:45:35,2.240s,PASSED
+maximizeWindow(),Chrome 100.0.4896.75,,,2022-04-07 23:45:35,2022-04-07 23:45:35,0.207s,PASSED
+delay(3),Chrome 100.0.4896.75,,,2022-04-07 23:45:35,2022-04-07 23:45:38,3.072s,PASSED
+"setText(findTestObject(""Login/Username_Field""), ""anonymous"")",Chrome 100.0.4896.75,,,2022-04-07 23:45:38,2022-04-07 23:45:39,1.179s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-21/FCSCMS-272,Chrome 100.0.4896.75,User is able to fill the password,272,2022-04-07 23:45:39,2022-04-07 23:45:43,3.846s,PASSED
+delay(1),Chrome 100.0.4896.75,,,2022-04-07 23:45:40,2022-04-07 23:45:41,1.006s,PASSED
+"setText(findTestObject(""Login/Password_Field""), ""anon"")",Chrome 100.0.4896.75,,,2022-04-07 23:45:41,2022-04-07 23:45:42,0.868s,PASSED
+delay(1),Chrome 100.0.4896.75,,,2022-04-07 23:45:42,2022-04-07 23:45:43,1.014s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-21/FCSCMS-273,Chrome 100.0.4896.75,User is ble to click Remember my username button,273,2022-04-07 23:45:43,2022-04-07 23:45:46,3.099s,PASSED
+"click(findTestObject(""Login/RememberUser_Checkbox""))",Chrome 100.0.4896.75,,,2022-04-07 23:45:44,2022-04-07 23:45:45,0.624s,PASSED
+delay(1),Chrome 100.0.4896.75,,,2022-04-07 23:45:45,2022-04-07 23:45:46,1.019s,PASSED
+,,,,,,,
+Test Cases/Sprint 1/FCSCMS-21/FCSCMS-274,Chrome 100.0.4896.75,System must able to remember the user's username,274,2022-04-07 23:45:46,2022-04-07 23:54:05,8m - 19.201s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 100.0.4896.75,,,2022-04-07 23:45:48,2022-04-07 23:45:49,0.491s,PASSED
+delay(3),Chrome 100.0.4896.75,,,2022-04-07 23:45:49,2022-04-07 23:45:52,3.008s,PASSED
+"click(findTestObject(""Logout/Profile_Dropdown""))",Chrome 100.0.4896.75,,,2022-04-07 23:45:52,2022-04-07 23:45:58,6.347s,PASSED
+delay(1),Chrome 100.0.4896.75,,,2022-04-07 23:45:58,2022-04-07 23:45:59,1.019s,PASSED
+"click(findTestObject(""Logout/Logout_BTN""))",Chrome 100.0.4896.75,,,2022-04-07 23:45:59,2022-04-07 23:48:00,2m - 0.764s,PASSED
+delay(2),Chrome 100.0.4896.75,,,2022-04-07 23:48:00,2022-04-07 23:48:02,2.017s,PASSED
+"click(findTestObject(""Logout/button_Yes(LogoutModal)""))",Chrome 100.0.4896.75,,,2022-04-07 23:48:02,2022-04-07 23:51:33,3m - 30.703s,PASSED
+delay(2),Chrome 100.0.4896.75,,,2022-04-07 23:51:33,2022-04-07 23:51:35,2.015s,PASSED
+"text = getText(findTestObject(""Login/Username_Field""))",Chrome 100.0.4896.75,,,2022-04-07 23:51:35,2022-04-07 23:54:05,2m - 30.447s,PASSED
+"if (text.contains(""anonymous""))",Chrome 100.0.4896.75,,,2022-04-07 23:54:05,2022-04-07 23:54:05,0.001s,PASSED

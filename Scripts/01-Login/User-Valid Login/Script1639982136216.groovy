@@ -26,11 +26,11 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('Login/Username_Field'), 'anonymous')
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Login/Password_Field'), 'anon')
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Login/Eye_Icon'))
 
@@ -38,7 +38,9 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Login/Eye_Icon'))
 
-WebUI.delay(1)
+WebUI.acceptAlert()
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Login/BTN_Login'))
 

@@ -2,23 +2,13 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/Login/Back_BTN(ForgotPassword)",
-      "brokenLocator": "//div[@id\u003d\u0027b2-Column1\u0027]/div/a/img",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//img",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/Back_BTN(ForgotPassword)_position.png"
-    },
-    {
-      "approved": true,
       "testObjectId": "Object Repository/Logout/Logout_BTN",
       "brokenLocator": "//div[@id\u003d\u0027b1-b3-b2-Items\u0027]/div[2]/a/span",
       "brokenLocatorMethod": "XPATH",
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027anonymous\u0027])[1]/following::span[1]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Logout/Logout_BTN_neighbor.png"
+      "pathToScreenshot": "Reports/20220407_234521/Sprint 1/FCSCMS-21 (User, Role and Access Management User Login - Remember My Username)/20220407_234521/Object Repository/Logout/Logout_BTN_neighbor.png"
     },
     {
       "approved": true,
@@ -28,7 +18,7 @@
       "proposedLocator": "//button[2]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Logout/button_Yes(LogoutModal)_position.png"
+      "pathToScreenshot": "Reports/20220407_234521/Sprint 1/FCSCMS-21 (User, Role and Access Management User Login - Remember My Username)/20220407_234521/Object Repository/Logout/button_Yes(LogoutModal)_position.png"
     },
     {
       "approved": true,

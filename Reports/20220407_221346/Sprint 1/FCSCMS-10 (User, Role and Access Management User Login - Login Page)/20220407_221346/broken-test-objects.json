@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/Back_BTN(ForgotPassword)",
+      "brokenLocator": "//div[@id\u003d\u0027b2-Column1\u0027]/div/a/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220407_221346/Sprint 1/FCSCMS-10 (User, Role and Access Management User Login - Login Page)/20220407_221346/Object Repository/Login/Back_BTN(ForgotPassword)_position.png"
+    }
+  ]
+}

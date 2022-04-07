@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCSCMS-10 (User, Role and Access Management User Login - Login Page)" time="89.169" tests="8" failures="1" errors="0">
+   <testsuite name="FCSCMS-10 (User, Role and Access Management User Login - Login Page)" tests="8" failures="1" errors="0" time="89.169" skipped="0" timestamp="2022-04-07 22:13:54" hostname="Jen - LAPTOP-EHP7PH29" id="Test Suites/Sprint 1/FCSCMS-10 (User, Role and Access Management User Login - Login Page)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jen\\git\\Nexterus-Automation\\Reports\\20220407_221346\\Sprint 1\\FCSCMS-10 (User, Role and Access Management User Login - Login Page)\\20220407_221346"/>
+         <property name="logFiles" value="C:\\Users\\Jen\\git\\Nexterus-Automation\\Reports\\20220407_221346\\Sprint 1\\FCSCMS-10 (User, Role and Access Management User Login - Login Page)\\20220407_221346\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Jen\\git\\Nexterus-Automation\\Reports\\20220407_221346\\Sprint 1\\FCSCMS-10 (User, Role and Access Management User Login - Login Page)\\20220407_221346\\1649340922891.png, C:\\Users\\Jen\\git\\Nexterus-Automation\\Reports\\20220407_221346\\Sprint 1\\FCSCMS-10 (User, Role and Access Management User Login - Login Page)\\20220407_221346\\1649340923559.png"/>
+         <property name="hostName" value="Jen - LAPTOP-EHP7PH29"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.5.75"/>
+         <property name="sessionId" value="de77b4ca21334ea88d786f33cc79a0d9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-217" time="15.89" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-217" status="PASSED">
+         <system-out><![CDATA[2022-04-07 22:13:55 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-217: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-217
+
+2022-04-07 22:13:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-07 22:13:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-07 22:13:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-07 22:14:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-07 22:14:04 - [TEST_STEP][PASSED] - navigateToUrl("https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login"): Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-04-07 22:14:06 - [MESSAGE][PASSED] - Navigate to 'https://nexterus-tst.outsystemsenterprise.com/FusionCenter/Login' successfully
+
+2022-04-07 22:14:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-07 22:14:07 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-07 22:14:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-04-07 22:14:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-04-07 22:14:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "anonymous"): Text 'anonymous' is set on object 'Object Repository/Login/Username_Field'
+
+2022-04-07 22:14:11 - [MESSAGE][PASSED] - Text 'anonymous' is set on object 'Object Repository/Login/Username_Field']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-218" time="3.807" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-218" status="PASSED">
+         <system-out><![CDATA[2022-04-07 22:14:11 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-218: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-218
+
+2022-04-07 22:14:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-04-07 22:14:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-07 22:14:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "anon"): Text 'anon' is set on object 'Object Repository/Login/Password_Field'
+
+2022-04-07 22:14:15 - [MESSAGE][PASSED] - Text 'anon' is set on object 'Object Repository/Login/Password_Field']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-219" time="2.561" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-219" status="PASSED">
+         <system-out><![CDATA[2022-04-07 22:14:15 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-219: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-219
+
+2022-04-07 22:14:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Password_Field"), 0, STOP_ON_FAILURE): Object 'Object Repository/Login/Password_Field' is present
+
+2022-04-07 22:14:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-07 22:14:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Password_Field' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-220" time="6.17" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-220" status="PASSED">
+         <system-out><![CDATA[2022-04-07 22:14:18 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-220: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-220
+
+2022-04-07 22:14:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-04-07 22:14:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-07 22:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Login/Eye_Icon")): Object: 'Object Repository/Login/Eye_Icon' is clicked on
+
+2022-04-07 22:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Eye_Icon' is clicked on
+
+2022-04-07 22:14:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-04-07 22:14:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-04-07 22:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/Eye_Icon")): Object: 'Object Repository/Login/Eye_Icon' is clicked on
+
+2022-04-07 22:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Eye_Icon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221" time="6.252" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221" status="PASSED">
+         <system-out><![CDATA[2022-04-07 22:14:24 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-221
+
+2022-04-07 22:14:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-04-07 22:14:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-04-07 22:14:28 - [TEST_STEP][PASSED] - click(findTestObject("Login/RememberUser_Checkbox")): Object: 'Object Repository/Login/RememberUser_Checkbox' is clicked on
+
+2022-04-07 22:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/RememberUser_Checkbox' is clicked on
+
+2022-04-07 22:14:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-04-07 22:14:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-07 22:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Login/RememberUser_Checkbox")): Object: 'Object Repository/Login/RememberUser_Checkbox' is clicked on
+
+2022-04-07 22:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/RememberUser_Checkbox' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222" time="13.011" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222" status="PASSED">
+         <system-out><![CDATA[2022-04-07 22:14:30 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-222
+
+2022-04-07 22:14:32 - [TEST_STEP][PASSED] - clearText(findTestObject("Login/Username_Field")): Text of object 'Object Repository/Login/Username_Field' is cleared
+
+2022-04-07 22:14:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Username_Field' is cleared
+
+2022-04-07 22:14:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-04-07 22:14:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-04-07 22:14:35 - [TEST_STEP][PASSED] - clearText(findTestObject("Login/Password_Field")): Text of object 'Object Repository/Login/Password_Field' is cleared
+
+2022-04-07 22:14:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Password_Field' is cleared
+
+2022-04-07 22:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Field"), "Invalid Username"): Text 'Invalid Username' is set on object 'Object Repository/Login/Username_Field'
+
+2022-04-07 22:14:36 - [MESSAGE][PASSED] - Text 'Invalid Username' is set on object 'Object Repository/Login/Username_Field'
+
+2022-04-07 22:14:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-04-07 22:14:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-07 22:14:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password_Field"), "Invalid"): Text 'Invalid' is set on object 'Object Repository/Login/Password_Field'
+
+2022-04-07 22:14:39 - [MESSAGE][PASSED] - Text 'Invalid' is set on object 'Object Repository/Login/Password_Field'
+
+2022-04-07 22:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2022-04-07 22:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2022-04-07 22:14:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-04-07 22:14:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-04-07 22:14:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/Notification_Flag(X)")): Object 'Object Repository/Login/Notification_Flag(X)' is visible
+
+2022-04-07 22:14:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Notification_Flag(X)' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223" time="36.589" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223" status="PASSED">
+         <system-out><![CDATA[2022-04-07 22:14:43 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-223
+
+2022-04-07 22:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/Forgot_Password")): Object: 'Object Repository/Login/Forgot_Password' is clicked on
+
+2022-04-07 22:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Forgot_Password' is clicked on
+
+2022-04-07 22:14:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-04-07 22:14:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-04-07 22:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Login/Back_BTN(ForgotPassword)")): Object: 'Object Repository/Login/Back_BTN(ForgotPassword)' is clicked on
+
+2022-04-07 22:15:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='b2-Column1']/div/a/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-07 22:15:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Login/Back_BTN(ForgotPassword)'. Try using Self-healing.
+
+2022-04-07 22:15:19 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='b2-Column1']/div/a/img'.
+
+2022-04-07 22:15:19 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//img'.
+
+2022-04-07 22:15:20 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Jen/git/Nexterus-Automation/Reports/Self-healing/Object Repository/Login/Back_BTN(ForgotPassword)_position.png
+
+2022-04-07 22:15:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Login/Back_BTN(ForgotPassword)' was broken. Propose an alternative one: '//img'.
+
+2022-04-07 22:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Back_BTN(ForgotPassword)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224" time="3.904" classname="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/span_Need assistance' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:595)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$7.call(Unknown Source)
+	at FCSCMS-224.run(FCSCMS-224:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649340826127.run(TempTestSuite1649340826127.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/span_Need assistance' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-04-07 22:15:20 - [TEST_CASE][FAILED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/span_Need assistance' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:595)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$7.call(Unknown Source)
+	at FCSCMS-224.run(FCSCMS-224:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649340826127.run(TempTestSuite1649340826127.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/span_Need assistance' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-04-07 22:15:21 - [TEST_STEP][FAILED] - verifyElementNotClickable(findTestObject("Login/span_Need assistance")): Unable to verify object 'Object Repository/Login/span_Need assistance' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/span_Need assistance' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:595)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$7.call(Unknown Source)
+	at FCSCMS-224.run(FCSCMS-224:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649340826127.run(TempTestSuite1649340826127.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/span_Need assistance' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2022-04-07 22:15:23 - [MESSAGE][FAILED] - Object 'Object Repository/Login/span_Need assistance' is clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/span_Need assistance' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:595)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$7.call(Unknown Source)
+	at FCSCMS-224.run(FCSCMS-224:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649340826127.run(TempTestSuite1649340826127.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Jen\\git\\Nexterus-Automation\\Reports\\20220407_221346\\Sprint 1\\FCSCMS-10 (User, Role and Access Management User Login - Login Page)\\20220407_221346\\1649340922891.png]]
+
+2022-04-07 22:15:24 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Login/span_Need assistance' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/span_Need assistance' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:595)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$7.call(Unknown Source)
+	at FCSCMS-224.run(FCSCMS-224:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649340826127.run(TempTestSuite1649340826127.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/span_Need assistance' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Jen\\git\\Nexterus-Automation\\Reports\\20220407_221346\\Sprint 1\\FCSCMS-10 (User, Role and Access Management User Login - Login Page)\\20220407_221346\\1649340923559.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-07 22:15:20 - [TEST_CASE][FAILED] - Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224: Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/span_Need assistance' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:595)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$7.call(Unknown Source)
+	at FCSCMS-224.run(FCSCMS-224:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649340826127.run(TempTestSuite1649340826127.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/span_Need assistance' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-07 22:13:54 - [TEST_SUITE][FAILED] - FCSCMS-10 (User, Role and Access Management User Login - Login Page): Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/span_Need assistance' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:595)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$7.call(Unknown Source)
+	at FCSCMS-224.run(FCSCMS-224:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649340826127.run(TempTestSuite1649340826127.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/span_Need assistance' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-07 22:13:54 - [TEST_SUITE][FAILED] - FCSCMS-10 (User, Role and Access Management User Login - Login Page): Test Cases/Sprint 1/FCSCMS-10/FCSCMS-224 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/span_Need assistance' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:595)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$7.call(Unknown Source)
+	at FCSCMS-224.run(FCSCMS-224:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649340826127.run(TempTestSuite1649340826127.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/span_Need assistance' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
